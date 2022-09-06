@@ -1,0 +1,6 @@
+﻿awsc.resource\_s3.CancelDownload
+================================
+
+.. currentmodule:: awsc.resource_s3
+
+.. autoexception:: CancelDownload

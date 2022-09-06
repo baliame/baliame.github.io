@@ -1,0 +1,70 @@
+﻿awsc.log.LogLister
+==================
+
+.. currentmodule:: awsc.log
+
+.. autoclass:: LogLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~LogLister.__init__
+      ~LogLister.add_block
+      ~LogLister.add_column
+      ~LogLister.add_entry
+      ~LogLister.add_hotkey
+      ~LogLister.add_raw_entry
+      ~LogLister.autohotkey_condition
+      ~LogLister.before_paint
+      ~LogLister.before_paint_critical
+      ~LogLister.bottomright
+      ~LogLister.clear_blocks
+      ~LogLister.describe
+      ~LogLister.describer
+      ~LogLister.end
+      ~LogLister.handle_finalization_critical
+      ~LogLister.handle_new_entries_critical
+      ~LogLister.home
+      ~LogLister.input
+      ~LogLister.list_down
+      ~LogLister.list_up
+      ~LogLister.on_close
+      ~LogLister.opener
+      ~LogLister.pagedown
+      ~LogLister.pageup
+      ~LogLister.paint
+      ~LogLister.remove_block
+      ~LogLister.reparent
+      ~LogLister.select_and_close
+      ~LogLister.selector
+      ~LogLister.sort
+      ~LogLister.topleft
+      ~LogLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LogLister.border
+      ~LogLister.corners
+      ~LogLister.filter
+      ~LogLister.filtered
+      ~LogLister.height
+      ~LogLister.inner
+      ~LogLister.prefix
+      ~LogLister.rows
+      ~LogLister.selection
+      ~LogLister.title
+      ~LogLister.w_in
+      ~LogLister.width
+   
+   

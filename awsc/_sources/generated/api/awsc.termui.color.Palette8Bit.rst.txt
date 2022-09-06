@@ -1,0 +1,22 @@
+﻿awsc.termui.color.Palette8Bit
+=============================
+
+.. currentmodule:: awsc.termui.color
+
+.. autoclass:: Palette8Bit
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Palette8Bit.__init__
+   
+   
+
+   
+   
+   

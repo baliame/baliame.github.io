@@ -1,0 +1,70 @@
+﻿awsc.resource\_iam\_policy.PolicyVersionDescriber
+=================================================
+
+.. currentmodule:: awsc.resource_iam_policy
+
+.. autoclass:: PolicyVersionDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PolicyVersionDescriber.__init__
+      ~PolicyVersionDescriber.add_block
+      ~PolicyVersionDescriber.add_hotkey
+      ~PolicyVersionDescriber.add_text
+      ~PolicyVersionDescriber.autohotkey_condition
+      ~PolicyVersionDescriber.before_paint
+      ~PolicyVersionDescriber.bottomright
+      ~PolicyVersionDescriber.clear
+      ~PolicyVersionDescriber.clear_blocks
+      ~PolicyVersionDescriber.command
+      ~PolicyVersionDescriber.command_wrapper
+      ~PolicyVersionDescriber.copy_contents
+      ~PolicyVersionDescriber.end
+      ~PolicyVersionDescriber.home
+      ~PolicyVersionDescriber.input
+      ~PolicyVersionDescriber.opener
+      ~PolicyVersionDescriber.paint
+      ~PolicyVersionDescriber.pgdown
+      ~PolicyVersionDescriber.pgup
+      ~PolicyVersionDescriber.populate_describe_kwargs
+      ~PolicyVersionDescriber.populate_entry
+      ~PolicyVersionDescriber.raw
+      ~PolicyVersionDescriber.rawlines
+      ~PolicyVersionDescriber.refresh_data
+      ~PolicyVersionDescriber.register
+      ~PolicyVersionDescriber.remove_block
+      ~PolicyVersionDescriber.reparent
+      ~PolicyVersionDescriber.scroll_down
+      ~PolicyVersionDescriber.scroll_left
+      ~PolicyVersionDescriber.scroll_right
+      ~PolicyVersionDescriber.scroll_up
+      ~PolicyVersionDescriber.title_info
+      ~PolicyVersionDescriber.toggle_wrap
+      ~PolicyVersionDescriber.topleft
+      ~PolicyVersionDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PolicyVersionDescriber.border
+      ~PolicyVersionDescriber.corners
+      ~PolicyVersionDescriber.filter
+      ~PolicyVersionDescriber.height
+      ~PolicyVersionDescriber.inner
+      ~PolicyVersionDescriber.prefix
+      ~PolicyVersionDescriber.title
+      ~PolicyVersionDescriber.w_in
+      ~PolicyVersionDescriber.width
+   
+   

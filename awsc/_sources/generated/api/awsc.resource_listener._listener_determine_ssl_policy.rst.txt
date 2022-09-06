@@ -1,0 +1,6 @@
+﻿awsc.resource\_listener.\_listener\_determine\_ssl\_policy
+==========================================================
+
+.. currentmodule:: awsc.resource_listener
+
+.. autofunction:: _listener_determine_ssl_policy

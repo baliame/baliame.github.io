@@ -1,0 +1,33 @@
+﻿awsc.termui.control.BorderStyle
+===============================
+
+.. currentmodule:: awsc.termui.control
+
+.. autoclass:: BorderStyle
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~BorderStyle.__init__
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BorderStyle.bottomleft
+      ~BorderStyle.bottomright
+      ~BorderStyle.horizontal
+      ~BorderStyle.topleft
+      ~BorderStyle.topright
+      ~BorderStyle.vertical
+   
+   

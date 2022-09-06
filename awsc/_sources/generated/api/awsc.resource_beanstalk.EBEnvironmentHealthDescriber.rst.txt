@@ -1,0 +1,70 @@
+﻿awsc.resource\_beanstalk.EBEnvironmentHealthDescriber
+=====================================================
+
+.. currentmodule:: awsc.resource_beanstalk
+
+.. autoclass:: EBEnvironmentHealthDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EBEnvironmentHealthDescriber.__init__
+      ~EBEnvironmentHealthDescriber.add_block
+      ~EBEnvironmentHealthDescriber.add_hotkey
+      ~EBEnvironmentHealthDescriber.add_text
+      ~EBEnvironmentHealthDescriber.autohotkey_condition
+      ~EBEnvironmentHealthDescriber.before_paint
+      ~EBEnvironmentHealthDescriber.bottomright
+      ~EBEnvironmentHealthDescriber.clear
+      ~EBEnvironmentHealthDescriber.clear_blocks
+      ~EBEnvironmentHealthDescriber.command
+      ~EBEnvironmentHealthDescriber.command_wrapper
+      ~EBEnvironmentHealthDescriber.copy_contents
+      ~EBEnvironmentHealthDescriber.end
+      ~EBEnvironmentHealthDescriber.home
+      ~EBEnvironmentHealthDescriber.input
+      ~EBEnvironmentHealthDescriber.opener
+      ~EBEnvironmentHealthDescriber.paint
+      ~EBEnvironmentHealthDescriber.pgdown
+      ~EBEnvironmentHealthDescriber.pgup
+      ~EBEnvironmentHealthDescriber.populate_describe_kwargs
+      ~EBEnvironmentHealthDescriber.populate_entry
+      ~EBEnvironmentHealthDescriber.raw
+      ~EBEnvironmentHealthDescriber.rawlines
+      ~EBEnvironmentHealthDescriber.refresh_data
+      ~EBEnvironmentHealthDescriber.register
+      ~EBEnvironmentHealthDescriber.remove_block
+      ~EBEnvironmentHealthDescriber.reparent
+      ~EBEnvironmentHealthDescriber.scroll_down
+      ~EBEnvironmentHealthDescriber.scroll_left
+      ~EBEnvironmentHealthDescriber.scroll_right
+      ~EBEnvironmentHealthDescriber.scroll_up
+      ~EBEnvironmentHealthDescriber.title_info
+      ~EBEnvironmentHealthDescriber.toggle_wrap
+      ~EBEnvironmentHealthDescriber.topleft
+      ~EBEnvironmentHealthDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EBEnvironmentHealthDescriber.border
+      ~EBEnvironmentHealthDescriber.corners
+      ~EBEnvironmentHealthDescriber.filter
+      ~EBEnvironmentHealthDescriber.height
+      ~EBEnvironmentHealthDescriber.inner
+      ~EBEnvironmentHealthDescriber.prefix
+      ~EBEnvironmentHealthDescriber.title
+      ~EBEnvironmentHealthDescriber.w_in
+      ~EBEnvironmentHealthDescriber.width
+   
+   

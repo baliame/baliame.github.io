@@ -1,0 +1,70 @@
+﻿awsc.resource\_lb.LBDescriber
+=============================
+
+.. currentmodule:: awsc.resource_lb
+
+.. autoclass:: LBDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~LBDescriber.__init__
+      ~LBDescriber.add_block
+      ~LBDescriber.add_hotkey
+      ~LBDescriber.add_text
+      ~LBDescriber.autohotkey_condition
+      ~LBDescriber.before_paint
+      ~LBDescriber.bottomright
+      ~LBDescriber.clear
+      ~LBDescriber.clear_blocks
+      ~LBDescriber.command
+      ~LBDescriber.command_wrapper
+      ~LBDescriber.copy_contents
+      ~LBDescriber.end
+      ~LBDescriber.home
+      ~LBDescriber.input
+      ~LBDescriber.opener
+      ~LBDescriber.paint
+      ~LBDescriber.pgdown
+      ~LBDescriber.pgup
+      ~LBDescriber.populate_describe_kwargs
+      ~LBDescriber.populate_entry
+      ~LBDescriber.raw
+      ~LBDescriber.rawlines
+      ~LBDescriber.refresh_data
+      ~LBDescriber.register
+      ~LBDescriber.remove_block
+      ~LBDescriber.reparent
+      ~LBDescriber.scroll_down
+      ~LBDescriber.scroll_left
+      ~LBDescriber.scroll_right
+      ~LBDescriber.scroll_up
+      ~LBDescriber.title_info
+      ~LBDescriber.toggle_wrap
+      ~LBDescriber.topleft
+      ~LBDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LBDescriber.border
+      ~LBDescriber.corners
+      ~LBDescriber.filter
+      ~LBDescriber.height
+      ~LBDescriber.inner
+      ~LBDescriber.prefix
+      ~LBDescriber.title
+      ~LBDescriber.w_in
+      ~LBDescriber.width
+   
+   

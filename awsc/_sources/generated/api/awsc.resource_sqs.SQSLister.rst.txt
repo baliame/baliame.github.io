@@ -1,0 +1,106 @@
+﻿awsc.resource\_sqs.SQSLister
+============================
+
+.. currentmodule:: awsc.resource_sqs
+
+.. autoclass:: SQSLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~SQSLister.__init__
+      ~SQSLister.add_block
+      ~SQSLister.add_column
+      ~SQSLister.add_entry
+      ~SQSLister.add_hotkey
+      ~SQSLister.async_inner
+      ~SQSLister.asynch
+      ~SQSLister.auto_refresh
+      ~SQSLister.autohotkey_condition
+      ~SQSLister.before_paint
+      ~SQSLister.before_paint_critical
+      ~SQSLister.bottomright
+      ~SQSLister.clear_blocks
+      ~SQSLister.command
+      ~SQSLister.command_wrapper
+      ~SQSLister.confirm_template
+      ~SQSLister.copy_arn
+      ~SQSLister.create_queue
+      ~SQSLister.delete_queue
+      ~SQSLister.describe
+      ~SQSLister.describe_command
+      ~SQSLister.empty
+      ~SQSLister.end
+      ~SQSLister.get_attrib_cache
+      ~SQSLister.get_data
+      ~SQSLister.get_data_generic
+      ~SQSLister.handle_finalization_critical
+      ~SQSLister.handle_new_entries_critical
+      ~SQSLister.home
+      ~SQSLister.input
+      ~SQSLister.list_down
+      ~SQSLister.list_up
+      ~SQSLister.matches
+      ~SQSLister.on_close
+      ~SQSLister.open
+      ~SQSLister.opener
+      ~SQSLister.pagedown
+      ~SQSLister.pageup
+      ~SQSLister.paint
+      ~SQSLister.purge
+      ~SQSLister.refresh_data
+      ~SQSLister.register
+      ~SQSLister.remove_block
+      ~SQSLister.reparent
+      ~SQSLister.select_and_close
+      ~SQSLister.selector
+      ~SQSLister.selector_template
+      ~SQSLister.send_message
+      ~SQSLister.sort
+      ~SQSLister.title_info
+      ~SQSLister.topleft
+      ~SQSLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SQSLister.additional_commands
+      ~SQSLister.border
+      ~SQSLister.category
+      ~SQSLister.columns
+      ~SQSLister.command_palette
+      ~SQSLister.corners
+      ~SQSLister.describe_kwargs
+      ~SQSLister.describe_selection_arg
+      ~SQSLister.filter
+      ~SQSLister.filtered
+      ~SQSLister.height
+      ~SQSLister.inner
+      ~SQSLister.item_path
+      ~SQSLister.list_kwargs
+      ~SQSLister.list_method
+      ~SQSLister.main_provider
+      ~SQSLister.open_command
+      ~SQSLister.open_kwargs
+      ~SQSLister.open_selection_arg
+      ~SQSLister.prefix
+      ~SQSLister.primary_key
+      ~SQSLister.resource_type
+      ~SQSLister.rows
+      ~SQSLister.selection
+      ~SQSLister.subcategory
+      ~SQSLister.title
+      ~SQSLister.w_in
+      ~SQSLister.width
+   
+   

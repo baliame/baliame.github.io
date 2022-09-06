@@ -1,0 +1,21 @@
+
+.. rst file which lists all members of the current module. They will be
+.. handled by the Sphinx autosummary extension.
+
+resource_iam_user
+=================
+
+.. Documentation string which may be at the top of the module.
+.. automodule:: awsc.resource_iam_user
+   :no-members:
+   :no-inherited-members:
+
+.. currentmodule:: awsc.resource_iam_user
+
+.. Links to members.
+.. autosummary::
+   :toctree:
+
+   LoginProfileDescriber
+   UserDescriber
+   UserLister

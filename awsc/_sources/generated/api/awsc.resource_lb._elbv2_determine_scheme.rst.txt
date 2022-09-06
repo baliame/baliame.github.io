@@ -1,0 +1,6 @@
+﻿awsc.resource\_lb.\_elbv2\_determine\_scheme
+============================================
+
+.. currentmodule:: awsc.resource_lb
+
+.. autofunction:: _elbv2_determine_scheme

@@ -1,0 +1,42 @@
+﻿awsc.session.Session
+====================
+
+.. currentmodule:: awsc.session
+
+.. autoclass:: Session
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Session.__init__
+      ~Session.extend_frame
+      ~Session.get_keypair_association
+      ~Session.jq
+      ~Session.pop_frame
+      ~Session.push_frame
+      ~Session.remove_from_frame
+      ~Session.replace_frame
+      ~Session.set_keypair_association
+      ~Session.set_message
+      ~Session.set_version_information
+      ~Session.textedit
+      ~Session.tick
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Session.context
+      ~Session.region
+      ~Session.ssh_key
+   
+   

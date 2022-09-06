@@ -1,0 +1,7 @@
+awsc
+====
+
+.. toctree::
+   :maxdepth: 4
+
+   awsc

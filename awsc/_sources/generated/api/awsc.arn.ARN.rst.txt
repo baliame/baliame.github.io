@@ -1,0 +1,29 @@
+﻿awsc.arn.ARN
+============
+
+.. currentmodule:: awsc.arn
+
+.. autoclass:: ARN
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ARN.__init__
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ARN.resource
+      ~ARN.resource_id_first
+   
+   

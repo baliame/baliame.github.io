@@ -1,0 +1,106 @@
+﻿awsc.resource\_s3.S3ObjectLister
+================================
+
+.. currentmodule:: awsc.resource_s3
+
+.. autoclass:: S3ObjectLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~S3ObjectLister.__init__
+      ~S3ObjectLister.add_block
+      ~S3ObjectLister.add_column
+      ~S3ObjectLister.add_entry
+      ~S3ObjectLister.add_hotkey
+      ~S3ObjectLister.async_inner
+      ~S3ObjectLister.asynch
+      ~S3ObjectLister.auto_refresh
+      ~S3ObjectLister.autohotkey_condition
+      ~S3ObjectLister.before_paint
+      ~S3ObjectLister.before_paint_critical
+      ~S3ObjectLister.bottomright
+      ~S3ObjectLister.cache_fetch
+      ~S3ObjectLister.clear_blocks
+      ~S3ObjectLister.command
+      ~S3ObjectLister.command_wrapper
+      ~S3ObjectLister.confirm_template
+      ~S3ObjectLister.copy_arn
+      ~S3ObjectLister.describe
+      ~S3ObjectLister.download_selection
+      ~S3ObjectLister.empty
+      ~S3ObjectLister.end
+      ~S3ObjectLister.get_cache_name
+      ~S3ObjectLister.get_data
+      ~S3ObjectLister.get_data_generic
+      ~S3ObjectLister.get_selection_path
+      ~S3ObjectLister.handle_finalization_critical
+      ~S3ObjectLister.handle_new_entries_critical
+      ~S3ObjectLister.home
+      ~S3ObjectLister.input
+      ~S3ObjectLister.list_down
+      ~S3ObjectLister.list_up
+      ~S3ObjectLister.matches
+      ~S3ObjectLister.on_close
+      ~S3ObjectLister.open
+      ~S3ObjectLister.opener
+      ~S3ObjectLister.pagedown
+      ~S3ObjectLister.pageup
+      ~S3ObjectLister.paint
+      ~S3ObjectLister.refresh_data
+      ~S3ObjectLister.register
+      ~S3ObjectLister.remove_block
+      ~S3ObjectLister.reparent
+      ~S3ObjectLister.select_and_close
+      ~S3ObjectLister.selector
+      ~S3ObjectLister.selector_template
+      ~S3ObjectLister.sort
+      ~S3ObjectLister.title_info
+      ~S3ObjectLister.topleft
+      ~S3ObjectLister.validate_hotkey
+      ~S3ObjectLister.view_selection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~S3ObjectLister.additional_commands
+      ~S3ObjectLister.border
+      ~S3ObjectLister.category
+      ~S3ObjectLister.columns
+      ~S3ObjectLister.command_palette
+      ~S3ObjectLister.corners
+      ~S3ObjectLister.describe_command
+      ~S3ObjectLister.describe_kwargs
+      ~S3ObjectLister.describe_selection_arg
+      ~S3ObjectLister.filter
+      ~S3ObjectLister.filtered
+      ~S3ObjectLister.height
+      ~S3ObjectLister.inner
+      ~S3ObjectLister.item_path
+      ~S3ObjectLister.list_kwargs
+      ~S3ObjectLister.list_method
+      ~S3ObjectLister.main_provider
+      ~S3ObjectLister.open_command
+      ~S3ObjectLister.open_kwargs
+      ~S3ObjectLister.open_selection_arg
+      ~S3ObjectLister.prefix
+      ~S3ObjectLister.primary_key
+      ~S3ObjectLister.resource_type
+      ~S3ObjectLister.rows
+      ~S3ObjectLister.selection
+      ~S3ObjectLister.subcategory
+      ~S3ObjectLister.title
+      ~S3ObjectLister.w_in
+      ~S3ObjectLister.width
+   
+   

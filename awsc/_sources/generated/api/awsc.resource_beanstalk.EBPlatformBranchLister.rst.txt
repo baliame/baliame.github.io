@@ -1,0 +1,101 @@
+﻿awsc.resource\_beanstalk.EBPlatformBranchLister
+===============================================
+
+.. currentmodule:: awsc.resource_beanstalk
+
+.. autoclass:: EBPlatformBranchLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EBPlatformBranchLister.__init__
+      ~EBPlatformBranchLister.add_block
+      ~EBPlatformBranchLister.add_column
+      ~EBPlatformBranchLister.add_entry
+      ~EBPlatformBranchLister.add_hotkey
+      ~EBPlatformBranchLister.async_inner
+      ~EBPlatformBranchLister.asynch
+      ~EBPlatformBranchLister.auto_refresh
+      ~EBPlatformBranchLister.autohotkey_condition
+      ~EBPlatformBranchLister.before_paint
+      ~EBPlatformBranchLister.before_paint_critical
+      ~EBPlatformBranchLister.bottomright
+      ~EBPlatformBranchLister.clear_blocks
+      ~EBPlatformBranchLister.command
+      ~EBPlatformBranchLister.command_wrapper
+      ~EBPlatformBranchLister.confirm_template
+      ~EBPlatformBranchLister.copy_arn
+      ~EBPlatformBranchLister.describe
+      ~EBPlatformBranchLister.empty
+      ~EBPlatformBranchLister.end
+      ~EBPlatformBranchLister.get_data
+      ~EBPlatformBranchLister.get_data_generic
+      ~EBPlatformBranchLister.handle_finalization_critical
+      ~EBPlatformBranchLister.handle_new_entries_critical
+      ~EBPlatformBranchLister.home
+      ~EBPlatformBranchLister.input
+      ~EBPlatformBranchLister.list_down
+      ~EBPlatformBranchLister.list_up
+      ~EBPlatformBranchLister.matches
+      ~EBPlatformBranchLister.on_close
+      ~EBPlatformBranchLister.open
+      ~EBPlatformBranchLister.opener
+      ~EBPlatformBranchLister.pagedown
+      ~EBPlatformBranchLister.pageup
+      ~EBPlatformBranchLister.paint
+      ~EBPlatformBranchLister.refresh_data
+      ~EBPlatformBranchLister.register
+      ~EBPlatformBranchLister.remove_block
+      ~EBPlatformBranchLister.reparent
+      ~EBPlatformBranchLister.select_and_close
+      ~EBPlatformBranchLister.selector
+      ~EBPlatformBranchLister.selector_template
+      ~EBPlatformBranchLister.sort
+      ~EBPlatformBranchLister.title_info
+      ~EBPlatformBranchLister.topleft
+      ~EBPlatformBranchLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EBPlatformBranchLister.additional_commands
+      ~EBPlatformBranchLister.border
+      ~EBPlatformBranchLister.category
+      ~EBPlatformBranchLister.columns
+      ~EBPlatformBranchLister.command_palette
+      ~EBPlatformBranchLister.corners
+      ~EBPlatformBranchLister.describe_command
+      ~EBPlatformBranchLister.describe_kwargs
+      ~EBPlatformBranchLister.describe_selection_arg
+      ~EBPlatformBranchLister.filter
+      ~EBPlatformBranchLister.filtered
+      ~EBPlatformBranchLister.height
+      ~EBPlatformBranchLister.inner
+      ~EBPlatformBranchLister.item_path
+      ~EBPlatformBranchLister.list_kwargs
+      ~EBPlatformBranchLister.list_method
+      ~EBPlatformBranchLister.main_provider
+      ~EBPlatformBranchLister.open_command
+      ~EBPlatformBranchLister.open_kwargs
+      ~EBPlatformBranchLister.open_selection_arg
+      ~EBPlatformBranchLister.prefix
+      ~EBPlatformBranchLister.primary_key
+      ~EBPlatformBranchLister.resource_type
+      ~EBPlatformBranchLister.rows
+      ~EBPlatformBranchLister.selection
+      ~EBPlatformBranchLister.subcategory
+      ~EBPlatformBranchLister.title
+      ~EBPlatformBranchLister.w_in
+      ~EBPlatformBranchLister.width
+   
+   

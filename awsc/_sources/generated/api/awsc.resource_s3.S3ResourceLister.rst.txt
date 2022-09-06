@@ -1,0 +1,101 @@
+﻿awsc.resource\_s3.S3ResourceLister
+==================================
+
+.. currentmodule:: awsc.resource_s3
+
+.. autoclass:: S3ResourceLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~S3ResourceLister.__init__
+      ~S3ResourceLister.add_block
+      ~S3ResourceLister.add_column
+      ~S3ResourceLister.add_entry
+      ~S3ResourceLister.add_hotkey
+      ~S3ResourceLister.async_inner
+      ~S3ResourceLister.asynch
+      ~S3ResourceLister.auto_refresh
+      ~S3ResourceLister.autohotkey_condition
+      ~S3ResourceLister.before_paint
+      ~S3ResourceLister.before_paint_critical
+      ~S3ResourceLister.bottomright
+      ~S3ResourceLister.clear_blocks
+      ~S3ResourceLister.command
+      ~S3ResourceLister.command_wrapper
+      ~S3ResourceLister.confirm_template
+      ~S3ResourceLister.copy_arn
+      ~S3ResourceLister.describe
+      ~S3ResourceLister.empty
+      ~S3ResourceLister.end
+      ~S3ResourceLister.get_data
+      ~S3ResourceLister.get_data_generic
+      ~S3ResourceLister.handle_finalization_critical
+      ~S3ResourceLister.handle_new_entries_critical
+      ~S3ResourceLister.home
+      ~S3ResourceLister.input
+      ~S3ResourceLister.list_down
+      ~S3ResourceLister.list_up
+      ~S3ResourceLister.matches
+      ~S3ResourceLister.on_close
+      ~S3ResourceLister.open
+      ~S3ResourceLister.opener
+      ~S3ResourceLister.pagedown
+      ~S3ResourceLister.pageup
+      ~S3ResourceLister.paint
+      ~S3ResourceLister.refresh_data
+      ~S3ResourceLister.register
+      ~S3ResourceLister.remove_block
+      ~S3ResourceLister.reparent
+      ~S3ResourceLister.select_and_close
+      ~S3ResourceLister.selector
+      ~S3ResourceLister.selector_template
+      ~S3ResourceLister.sort
+      ~S3ResourceLister.title_info
+      ~S3ResourceLister.topleft
+      ~S3ResourceLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~S3ResourceLister.additional_commands
+      ~S3ResourceLister.border
+      ~S3ResourceLister.category
+      ~S3ResourceLister.columns
+      ~S3ResourceLister.command_palette
+      ~S3ResourceLister.corners
+      ~S3ResourceLister.describe_command
+      ~S3ResourceLister.describe_kwargs
+      ~S3ResourceLister.describe_selection_arg
+      ~S3ResourceLister.filter
+      ~S3ResourceLister.filtered
+      ~S3ResourceLister.height
+      ~S3ResourceLister.inner
+      ~S3ResourceLister.item_path
+      ~S3ResourceLister.list_kwargs
+      ~S3ResourceLister.list_method
+      ~S3ResourceLister.main_provider
+      ~S3ResourceLister.open_command
+      ~S3ResourceLister.open_kwargs
+      ~S3ResourceLister.open_selection_arg
+      ~S3ResourceLister.prefix
+      ~S3ResourceLister.primary_key
+      ~S3ResourceLister.resource_type
+      ~S3ResourceLister.rows
+      ~S3ResourceLister.selection
+      ~S3ResourceLister.subcategory
+      ~S3ResourceLister.title
+      ~S3ResourceLister.w_in
+      ~S3ResourceLister.width
+   
+   

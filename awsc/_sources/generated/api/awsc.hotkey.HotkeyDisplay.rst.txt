@@ -1,0 +1,44 @@
+﻿awsc.hotkey.HotkeyDisplay
+=========================
+
+.. currentmodule:: awsc.hotkey
+
+.. autoclass:: HotkeyDisplay
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~HotkeyDisplay.__init__
+      ~HotkeyDisplay.add_block
+      ~HotkeyDisplay.before_paint
+      ~HotkeyDisplay.bottomright
+      ~HotkeyDisplay.clear_blocks
+      ~HotkeyDisplay.input
+      ~HotkeyDisplay.opener
+      ~HotkeyDisplay.paint
+      ~HotkeyDisplay.remove_block
+      ~HotkeyDisplay.reparent
+      ~HotkeyDisplay.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~HotkeyDisplay.border
+      ~HotkeyDisplay.corners
+      ~HotkeyDisplay.height
+      ~HotkeyDisplay.inner
+      ~HotkeyDisplay.translations
+      ~HotkeyDisplay.w_in
+      ~HotkeyDisplay.width
+   
+   

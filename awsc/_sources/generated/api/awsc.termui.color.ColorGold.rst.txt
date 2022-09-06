@@ -1,0 +1,6 @@
+﻿awsc.termui.color.ColorGold
+===========================
+
+.. currentmodule:: awsc.termui.color
+
+.. autodata:: ColorGold

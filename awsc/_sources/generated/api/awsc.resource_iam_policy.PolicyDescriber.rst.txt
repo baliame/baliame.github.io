@@ -1,0 +1,70 @@
+﻿awsc.resource\_iam\_policy.PolicyDescriber
+==========================================
+
+.. currentmodule:: awsc.resource_iam_policy
+
+.. autoclass:: PolicyDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PolicyDescriber.__init__
+      ~PolicyDescriber.add_block
+      ~PolicyDescriber.add_hotkey
+      ~PolicyDescriber.add_text
+      ~PolicyDescriber.autohotkey_condition
+      ~PolicyDescriber.before_paint
+      ~PolicyDescriber.bottomright
+      ~PolicyDescriber.clear
+      ~PolicyDescriber.clear_blocks
+      ~PolicyDescriber.command
+      ~PolicyDescriber.command_wrapper
+      ~PolicyDescriber.copy_contents
+      ~PolicyDescriber.end
+      ~PolicyDescriber.home
+      ~PolicyDescriber.input
+      ~PolicyDescriber.opener
+      ~PolicyDescriber.paint
+      ~PolicyDescriber.pgdown
+      ~PolicyDescriber.pgup
+      ~PolicyDescriber.populate_describe_kwargs
+      ~PolicyDescriber.populate_entry
+      ~PolicyDescriber.raw
+      ~PolicyDescriber.rawlines
+      ~PolicyDescriber.refresh_data
+      ~PolicyDescriber.register
+      ~PolicyDescriber.remove_block
+      ~PolicyDescriber.reparent
+      ~PolicyDescriber.scroll_down
+      ~PolicyDescriber.scroll_left
+      ~PolicyDescriber.scroll_right
+      ~PolicyDescriber.scroll_up
+      ~PolicyDescriber.title_info
+      ~PolicyDescriber.toggle_wrap
+      ~PolicyDescriber.topleft
+      ~PolicyDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PolicyDescriber.border
+      ~PolicyDescriber.corners
+      ~PolicyDescriber.filter
+      ~PolicyDescriber.height
+      ~PolicyDescriber.inner
+      ~PolicyDescriber.prefix
+      ~PolicyDescriber.title
+      ~PolicyDescriber.w_in
+      ~PolicyDescriber.width
+   
+   

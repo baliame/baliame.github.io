@@ -1,0 +1,30 @@
+﻿awsc.termui.dialog.DialogFieldCheckbox
+======================================
+
+.. currentmodule:: awsc.termui.dialog
+
+.. autoclass:: DialogFieldCheckbox
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DialogFieldCheckbox.__init__
+      ~DialogFieldCheckbox.input
+      ~DialogFieldCheckbox.paint
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DialogFieldCheckbox.value
+   
+   

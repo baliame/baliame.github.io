@@ -1,0 +1,44 @@
+﻿awsc.termui.dialog.DialogControl
+================================
+
+.. currentmodule:: awsc.termui.dialog
+
+.. autoclass:: DialogControl
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DialogControl.__init__
+      ~DialogControl.add_block
+      ~DialogControl.add_field
+      ~DialogControl.before_paint
+      ~DialogControl.bottomright
+      ~DialogControl.clear_blocks
+      ~DialogControl.input
+      ~DialogControl.nop
+      ~DialogControl.paint
+      ~DialogControl.remove_block
+      ~DialogControl.reparent
+      ~DialogControl.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DialogControl.border
+      ~DialogControl.corners
+      ~DialogControl.height
+      ~DialogControl.inner
+      ~DialogControl.w_in
+      ~DialogControl.width
+   
+   

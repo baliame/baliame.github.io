@@ -1,0 +1,70 @@
+﻿awsc.resource\_iam\_instance\_profile.InstanceProfileDescriber
+==============================================================
+
+.. currentmodule:: awsc.resource_iam_instance_profile
+
+.. autoclass:: InstanceProfileDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~InstanceProfileDescriber.__init__
+      ~InstanceProfileDescriber.add_block
+      ~InstanceProfileDescriber.add_hotkey
+      ~InstanceProfileDescriber.add_text
+      ~InstanceProfileDescriber.autohotkey_condition
+      ~InstanceProfileDescriber.before_paint
+      ~InstanceProfileDescriber.bottomright
+      ~InstanceProfileDescriber.clear
+      ~InstanceProfileDescriber.clear_blocks
+      ~InstanceProfileDescriber.command
+      ~InstanceProfileDescriber.command_wrapper
+      ~InstanceProfileDescriber.copy_contents
+      ~InstanceProfileDescriber.end
+      ~InstanceProfileDescriber.home
+      ~InstanceProfileDescriber.input
+      ~InstanceProfileDescriber.opener
+      ~InstanceProfileDescriber.paint
+      ~InstanceProfileDescriber.pgdown
+      ~InstanceProfileDescriber.pgup
+      ~InstanceProfileDescriber.populate_describe_kwargs
+      ~InstanceProfileDescriber.populate_entry
+      ~InstanceProfileDescriber.raw
+      ~InstanceProfileDescriber.rawlines
+      ~InstanceProfileDescriber.refresh_data
+      ~InstanceProfileDescriber.register
+      ~InstanceProfileDescriber.remove_block
+      ~InstanceProfileDescriber.reparent
+      ~InstanceProfileDescriber.scroll_down
+      ~InstanceProfileDescriber.scroll_left
+      ~InstanceProfileDescriber.scroll_right
+      ~InstanceProfileDescriber.scroll_up
+      ~InstanceProfileDescriber.title_info
+      ~InstanceProfileDescriber.toggle_wrap
+      ~InstanceProfileDescriber.topleft
+      ~InstanceProfileDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~InstanceProfileDescriber.border
+      ~InstanceProfileDescriber.corners
+      ~InstanceProfileDescriber.filter
+      ~InstanceProfileDescriber.height
+      ~InstanceProfileDescriber.inner
+      ~InstanceProfileDescriber.prefix
+      ~InstanceProfileDescriber.title
+      ~InstanceProfileDescriber.w_in
+      ~InstanceProfileDescriber.width
+   
+   

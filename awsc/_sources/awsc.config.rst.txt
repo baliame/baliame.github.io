@@ -1,0 +1,37 @@
+awsc.config package
+===================
+
+Submodules
+----------
+
+awsc.config.config module
+-------------------------
+
+.. automodule:: awsc.config.config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+awsc.config.scheme module
+-------------------------
+
+.. automodule:: awsc.config.scheme
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+awsc.config.storage module
+--------------------------
+
+.. automodule:: awsc.config.storage
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: awsc.config
+   :members:
+   :undoc-members:
+   :show-inheritance:

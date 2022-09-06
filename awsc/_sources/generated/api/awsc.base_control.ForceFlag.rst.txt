@@ -1,0 +1,23 @@
+﻿awsc.base\_control.ForceFlag
+============================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: ForceFlag
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ForceFlag.__init__
+      ~ForceFlag.resolve
+   
+   
+
+   
+   
+   

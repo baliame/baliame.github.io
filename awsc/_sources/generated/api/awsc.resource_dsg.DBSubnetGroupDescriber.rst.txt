@@ -1,0 +1,70 @@
+﻿awsc.resource\_dsg.DBSubnetGroupDescriber
+=========================================
+
+.. currentmodule:: awsc.resource_dsg
+
+.. autoclass:: DBSubnetGroupDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DBSubnetGroupDescriber.__init__
+      ~DBSubnetGroupDescriber.add_block
+      ~DBSubnetGroupDescriber.add_hotkey
+      ~DBSubnetGroupDescriber.add_text
+      ~DBSubnetGroupDescriber.autohotkey_condition
+      ~DBSubnetGroupDescriber.before_paint
+      ~DBSubnetGroupDescriber.bottomright
+      ~DBSubnetGroupDescriber.clear
+      ~DBSubnetGroupDescriber.clear_blocks
+      ~DBSubnetGroupDescriber.command
+      ~DBSubnetGroupDescriber.command_wrapper
+      ~DBSubnetGroupDescriber.copy_contents
+      ~DBSubnetGroupDescriber.end
+      ~DBSubnetGroupDescriber.home
+      ~DBSubnetGroupDescriber.input
+      ~DBSubnetGroupDescriber.opener
+      ~DBSubnetGroupDescriber.paint
+      ~DBSubnetGroupDescriber.pgdown
+      ~DBSubnetGroupDescriber.pgup
+      ~DBSubnetGroupDescriber.populate_describe_kwargs
+      ~DBSubnetGroupDescriber.populate_entry
+      ~DBSubnetGroupDescriber.raw
+      ~DBSubnetGroupDescriber.rawlines
+      ~DBSubnetGroupDescriber.refresh_data
+      ~DBSubnetGroupDescriber.register
+      ~DBSubnetGroupDescriber.remove_block
+      ~DBSubnetGroupDescriber.reparent
+      ~DBSubnetGroupDescriber.scroll_down
+      ~DBSubnetGroupDescriber.scroll_left
+      ~DBSubnetGroupDescriber.scroll_right
+      ~DBSubnetGroupDescriber.scroll_up
+      ~DBSubnetGroupDescriber.title_info
+      ~DBSubnetGroupDescriber.toggle_wrap
+      ~DBSubnetGroupDescriber.topleft
+      ~DBSubnetGroupDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DBSubnetGroupDescriber.border
+      ~DBSubnetGroupDescriber.corners
+      ~DBSubnetGroupDescriber.filter
+      ~DBSubnetGroupDescriber.height
+      ~DBSubnetGroupDescriber.inner
+      ~DBSubnetGroupDescriber.prefix
+      ~DBSubnetGroupDescriber.title
+      ~DBSubnetGroupDescriber.w_in
+      ~DBSubnetGroupDescriber.width
+   
+   

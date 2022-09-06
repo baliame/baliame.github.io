@@ -1,0 +1,6 @@
+﻿awsc.resource\_vpc.\_vpc\_determine\_default
+============================================
+
+.. currentmodule:: awsc.resource_vpc
+
+.. autofunction:: _vpc_determine_default

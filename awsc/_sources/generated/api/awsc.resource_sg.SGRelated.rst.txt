@@ -1,0 +1,75 @@
+﻿awsc.resource\_sg.SGRelated
+===========================
+
+.. currentmodule:: awsc.resource_sg
+
+.. autoclass:: SGRelated
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~SGRelated.__init__
+      ~SGRelated.add_block
+      ~SGRelated.add_column
+      ~SGRelated.add_entry
+      ~SGRelated.add_hotkey
+      ~SGRelated.async_inner
+      ~SGRelated.asynch
+      ~SGRelated.auto_refresh
+      ~SGRelated.autohotkey_condition
+      ~SGRelated.before_paint
+      ~SGRelated.before_paint_critical
+      ~SGRelated.bottomright
+      ~SGRelated.clear_blocks
+      ~SGRelated.describe
+      ~SGRelated.empty
+      ~SGRelated.end
+      ~SGRelated.get_data
+      ~SGRelated.get_data_generic
+      ~SGRelated.handle_finalization_critical
+      ~SGRelated.handle_new_entries_critical
+      ~SGRelated.home
+      ~SGRelated.input
+      ~SGRelated.list_down
+      ~SGRelated.list_up
+      ~SGRelated.matches
+      ~SGRelated.on_close
+      ~SGRelated.opener
+      ~SGRelated.pagedown
+      ~SGRelated.pageup
+      ~SGRelated.paint
+      ~SGRelated.refresh_data
+      ~SGRelated.remove_block
+      ~SGRelated.reparent
+      ~SGRelated.sort
+      ~SGRelated.title_info
+      ~SGRelated.topleft
+      ~SGRelated.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SGRelated.border
+      ~SGRelated.corners
+      ~SGRelated.filter
+      ~SGRelated.filtered
+      ~SGRelated.height
+      ~SGRelated.inner
+      ~SGRelated.prefix
+      ~SGRelated.rows
+      ~SGRelated.selection
+      ~SGRelated.title
+      ~SGRelated.w_in
+      ~SGRelated.width
+   
+   

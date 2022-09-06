@@ -1,0 +1,70 @@
+﻿awsc.resource\_ami.AMIDescriber
+===============================
+
+.. currentmodule:: awsc.resource_ami
+
+.. autoclass:: AMIDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~AMIDescriber.__init__
+      ~AMIDescriber.add_block
+      ~AMIDescriber.add_hotkey
+      ~AMIDescriber.add_text
+      ~AMIDescriber.autohotkey_condition
+      ~AMIDescriber.before_paint
+      ~AMIDescriber.bottomright
+      ~AMIDescriber.clear
+      ~AMIDescriber.clear_blocks
+      ~AMIDescriber.command
+      ~AMIDescriber.command_wrapper
+      ~AMIDescriber.copy_contents
+      ~AMIDescriber.end
+      ~AMIDescriber.home
+      ~AMIDescriber.input
+      ~AMIDescriber.opener
+      ~AMIDescriber.paint
+      ~AMIDescriber.pgdown
+      ~AMIDescriber.pgup
+      ~AMIDescriber.populate_describe_kwargs
+      ~AMIDescriber.populate_entry
+      ~AMIDescriber.raw
+      ~AMIDescriber.rawlines
+      ~AMIDescriber.refresh_data
+      ~AMIDescriber.register
+      ~AMIDescriber.remove_block
+      ~AMIDescriber.reparent
+      ~AMIDescriber.scroll_down
+      ~AMIDescriber.scroll_left
+      ~AMIDescriber.scroll_right
+      ~AMIDescriber.scroll_up
+      ~AMIDescriber.title_info
+      ~AMIDescriber.toggle_wrap
+      ~AMIDescriber.topleft
+      ~AMIDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AMIDescriber.border
+      ~AMIDescriber.corners
+      ~AMIDescriber.filter
+      ~AMIDescriber.height
+      ~AMIDescriber.inner
+      ~AMIDescriber.prefix
+      ~AMIDescriber.title
+      ~AMIDescriber.w_in
+      ~AMIDescriber.width
+   
+   

@@ -1,0 +1,44 @@
+﻿awsc.termui.ui.UI
+=================
+
+.. currentmodule:: awsc.termui.ui
+
+.. autoclass:: UI
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~UI.__init__
+      ~UI.before_paint
+      ~UI.buffer_input
+      ~UI.check_one_key
+      ~UI.filecache
+      ~UI.filecache_path
+      ~UI.main
+      ~UI.paint
+      ~UI.print
+      ~UI.process_input_buffer
+      ~UI.progress_bar_paint
+      ~UI.read_file
+      ~UI.refresh_size
+      ~UI.set_exit
+      ~UI.unraw
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~UI.dim
+      ~UI.height
+      ~UI.width
+   
+   

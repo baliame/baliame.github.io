@@ -1,0 +1,70 @@
+﻿awsc.resource\_rds.RDSDescriber
+===============================
+
+.. currentmodule:: awsc.resource_rds
+
+.. autoclass:: RDSDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RDSDescriber.__init__
+      ~RDSDescriber.add_block
+      ~RDSDescriber.add_hotkey
+      ~RDSDescriber.add_text
+      ~RDSDescriber.autohotkey_condition
+      ~RDSDescriber.before_paint
+      ~RDSDescriber.bottomright
+      ~RDSDescriber.clear
+      ~RDSDescriber.clear_blocks
+      ~RDSDescriber.command
+      ~RDSDescriber.command_wrapper
+      ~RDSDescriber.copy_contents
+      ~RDSDescriber.end
+      ~RDSDescriber.home
+      ~RDSDescriber.input
+      ~RDSDescriber.opener
+      ~RDSDescriber.paint
+      ~RDSDescriber.pgdown
+      ~RDSDescriber.pgup
+      ~RDSDescriber.populate_describe_kwargs
+      ~RDSDescriber.populate_entry
+      ~RDSDescriber.raw
+      ~RDSDescriber.rawlines
+      ~RDSDescriber.refresh_data
+      ~RDSDescriber.register
+      ~RDSDescriber.remove_block
+      ~RDSDescriber.reparent
+      ~RDSDescriber.scroll_down
+      ~RDSDescriber.scroll_left
+      ~RDSDescriber.scroll_right
+      ~RDSDescriber.scroll_up
+      ~RDSDescriber.title_info
+      ~RDSDescriber.toggle_wrap
+      ~RDSDescriber.topleft
+      ~RDSDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RDSDescriber.border
+      ~RDSDescriber.corners
+      ~RDSDescriber.filter
+      ~RDSDescriber.height
+      ~RDSDescriber.inner
+      ~RDSDescriber.prefix
+      ~RDSDescriber.title
+      ~RDSDescriber.w_in
+      ~RDSDescriber.width
+   
+   

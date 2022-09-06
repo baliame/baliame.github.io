@@ -1,0 +1,70 @@
+﻿awsc.resource\_r53.R53RecordDescriber
+=====================================
+
+.. currentmodule:: awsc.resource_r53
+
+.. autoclass:: R53RecordDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~R53RecordDescriber.__init__
+      ~R53RecordDescriber.add_block
+      ~R53RecordDescriber.add_hotkey
+      ~R53RecordDescriber.add_text
+      ~R53RecordDescriber.autohotkey_condition
+      ~R53RecordDescriber.before_paint
+      ~R53RecordDescriber.bottomright
+      ~R53RecordDescriber.clear
+      ~R53RecordDescriber.clear_blocks
+      ~R53RecordDescriber.command
+      ~R53RecordDescriber.command_wrapper
+      ~R53RecordDescriber.copy_contents
+      ~R53RecordDescriber.end
+      ~R53RecordDescriber.home
+      ~R53RecordDescriber.input
+      ~R53RecordDescriber.opener
+      ~R53RecordDescriber.paint
+      ~R53RecordDescriber.pgdown
+      ~R53RecordDescriber.pgup
+      ~R53RecordDescriber.populate_describe_kwargs
+      ~R53RecordDescriber.populate_entry
+      ~R53RecordDescriber.raw
+      ~R53RecordDescriber.rawlines
+      ~R53RecordDescriber.refresh_data
+      ~R53RecordDescriber.register
+      ~R53RecordDescriber.remove_block
+      ~R53RecordDescriber.reparent
+      ~R53RecordDescriber.scroll_down
+      ~R53RecordDescriber.scroll_left
+      ~R53RecordDescriber.scroll_right
+      ~R53RecordDescriber.scroll_up
+      ~R53RecordDescriber.title_info
+      ~R53RecordDescriber.toggle_wrap
+      ~R53RecordDescriber.topleft
+      ~R53RecordDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~R53RecordDescriber.border
+      ~R53RecordDescriber.corners
+      ~R53RecordDescriber.filter
+      ~R53RecordDescriber.height
+      ~R53RecordDescriber.inner
+      ~R53RecordDescriber.prefix
+      ~R53RecordDescriber.title
+      ~R53RecordDescriber.w_in
+      ~R53RecordDescriber.width
+   
+   

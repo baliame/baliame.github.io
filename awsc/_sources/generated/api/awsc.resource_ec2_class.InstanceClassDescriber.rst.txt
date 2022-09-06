@@ -1,0 +1,70 @@
+﻿awsc.resource\_ec2\_class.InstanceClassDescriber
+================================================
+
+.. currentmodule:: awsc.resource_ec2_class
+
+.. autoclass:: InstanceClassDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~InstanceClassDescriber.__init__
+      ~InstanceClassDescriber.add_block
+      ~InstanceClassDescriber.add_hotkey
+      ~InstanceClassDescriber.add_text
+      ~InstanceClassDescriber.autohotkey_condition
+      ~InstanceClassDescriber.before_paint
+      ~InstanceClassDescriber.bottomright
+      ~InstanceClassDescriber.clear
+      ~InstanceClassDescriber.clear_blocks
+      ~InstanceClassDescriber.command
+      ~InstanceClassDescriber.command_wrapper
+      ~InstanceClassDescriber.copy_contents
+      ~InstanceClassDescriber.end
+      ~InstanceClassDescriber.home
+      ~InstanceClassDescriber.input
+      ~InstanceClassDescriber.opener
+      ~InstanceClassDescriber.paint
+      ~InstanceClassDescriber.pgdown
+      ~InstanceClassDescriber.pgup
+      ~InstanceClassDescriber.populate_describe_kwargs
+      ~InstanceClassDescriber.populate_entry
+      ~InstanceClassDescriber.raw
+      ~InstanceClassDescriber.rawlines
+      ~InstanceClassDescriber.refresh_data
+      ~InstanceClassDescriber.register
+      ~InstanceClassDescriber.remove_block
+      ~InstanceClassDescriber.reparent
+      ~InstanceClassDescriber.scroll_down
+      ~InstanceClassDescriber.scroll_left
+      ~InstanceClassDescriber.scroll_right
+      ~InstanceClassDescriber.scroll_up
+      ~InstanceClassDescriber.title_info
+      ~InstanceClassDescriber.toggle_wrap
+      ~InstanceClassDescriber.topleft
+      ~InstanceClassDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~InstanceClassDescriber.border
+      ~InstanceClassDescriber.corners
+      ~InstanceClassDescriber.filter
+      ~InstanceClassDescriber.height
+      ~InstanceClassDescriber.inner
+      ~InstanceClassDescriber.prefix
+      ~InstanceClassDescriber.title
+      ~InstanceClassDescriber.w_in
+      ~InstanceClassDescriber.width
+   
+   

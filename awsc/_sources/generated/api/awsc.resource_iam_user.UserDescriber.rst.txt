@@ -1,0 +1,70 @@
+﻿awsc.resource\_iam\_user.UserDescriber
+======================================
+
+.. currentmodule:: awsc.resource_iam_user
+
+.. autoclass:: UserDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~UserDescriber.__init__
+      ~UserDescriber.add_block
+      ~UserDescriber.add_hotkey
+      ~UserDescriber.add_text
+      ~UserDescriber.autohotkey_condition
+      ~UserDescriber.before_paint
+      ~UserDescriber.bottomright
+      ~UserDescriber.clear
+      ~UserDescriber.clear_blocks
+      ~UserDescriber.command
+      ~UserDescriber.command_wrapper
+      ~UserDescriber.copy_contents
+      ~UserDescriber.end
+      ~UserDescriber.home
+      ~UserDescriber.input
+      ~UserDescriber.opener
+      ~UserDescriber.paint
+      ~UserDescriber.pgdown
+      ~UserDescriber.pgup
+      ~UserDescriber.populate_describe_kwargs
+      ~UserDescriber.populate_entry
+      ~UserDescriber.raw
+      ~UserDescriber.rawlines
+      ~UserDescriber.refresh_data
+      ~UserDescriber.register
+      ~UserDescriber.remove_block
+      ~UserDescriber.reparent
+      ~UserDescriber.scroll_down
+      ~UserDescriber.scroll_left
+      ~UserDescriber.scroll_right
+      ~UserDescriber.scroll_up
+      ~UserDescriber.title_info
+      ~UserDescriber.toggle_wrap
+      ~UserDescriber.topleft
+      ~UserDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~UserDescriber.border
+      ~UserDescriber.corners
+      ~UserDescriber.filter
+      ~UserDescriber.height
+      ~UserDescriber.inner
+      ~UserDescriber.prefix
+      ~UserDescriber.title
+      ~UserDescriber.w_in
+      ~UserDescriber.width
+   
+   

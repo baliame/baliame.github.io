@@ -1,0 +1,75 @@
+﻿awsc.context.ContextList
+========================
+
+.. currentmodule:: awsc.context
+
+.. autoclass:: ContextList
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ContextList.__init__
+      ~ContextList.add_block
+      ~ContextList.add_column
+      ~ContextList.add_entry
+      ~ContextList.add_hotkey
+      ~ContextList.add_new_context
+      ~ContextList.autohotkey_condition
+      ~ContextList.before_paint
+      ~ContextList.before_paint_critical
+      ~ContextList.bottomright
+      ~ContextList.clear_blocks
+      ~ContextList.delete_selected_context
+      ~ContextList.describe
+      ~ContextList.do_delete
+      ~ContextList.end
+      ~ContextList.handle_finalization_critical
+      ~ContextList.handle_new_entries_critical
+      ~ContextList.home
+      ~ContextList.import_context
+      ~ContextList.input
+      ~ContextList.list_down
+      ~ContextList.list_up
+      ~ContextList.opener
+      ~ContextList.pagedown
+      ~ContextList.pageup
+      ~ContextList.paint
+      ~ContextList.reload_contexts
+      ~ContextList.remove_block
+      ~ContextList.reparent
+      ~ContextList.select_and_close
+      ~ContextList.select_context
+      ~ContextList.selector
+      ~ContextList.set_default_context
+      ~ContextList.sort
+      ~ContextList.topleft
+      ~ContextList.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ContextList.border
+      ~ContextList.corners
+      ~ContextList.describer
+      ~ContextList.filter
+      ~ContextList.filtered
+      ~ContextList.height
+      ~ContextList.inner
+      ~ContextList.prefix
+      ~ContextList.rows
+      ~ContextList.selection
+      ~ContextList.title
+      ~ContextList.w_in
+      ~ContextList.width
+   
+   

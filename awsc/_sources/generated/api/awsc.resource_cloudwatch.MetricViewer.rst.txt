@@ -1,0 +1,60 @@
+﻿awsc.resource\_cloudwatch.MetricViewer
+======================================
+
+.. currentmodule:: awsc.resource_cloudwatch
+
+.. autoclass:: MetricViewer
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~MetricViewer.__init__
+      ~MetricViewer.add_block
+      ~MetricViewer.add_datapoint
+      ~MetricViewer.add_hotkey
+      ~MetricViewer.autohotkey_condition
+      ~MetricViewer.before_paint
+      ~MetricViewer.bottomright
+      ~MetricViewer.clear_blocks
+      ~MetricViewer.end
+      ~MetricViewer.home
+      ~MetricViewer.input
+      ~MetricViewer.load_data
+      ~MetricViewer.opener
+      ~MetricViewer.paint
+      ~MetricViewer.remove_block
+      ~MetricViewer.reparent
+      ~MetricViewer.scroll_left
+      ~MetricViewer.scroll_right
+      ~MetricViewer.title_info
+      ~MetricViewer.topleft
+      ~MetricViewer.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MetricViewer.DPB_MinToMax
+      ~MetricViewer.DPB_ZeroOrLessToMax
+      ~MetricViewer.DPB_ZeroToMax
+      ~MetricViewer.border
+      ~MetricViewer.colspace
+      ~MetricViewer.corners
+      ~MetricViewer.data_points_behaviour
+      ~MetricViewer.height
+      ~MetricViewer.inner
+      ~MetricViewer.prefix
+      ~MetricViewer.title
+      ~MetricViewer.w_in
+      ~MetricViewer.width
+   
+   

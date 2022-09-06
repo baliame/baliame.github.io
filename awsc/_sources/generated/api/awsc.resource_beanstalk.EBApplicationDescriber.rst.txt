@@ -1,0 +1,70 @@
+﻿awsc.resource\_beanstalk.EBApplicationDescriber
+===============================================
+
+.. currentmodule:: awsc.resource_beanstalk
+
+.. autoclass:: EBApplicationDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EBApplicationDescriber.__init__
+      ~EBApplicationDescriber.add_block
+      ~EBApplicationDescriber.add_hotkey
+      ~EBApplicationDescriber.add_text
+      ~EBApplicationDescriber.autohotkey_condition
+      ~EBApplicationDescriber.before_paint
+      ~EBApplicationDescriber.bottomright
+      ~EBApplicationDescriber.clear
+      ~EBApplicationDescriber.clear_blocks
+      ~EBApplicationDescriber.command
+      ~EBApplicationDescriber.command_wrapper
+      ~EBApplicationDescriber.copy_contents
+      ~EBApplicationDescriber.end
+      ~EBApplicationDescriber.home
+      ~EBApplicationDescriber.input
+      ~EBApplicationDescriber.opener
+      ~EBApplicationDescriber.paint
+      ~EBApplicationDescriber.pgdown
+      ~EBApplicationDescriber.pgup
+      ~EBApplicationDescriber.populate_describe_kwargs
+      ~EBApplicationDescriber.populate_entry
+      ~EBApplicationDescriber.raw
+      ~EBApplicationDescriber.rawlines
+      ~EBApplicationDescriber.refresh_data
+      ~EBApplicationDescriber.register
+      ~EBApplicationDescriber.remove_block
+      ~EBApplicationDescriber.reparent
+      ~EBApplicationDescriber.scroll_down
+      ~EBApplicationDescriber.scroll_left
+      ~EBApplicationDescriber.scroll_right
+      ~EBApplicationDescriber.scroll_up
+      ~EBApplicationDescriber.title_info
+      ~EBApplicationDescriber.toggle_wrap
+      ~EBApplicationDescriber.topleft
+      ~EBApplicationDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EBApplicationDescriber.border
+      ~EBApplicationDescriber.corners
+      ~EBApplicationDescriber.filter
+      ~EBApplicationDescriber.height
+      ~EBApplicationDescriber.inner
+      ~EBApplicationDescriber.prefix
+      ~EBApplicationDescriber.title
+      ~EBApplicationDescriber.w_in
+      ~EBApplicationDescriber.width
+   
+   

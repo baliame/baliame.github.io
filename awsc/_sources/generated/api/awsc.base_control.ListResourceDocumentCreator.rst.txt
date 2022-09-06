@@ -1,0 +1,27 @@
+﻿awsc.base\_control.ListResourceDocumentCreator
+==============================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: ListResourceDocumentCreator
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ListResourceDocumentCreator.__init__
+      ~ListResourceDocumentCreator.display_content
+      ~ListResourceDocumentCreator.edit
+      ~ListResourceDocumentCreator.generate_kwargs
+      ~ListResourceDocumentCreator.retrieve_content
+      ~ListResourceDocumentCreator.update_content
+   
+   
+
+   
+   
+   

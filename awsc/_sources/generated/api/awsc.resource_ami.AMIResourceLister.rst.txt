@@ -1,0 +1,101 @@
+﻿awsc.resource\_ami.AMIResourceLister
+====================================
+
+.. currentmodule:: awsc.resource_ami
+
+.. autoclass:: AMIResourceLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~AMIResourceLister.__init__
+      ~AMIResourceLister.add_block
+      ~AMIResourceLister.add_column
+      ~AMIResourceLister.add_entry
+      ~AMIResourceLister.add_hotkey
+      ~AMIResourceLister.async_inner
+      ~AMIResourceLister.asynch
+      ~AMIResourceLister.auto_refresh
+      ~AMIResourceLister.autohotkey_condition
+      ~AMIResourceLister.before_paint
+      ~AMIResourceLister.before_paint_critical
+      ~AMIResourceLister.bottomright
+      ~AMIResourceLister.clear_blocks
+      ~AMIResourceLister.command
+      ~AMIResourceLister.command_wrapper
+      ~AMIResourceLister.confirm_template
+      ~AMIResourceLister.copy_arn
+      ~AMIResourceLister.describe
+      ~AMIResourceLister.describe_command
+      ~AMIResourceLister.empty
+      ~AMIResourceLister.end
+      ~AMIResourceLister.get_data
+      ~AMIResourceLister.get_data_generic
+      ~AMIResourceLister.handle_finalization_critical
+      ~AMIResourceLister.handle_new_entries_critical
+      ~AMIResourceLister.home
+      ~AMIResourceLister.input
+      ~AMIResourceLister.list_down
+      ~AMIResourceLister.list_up
+      ~AMIResourceLister.matches
+      ~AMIResourceLister.on_close
+      ~AMIResourceLister.open
+      ~AMIResourceLister.opener
+      ~AMIResourceLister.pagedown
+      ~AMIResourceLister.pageup
+      ~AMIResourceLister.paint
+      ~AMIResourceLister.refresh_data
+      ~AMIResourceLister.register
+      ~AMIResourceLister.remove_block
+      ~AMIResourceLister.reparent
+      ~AMIResourceLister.select_and_close
+      ~AMIResourceLister.selector
+      ~AMIResourceLister.selector_template
+      ~AMIResourceLister.sort
+      ~AMIResourceLister.title_info
+      ~AMIResourceLister.topleft
+      ~AMIResourceLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AMIResourceLister.additional_commands
+      ~AMIResourceLister.border
+      ~AMIResourceLister.category
+      ~AMIResourceLister.columns
+      ~AMIResourceLister.command_palette
+      ~AMIResourceLister.corners
+      ~AMIResourceLister.describe_kwargs
+      ~AMIResourceLister.describe_selection_arg
+      ~AMIResourceLister.filter
+      ~AMIResourceLister.filtered
+      ~AMIResourceLister.height
+      ~AMIResourceLister.inner
+      ~AMIResourceLister.item_path
+      ~AMIResourceLister.list_kwargs
+      ~AMIResourceLister.list_method
+      ~AMIResourceLister.main_provider
+      ~AMIResourceLister.open_command
+      ~AMIResourceLister.open_kwargs
+      ~AMIResourceLister.open_selection_arg
+      ~AMIResourceLister.prefix
+      ~AMIResourceLister.primary_key
+      ~AMIResourceLister.resource_type
+      ~AMIResourceLister.rows
+      ~AMIResourceLister.selection
+      ~AMIResourceLister.subcategory
+      ~AMIResourceLister.title
+      ~AMIResourceLister.w_in
+      ~AMIResourceLister.width
+   
+   

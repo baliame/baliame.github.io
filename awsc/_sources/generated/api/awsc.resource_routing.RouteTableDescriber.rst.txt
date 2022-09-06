@@ -1,0 +1,70 @@
+﻿awsc.resource\_routing.RouteTableDescriber
+==========================================
+
+.. currentmodule:: awsc.resource_routing
+
+.. autoclass:: RouteTableDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RouteTableDescriber.__init__
+      ~RouteTableDescriber.add_block
+      ~RouteTableDescriber.add_hotkey
+      ~RouteTableDescriber.add_text
+      ~RouteTableDescriber.autohotkey_condition
+      ~RouteTableDescriber.before_paint
+      ~RouteTableDescriber.bottomright
+      ~RouteTableDescriber.clear
+      ~RouteTableDescriber.clear_blocks
+      ~RouteTableDescriber.command
+      ~RouteTableDescriber.command_wrapper
+      ~RouteTableDescriber.copy_contents
+      ~RouteTableDescriber.end
+      ~RouteTableDescriber.home
+      ~RouteTableDescriber.input
+      ~RouteTableDescriber.opener
+      ~RouteTableDescriber.paint
+      ~RouteTableDescriber.pgdown
+      ~RouteTableDescriber.pgup
+      ~RouteTableDescriber.populate_describe_kwargs
+      ~RouteTableDescriber.populate_entry
+      ~RouteTableDescriber.raw
+      ~RouteTableDescriber.rawlines
+      ~RouteTableDescriber.refresh_data
+      ~RouteTableDescriber.register
+      ~RouteTableDescriber.remove_block
+      ~RouteTableDescriber.reparent
+      ~RouteTableDescriber.scroll_down
+      ~RouteTableDescriber.scroll_left
+      ~RouteTableDescriber.scroll_right
+      ~RouteTableDescriber.scroll_up
+      ~RouteTableDescriber.title_info
+      ~RouteTableDescriber.toggle_wrap
+      ~RouteTableDescriber.topleft
+      ~RouteTableDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RouteTableDescriber.border
+      ~RouteTableDescriber.corners
+      ~RouteTableDescriber.filter
+      ~RouteTableDescriber.height
+      ~RouteTableDescriber.inner
+      ~RouteTableDescriber.prefix
+      ~RouteTableDescriber.title
+      ~RouteTableDescriber.w_in
+      ~RouteTableDescriber.width
+   
+   

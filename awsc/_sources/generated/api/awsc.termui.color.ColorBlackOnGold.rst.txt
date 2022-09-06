@@ -1,0 +1,6 @@
+﻿awsc.termui.color.ColorBlackOnGold
+==================================
+
+.. currentmodule:: awsc.termui.color
+
+.. autodata:: ColorBlackOnGold

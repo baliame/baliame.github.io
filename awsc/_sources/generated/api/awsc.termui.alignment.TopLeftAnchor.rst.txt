@@ -1,0 +1,24 @@
+﻿awsc.termui.alignment.TopLeftAnchor
+===================================
+
+.. currentmodule:: awsc.termui.alignment
+
+.. autoclass:: TopLeftAnchor
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~TopLeftAnchor.__init__
+      ~TopLeftAnchor.anchor
+      ~TopLeftAnchor.topleft
+   
+   
+
+   
+   
+   
