@@ -1,0 +1,23 @@
+﻿awsc.base\_control.SelectionControllerDataAttribute
+===================================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: SelectionControllerDataAttribute
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~SelectionControllerDataAttribute.__init__
+      ~SelectionControllerDataAttribute.resolve
+   
+   
+
+   
+   
+   

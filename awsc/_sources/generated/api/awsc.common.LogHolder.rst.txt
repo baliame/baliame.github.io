@@ -1,0 +1,28 @@
+﻿awsc.common.LogHolder
+=====================
+
+.. currentmodule:: awsc.common
+
+.. autoclass:: LogHolder
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~LogHolder.__init__
+      ~LogHolder.attach
+      ~LogHolder.detach
+      ~LogHolder.log
+      ~LogHolder.parse_log_messages
+      ~LogHolder.parse_raw_entries
+      ~LogHolder.write_raw_entries
+   
+   
+
+   
+   
+   

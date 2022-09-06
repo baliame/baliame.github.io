@@ -1,0 +1,6 @@
+﻿awsc.resource\_s3.\_s3\_icons
+=============================
+
+.. currentmodule:: awsc.resource_s3
+
+.. autodata:: _s3_icons

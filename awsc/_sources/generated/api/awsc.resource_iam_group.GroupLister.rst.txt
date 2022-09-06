@@ -1,0 +1,106 @@
+﻿awsc.resource\_iam\_group.GroupLister
+=====================================
+
+.. currentmodule:: awsc.resource_iam_group
+
+.. autoclass:: GroupLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GroupLister.__init__
+      ~GroupLister.add_block
+      ~GroupLister.add_column
+      ~GroupLister.add_entry
+      ~GroupLister.add_hotkey
+      ~GroupLister.add_user_to_group
+      ~GroupLister.async_inner
+      ~GroupLister.asynch
+      ~GroupLister.attach_policy
+      ~GroupLister.auto_refresh
+      ~GroupLister.autohotkey_condition
+      ~GroupLister.before_paint
+      ~GroupLister.before_paint_critical
+      ~GroupLister.bottomright
+      ~GroupLister.clear_blocks
+      ~GroupLister.command
+      ~GroupLister.command_wrapper
+      ~GroupLister.confirm_template
+      ~GroupLister.copy_arn
+      ~GroupLister.create_group
+      ~GroupLister.describe
+      ~GroupLister.describe_command
+      ~GroupLister.do_create
+      ~GroupLister.do_remove
+      ~GroupLister.empty
+      ~GroupLister.end
+      ~GroupLister.get_data
+      ~GroupLister.get_data_generic
+      ~GroupLister.handle_finalization_critical
+      ~GroupLister.handle_new_entries_critical
+      ~GroupLister.home
+      ~GroupLister.input
+      ~GroupLister.list_down
+      ~GroupLister.list_up
+      ~GroupLister.matches
+      ~GroupLister.on_close
+      ~GroupLister.open
+      ~GroupLister.opener
+      ~GroupLister.pagedown
+      ~GroupLister.pageup
+      ~GroupLister.paint
+      ~GroupLister.refresh_data
+      ~GroupLister.register
+      ~GroupLister.remove_block
+      ~GroupLister.reparent
+      ~GroupLister.select_and_close
+      ~GroupLister.selector
+      ~GroupLister.selector_template
+      ~GroupLister.sort
+      ~GroupLister.title_info
+      ~GroupLister.topleft
+      ~GroupLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GroupLister.additional_commands
+      ~GroupLister.border
+      ~GroupLister.category
+      ~GroupLister.columns
+      ~GroupLister.command_palette
+      ~GroupLister.corners
+      ~GroupLister.describe_kwargs
+      ~GroupLister.describe_selection_arg
+      ~GroupLister.filter
+      ~GroupLister.filtered
+      ~GroupLister.height
+      ~GroupLister.inner
+      ~GroupLister.item_path
+      ~GroupLister.list_kwargs
+      ~GroupLister.list_method
+      ~GroupLister.main_provider
+      ~GroupLister.open_command
+      ~GroupLister.open_kwargs
+      ~GroupLister.open_selection_arg
+      ~GroupLister.prefix
+      ~GroupLister.primary_key
+      ~GroupLister.resource_type
+      ~GroupLister.rows
+      ~GroupLister.selection
+      ~GroupLister.subcategory
+      ~GroupLister.title
+      ~GroupLister.w_in
+      ~GroupLister.width
+   
+   

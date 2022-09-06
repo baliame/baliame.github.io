@@ -1,0 +1,6 @@
+﻿awsc.base\_control.NoResults
+============================
+
+.. currentmodule:: awsc.base_control
+
+.. autoexception:: NoResults

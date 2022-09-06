@@ -1,0 +1,70 @@
+﻿awsc.resource\_subnet.SubnetDescriber
+=====================================
+
+.. currentmodule:: awsc.resource_subnet
+
+.. autoclass:: SubnetDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~SubnetDescriber.__init__
+      ~SubnetDescriber.add_block
+      ~SubnetDescriber.add_hotkey
+      ~SubnetDescriber.add_text
+      ~SubnetDescriber.autohotkey_condition
+      ~SubnetDescriber.before_paint
+      ~SubnetDescriber.bottomright
+      ~SubnetDescriber.clear
+      ~SubnetDescriber.clear_blocks
+      ~SubnetDescriber.command
+      ~SubnetDescriber.command_wrapper
+      ~SubnetDescriber.copy_contents
+      ~SubnetDescriber.end
+      ~SubnetDescriber.home
+      ~SubnetDescriber.input
+      ~SubnetDescriber.opener
+      ~SubnetDescriber.paint
+      ~SubnetDescriber.pgdown
+      ~SubnetDescriber.pgup
+      ~SubnetDescriber.populate_describe_kwargs
+      ~SubnetDescriber.populate_entry
+      ~SubnetDescriber.raw
+      ~SubnetDescriber.rawlines
+      ~SubnetDescriber.refresh_data
+      ~SubnetDescriber.register
+      ~SubnetDescriber.remove_block
+      ~SubnetDescriber.reparent
+      ~SubnetDescriber.scroll_down
+      ~SubnetDescriber.scroll_left
+      ~SubnetDescriber.scroll_right
+      ~SubnetDescriber.scroll_up
+      ~SubnetDescriber.title_info
+      ~SubnetDescriber.toggle_wrap
+      ~SubnetDescriber.topleft
+      ~SubnetDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SubnetDescriber.border
+      ~SubnetDescriber.corners
+      ~SubnetDescriber.filter
+      ~SubnetDescriber.height
+      ~SubnetDescriber.inner
+      ~SubnetDescriber.prefix
+      ~SubnetDescriber.title
+      ~SubnetDescriber.w_in
+      ~SubnetDescriber.width
+   
+   

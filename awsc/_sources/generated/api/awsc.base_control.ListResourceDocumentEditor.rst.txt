@@ -1,0 +1,26 @@
+﻿awsc.base\_control.ListResourceDocumentEditor
+=============================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: ListResourceDocumentEditor
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ListResourceDocumentEditor.__init__
+      ~ListResourceDocumentEditor.display_content
+      ~ListResourceDocumentEditor.edit
+      ~ListResourceDocumentEditor.retrieve_content
+      ~ListResourceDocumentEditor.update_content
+   
+   
+
+   
+   
+   

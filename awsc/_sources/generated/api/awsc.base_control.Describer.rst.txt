@@ -1,0 +1,70 @@
+﻿awsc.base\_control.Describer
+============================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: Describer
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Describer.__init__
+      ~Describer.add_block
+      ~Describer.add_hotkey
+      ~Describer.add_text
+      ~Describer.autohotkey_condition
+      ~Describer.before_paint
+      ~Describer.bottomright
+      ~Describer.clear
+      ~Describer.clear_blocks
+      ~Describer.command
+      ~Describer.command_wrapper
+      ~Describer.copy_contents
+      ~Describer.end
+      ~Describer.home
+      ~Describer.input
+      ~Describer.opener
+      ~Describer.paint
+      ~Describer.pgdown
+      ~Describer.pgup
+      ~Describer.populate_describe_kwargs
+      ~Describer.populate_entry
+      ~Describer.raw
+      ~Describer.rawlines
+      ~Describer.refresh_data
+      ~Describer.register
+      ~Describer.remove_block
+      ~Describer.reparent
+      ~Describer.scroll_down
+      ~Describer.scroll_left
+      ~Describer.scroll_right
+      ~Describer.scroll_up
+      ~Describer.title_info
+      ~Describer.toggle_wrap
+      ~Describer.topleft
+      ~Describer.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Describer.border
+      ~Describer.corners
+      ~Describer.filter
+      ~Describer.height
+      ~Describer.inner
+      ~Describer.prefix
+      ~Describer.title
+      ~Describer.w_in
+      ~Describer.width
+   
+   

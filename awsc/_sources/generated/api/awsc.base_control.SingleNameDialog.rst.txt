@@ -1,0 +1,49 @@
+﻿awsc.base\_control.SingleNameDialog
+===================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: SingleNameDialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~SingleNameDialog.__init__
+      ~SingleNameDialog.accept_and_close
+      ~SingleNameDialog.add_block
+      ~SingleNameDialog.add_field
+      ~SingleNameDialog.before_paint
+      ~SingleNameDialog.bottomright
+      ~SingleNameDialog.clear_blocks
+      ~SingleNameDialog.close
+      ~SingleNameDialog.input
+      ~SingleNameDialog.nop
+      ~SingleNameDialog.opener
+      ~SingleNameDialog.paint
+      ~SingleNameDialog.remove_block
+      ~SingleNameDialog.reparent
+      ~SingleNameDialog.set_title_label
+      ~SingleNameDialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SingleNameDialog.border
+      ~SingleNameDialog.corners
+      ~SingleNameDialog.height
+      ~SingleNameDialog.inner
+      ~SingleNameDialog.line_size
+      ~SingleNameDialog.w_in
+      ~SingleNameDialog.width
+   
+   

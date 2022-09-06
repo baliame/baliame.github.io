@@ -1,0 +1,6 @@
+﻿awsc.main.awscheck
+==================
+
+.. currentmodule:: awsc.main
+
+.. autofunction:: awscheck

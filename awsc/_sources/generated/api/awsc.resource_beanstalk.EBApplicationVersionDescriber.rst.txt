@@ -1,0 +1,70 @@
+﻿awsc.resource\_beanstalk.EBApplicationVersionDescriber
+======================================================
+
+.. currentmodule:: awsc.resource_beanstalk
+
+.. autoclass:: EBApplicationVersionDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EBApplicationVersionDescriber.__init__
+      ~EBApplicationVersionDescriber.add_block
+      ~EBApplicationVersionDescriber.add_hotkey
+      ~EBApplicationVersionDescriber.add_text
+      ~EBApplicationVersionDescriber.autohotkey_condition
+      ~EBApplicationVersionDescriber.before_paint
+      ~EBApplicationVersionDescriber.bottomright
+      ~EBApplicationVersionDescriber.clear
+      ~EBApplicationVersionDescriber.clear_blocks
+      ~EBApplicationVersionDescriber.command
+      ~EBApplicationVersionDescriber.command_wrapper
+      ~EBApplicationVersionDescriber.copy_contents
+      ~EBApplicationVersionDescriber.end
+      ~EBApplicationVersionDescriber.home
+      ~EBApplicationVersionDescriber.input
+      ~EBApplicationVersionDescriber.opener
+      ~EBApplicationVersionDescriber.paint
+      ~EBApplicationVersionDescriber.pgdown
+      ~EBApplicationVersionDescriber.pgup
+      ~EBApplicationVersionDescriber.populate_describe_kwargs
+      ~EBApplicationVersionDescriber.populate_entry
+      ~EBApplicationVersionDescriber.raw
+      ~EBApplicationVersionDescriber.rawlines
+      ~EBApplicationVersionDescriber.refresh_data
+      ~EBApplicationVersionDescriber.register
+      ~EBApplicationVersionDescriber.remove_block
+      ~EBApplicationVersionDescriber.reparent
+      ~EBApplicationVersionDescriber.scroll_down
+      ~EBApplicationVersionDescriber.scroll_left
+      ~EBApplicationVersionDescriber.scroll_right
+      ~EBApplicationVersionDescriber.scroll_up
+      ~EBApplicationVersionDescriber.title_info
+      ~EBApplicationVersionDescriber.toggle_wrap
+      ~EBApplicationVersionDescriber.topleft
+      ~EBApplicationVersionDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EBApplicationVersionDescriber.border
+      ~EBApplicationVersionDescriber.corners
+      ~EBApplicationVersionDescriber.filter
+      ~EBApplicationVersionDescriber.height
+      ~EBApplicationVersionDescriber.inner
+      ~EBApplicationVersionDescriber.prefix
+      ~EBApplicationVersionDescriber.title
+      ~EBApplicationVersionDescriber.w_in
+      ~EBApplicationVersionDescriber.width
+   
+   

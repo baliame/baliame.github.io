@@ -1,0 +1,70 @@
+﻿awsc.resource\_keypair.KeyPairDescriber
+=======================================
+
+.. currentmodule:: awsc.resource_keypair
+
+.. autoclass:: KeyPairDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~KeyPairDescriber.__init__
+      ~KeyPairDescriber.add_block
+      ~KeyPairDescriber.add_hotkey
+      ~KeyPairDescriber.add_text
+      ~KeyPairDescriber.autohotkey_condition
+      ~KeyPairDescriber.before_paint
+      ~KeyPairDescriber.bottomright
+      ~KeyPairDescriber.clear
+      ~KeyPairDescriber.clear_blocks
+      ~KeyPairDescriber.command
+      ~KeyPairDescriber.command_wrapper
+      ~KeyPairDescriber.copy_contents
+      ~KeyPairDescriber.end
+      ~KeyPairDescriber.home
+      ~KeyPairDescriber.input
+      ~KeyPairDescriber.opener
+      ~KeyPairDescriber.paint
+      ~KeyPairDescriber.pgdown
+      ~KeyPairDescriber.pgup
+      ~KeyPairDescriber.populate_describe_kwargs
+      ~KeyPairDescriber.populate_entry
+      ~KeyPairDescriber.raw
+      ~KeyPairDescriber.rawlines
+      ~KeyPairDescriber.refresh_data
+      ~KeyPairDescriber.register
+      ~KeyPairDescriber.remove_block
+      ~KeyPairDescriber.reparent
+      ~KeyPairDescriber.scroll_down
+      ~KeyPairDescriber.scroll_left
+      ~KeyPairDescriber.scroll_right
+      ~KeyPairDescriber.scroll_up
+      ~KeyPairDescriber.title_info
+      ~KeyPairDescriber.toggle_wrap
+      ~KeyPairDescriber.topleft
+      ~KeyPairDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~KeyPairDescriber.border
+      ~KeyPairDescriber.corners
+      ~KeyPairDescriber.filter
+      ~KeyPairDescriber.height
+      ~KeyPairDescriber.inner
+      ~KeyPairDescriber.prefix
+      ~KeyPairDescriber.title
+      ~KeyPairDescriber.w_in
+      ~KeyPairDescriber.width
+   
+   

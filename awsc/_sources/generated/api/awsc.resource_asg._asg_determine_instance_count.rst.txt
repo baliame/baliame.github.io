@@ -1,0 +1,6 @@
+﻿awsc.resource\_asg.\_asg\_determine\_instance\_count
+====================================================
+
+.. currentmodule:: awsc.resource_asg
+
+.. autofunction:: _asg_determine_instance_count

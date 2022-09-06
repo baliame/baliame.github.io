@@ -1,0 +1,70 @@
+﻿awsc.resource\_cfn.CFNDescriber
+===============================
+
+.. currentmodule:: awsc.resource_cfn
+
+.. autoclass:: CFNDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~CFNDescriber.__init__
+      ~CFNDescriber.add_block
+      ~CFNDescriber.add_hotkey
+      ~CFNDescriber.add_text
+      ~CFNDescriber.autohotkey_condition
+      ~CFNDescriber.before_paint
+      ~CFNDescriber.bottomright
+      ~CFNDescriber.clear
+      ~CFNDescriber.clear_blocks
+      ~CFNDescriber.command
+      ~CFNDescriber.command_wrapper
+      ~CFNDescriber.copy_contents
+      ~CFNDescriber.end
+      ~CFNDescriber.home
+      ~CFNDescriber.input
+      ~CFNDescriber.opener
+      ~CFNDescriber.paint
+      ~CFNDescriber.pgdown
+      ~CFNDescriber.pgup
+      ~CFNDescriber.populate_describe_kwargs
+      ~CFNDescriber.populate_entry
+      ~CFNDescriber.raw
+      ~CFNDescriber.rawlines
+      ~CFNDescriber.refresh_data
+      ~CFNDescriber.register
+      ~CFNDescriber.remove_block
+      ~CFNDescriber.reparent
+      ~CFNDescriber.scroll_down
+      ~CFNDescriber.scroll_left
+      ~CFNDescriber.scroll_right
+      ~CFNDescriber.scroll_up
+      ~CFNDescriber.title_info
+      ~CFNDescriber.toggle_wrap
+      ~CFNDescriber.topleft
+      ~CFNDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CFNDescriber.border
+      ~CFNDescriber.corners
+      ~CFNDescriber.filter
+      ~CFNDescriber.height
+      ~CFNDescriber.inner
+      ~CFNDescriber.prefix
+      ~CFNDescriber.title
+      ~CFNDescriber.w_in
+      ~CFNDescriber.width
+   
+   

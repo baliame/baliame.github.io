@@ -1,0 +1,49 @@
+﻿awsc.resource\_ec2.EC2LaunchDialog
+==================================
+
+.. currentmodule:: awsc.resource_ec2
+
+.. autoclass:: EC2LaunchDialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EC2LaunchDialog.__init__
+      ~EC2LaunchDialog.accept_and_close
+      ~EC2LaunchDialog.add_block
+      ~EC2LaunchDialog.add_field
+      ~EC2LaunchDialog.before_paint
+      ~EC2LaunchDialog.bottomright
+      ~EC2LaunchDialog.clear_blocks
+      ~EC2LaunchDialog.close
+      ~EC2LaunchDialog.input
+      ~EC2LaunchDialog.nop
+      ~EC2LaunchDialog.opener
+      ~EC2LaunchDialog.paint
+      ~EC2LaunchDialog.remove_block
+      ~EC2LaunchDialog.reparent
+      ~EC2LaunchDialog.set_title_label
+      ~EC2LaunchDialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EC2LaunchDialog.border
+      ~EC2LaunchDialog.corners
+      ~EC2LaunchDialog.height
+      ~EC2LaunchDialog.inner
+      ~EC2LaunchDialog.line_size
+      ~EC2LaunchDialog.w_in
+      ~EC2LaunchDialog.width
+   
+   

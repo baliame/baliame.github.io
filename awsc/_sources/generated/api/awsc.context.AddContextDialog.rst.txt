@@ -1,0 +1,49 @@
+﻿awsc.context.AddContextDialog
+=============================
+
+.. currentmodule:: awsc.context
+
+.. autoclass:: AddContextDialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~AddContextDialog.__init__
+      ~AddContextDialog.accept_and_close
+      ~AddContextDialog.add_block
+      ~AddContextDialog.add_field
+      ~AddContextDialog.before_paint
+      ~AddContextDialog.bottomright
+      ~AddContextDialog.clear_blocks
+      ~AddContextDialog.close
+      ~AddContextDialog.input
+      ~AddContextDialog.nop
+      ~AddContextDialog.opener
+      ~AddContextDialog.paint
+      ~AddContextDialog.remove_block
+      ~AddContextDialog.reparent
+      ~AddContextDialog.set_title_label
+      ~AddContextDialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AddContextDialog.border
+      ~AddContextDialog.corners
+      ~AddContextDialog.height
+      ~AddContextDialog.inner
+      ~AddContextDialog.line_size
+      ~AddContextDialog.w_in
+      ~AddContextDialog.width
+   
+   

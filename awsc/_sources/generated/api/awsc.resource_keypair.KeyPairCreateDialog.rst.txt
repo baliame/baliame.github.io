@@ -1,0 +1,49 @@
+﻿awsc.resource\_keypair.KeyPairCreateDialog
+==========================================
+
+.. currentmodule:: awsc.resource_keypair
+
+.. autoclass:: KeyPairCreateDialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~KeyPairCreateDialog.__init__
+      ~KeyPairCreateDialog.accept_and_close
+      ~KeyPairCreateDialog.add_block
+      ~KeyPairCreateDialog.add_field
+      ~KeyPairCreateDialog.before_paint
+      ~KeyPairCreateDialog.bottomright
+      ~KeyPairCreateDialog.clear_blocks
+      ~KeyPairCreateDialog.close
+      ~KeyPairCreateDialog.input
+      ~KeyPairCreateDialog.nop
+      ~KeyPairCreateDialog.opener
+      ~KeyPairCreateDialog.paint
+      ~KeyPairCreateDialog.remove_block
+      ~KeyPairCreateDialog.reparent
+      ~KeyPairCreateDialog.set_title_label
+      ~KeyPairCreateDialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~KeyPairCreateDialog.border
+      ~KeyPairCreateDialog.corners
+      ~KeyPairCreateDialog.height
+      ~KeyPairCreateDialog.inner
+      ~KeyPairCreateDialog.line_size
+      ~KeyPairCreateDialog.w_in
+      ~KeyPairCreateDialog.width
+   
+   

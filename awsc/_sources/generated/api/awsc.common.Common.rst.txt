@@ -1,0 +1,49 @@
+﻿awsc.common.Common
+==================
+
+.. currentmodule:: awsc.common
+
+.. autoclass:: Common
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Common.__init__
+      ~Common.border
+      ~Common.clienterror
+      ~Common.color
+      ~Common.confdir
+      ~Common.error
+      ~Common.generic_api_call
+      ~Common.info
+      ~Common.initialize
+      ~Common.load_dot_aws
+      ~Common.log
+      ~Common.log_exception
+      ~Common.main
+      ~Common.post_initialize
+      ~Common.run_on_init
+      ~Common.str_attrgetter
+      ~Common.success
+      ~Common.textfield_colors
+      ~Common.textlog
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Common.Configuration
+      ~Common.Session
+      ~Common.init_hooks
+      ~Common.initialized
+   
+   

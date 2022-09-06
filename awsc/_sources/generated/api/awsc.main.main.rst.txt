@@ -1,0 +1,6 @@
+﻿awsc.main.main
+==============
+
+.. currentmodule:: awsc.main
+
+.. autofunction:: main

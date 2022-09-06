@@ -1,0 +1,26 @@
+
+.. rst file which lists all members of the current module. They will be
+.. handled by the Sphinx autosummary extension.
+
+resource_cfn
+============
+
+.. Documentation string which may be at the top of the module.
+.. automodule:: awsc.resource_cfn
+   :no-members:
+   :no-inherited-members:
+
+.. currentmodule:: awsc.resource_cfn
+
+.. Links to members.
+.. autosummary::
+   :toctree:
+
+   CFNDescriber
+   CFNOutputs
+   CFNParameters
+   CFNRelated
+   CFNResourceLister
+   _cfn_determine_created
+   _cfn_determine_parameter_value
+   _cfn_determine_updated

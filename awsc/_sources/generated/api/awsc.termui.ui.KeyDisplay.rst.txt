@@ -1,0 +1,42 @@
+﻿awsc.termui.ui.KeyDisplay
+=========================
+
+.. currentmodule:: awsc.termui.ui
+
+.. autoclass:: KeyDisplay
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~KeyDisplay.__init__
+      ~KeyDisplay.add_block
+      ~KeyDisplay.before_paint
+      ~KeyDisplay.bottomright
+      ~KeyDisplay.clear_blocks
+      ~KeyDisplay.input
+      ~KeyDisplay.paint
+      ~KeyDisplay.remove_block
+      ~KeyDisplay.reparent
+      ~KeyDisplay.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~KeyDisplay.border
+      ~KeyDisplay.corners
+      ~KeyDisplay.height
+      ~KeyDisplay.inner
+      ~KeyDisplay.w_in
+      ~KeyDisplay.width
+   
+   

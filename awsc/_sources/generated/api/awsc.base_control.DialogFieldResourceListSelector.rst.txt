@@ -1,0 +1,31 @@
+﻿awsc.base\_control.DialogFieldResourceListSelector
+==================================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: DialogFieldResourceListSelector
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DialogFieldResourceListSelector.__init__
+      ~DialogFieldResourceListSelector.input
+      ~DialogFieldResourceListSelector.paint
+      ~DialogFieldResourceListSelector.selector_callback
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DialogFieldResourceListSelector.value
+   
+   

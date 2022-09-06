@@ -1,0 +1,42 @@
+﻿awsc.info.InfoDisplay
+=====================
+
+.. currentmodule:: awsc.info
+
+.. autoclass:: InfoDisplay
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~InfoDisplay.__init__
+      ~InfoDisplay.add_block
+      ~InfoDisplay.before_paint
+      ~InfoDisplay.bottomright
+      ~InfoDisplay.clear_blocks
+      ~InfoDisplay.input
+      ~InfoDisplay.paint
+      ~InfoDisplay.remove_block
+      ~InfoDisplay.reparent
+      ~InfoDisplay.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~InfoDisplay.border
+      ~InfoDisplay.corners
+      ~InfoDisplay.height
+      ~InfoDisplay.inner
+      ~InfoDisplay.w_in
+      ~InfoDisplay.width
+   
+   

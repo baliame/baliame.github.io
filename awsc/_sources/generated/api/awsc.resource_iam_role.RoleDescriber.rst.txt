@@ -1,0 +1,70 @@
+﻿awsc.resource\_iam\_role.RoleDescriber
+======================================
+
+.. currentmodule:: awsc.resource_iam_role
+
+.. autoclass:: RoleDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RoleDescriber.__init__
+      ~RoleDescriber.add_block
+      ~RoleDescriber.add_hotkey
+      ~RoleDescriber.add_text
+      ~RoleDescriber.autohotkey_condition
+      ~RoleDescriber.before_paint
+      ~RoleDescriber.bottomright
+      ~RoleDescriber.clear
+      ~RoleDescriber.clear_blocks
+      ~RoleDescriber.command
+      ~RoleDescriber.command_wrapper
+      ~RoleDescriber.copy_contents
+      ~RoleDescriber.end
+      ~RoleDescriber.home
+      ~RoleDescriber.input
+      ~RoleDescriber.opener
+      ~RoleDescriber.paint
+      ~RoleDescriber.pgdown
+      ~RoleDescriber.pgup
+      ~RoleDescriber.populate_describe_kwargs
+      ~RoleDescriber.populate_entry
+      ~RoleDescriber.raw
+      ~RoleDescriber.rawlines
+      ~RoleDescriber.refresh_data
+      ~RoleDescriber.register
+      ~RoleDescriber.remove_block
+      ~RoleDescriber.reparent
+      ~RoleDescriber.scroll_down
+      ~RoleDescriber.scroll_left
+      ~RoleDescriber.scroll_right
+      ~RoleDescriber.scroll_up
+      ~RoleDescriber.title_info
+      ~RoleDescriber.toggle_wrap
+      ~RoleDescriber.topleft
+      ~RoleDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RoleDescriber.border
+      ~RoleDescriber.corners
+      ~RoleDescriber.filter
+      ~RoleDescriber.height
+      ~RoleDescriber.inner
+      ~RoleDescriber.prefix
+      ~RoleDescriber.title
+      ~RoleDescriber.w_in
+      ~RoleDescriber.width
+   
+   

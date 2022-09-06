@@ -1,0 +1,101 @@
+﻿awsc.resource\_sg.SGRuleLister
+==============================
+
+.. currentmodule:: awsc.resource_sg
+
+.. autoclass:: SGRuleLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~SGRuleLister.__init__
+      ~SGRuleLister.add_block
+      ~SGRuleLister.add_column
+      ~SGRuleLister.add_entry
+      ~SGRuleLister.add_hotkey
+      ~SGRuleLister.async_inner
+      ~SGRuleLister.asynch
+      ~SGRuleLister.auto_refresh
+      ~SGRuleLister.autohotkey_condition
+      ~SGRuleLister.before_paint
+      ~SGRuleLister.before_paint_critical
+      ~SGRuleLister.bottomright
+      ~SGRuleLister.clear_blocks
+      ~SGRuleLister.command
+      ~SGRuleLister.command_wrapper
+      ~SGRuleLister.confirm_template
+      ~SGRuleLister.copy_arn
+      ~SGRuleLister.describe
+      ~SGRuleLister.describe_command
+      ~SGRuleLister.empty
+      ~SGRuleLister.end
+      ~SGRuleLister.get_data
+      ~SGRuleLister.get_data_generic
+      ~SGRuleLister.handle_finalization_critical
+      ~SGRuleLister.handle_new_entries_critical
+      ~SGRuleLister.home
+      ~SGRuleLister.input
+      ~SGRuleLister.list_down
+      ~SGRuleLister.list_up
+      ~SGRuleLister.matches
+      ~SGRuleLister.on_close
+      ~SGRuleLister.open
+      ~SGRuleLister.open_command
+      ~SGRuleLister.opener
+      ~SGRuleLister.pagedown
+      ~SGRuleLister.pageup
+      ~SGRuleLister.paint
+      ~SGRuleLister.refresh_data
+      ~SGRuleLister.register
+      ~SGRuleLister.remove_block
+      ~SGRuleLister.reparent
+      ~SGRuleLister.select_and_close
+      ~SGRuleLister.selector
+      ~SGRuleLister.selector_template
+      ~SGRuleLister.sort
+      ~SGRuleLister.title_info
+      ~SGRuleLister.topleft
+      ~SGRuleLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SGRuleLister.additional_commands
+      ~SGRuleLister.border
+      ~SGRuleLister.category
+      ~SGRuleLister.columns
+      ~SGRuleLister.command_palette
+      ~SGRuleLister.corners
+      ~SGRuleLister.describe_kwargs
+      ~SGRuleLister.describe_selection_arg
+      ~SGRuleLister.filter
+      ~SGRuleLister.filtered
+      ~SGRuleLister.height
+      ~SGRuleLister.inner
+      ~SGRuleLister.item_path
+      ~SGRuleLister.list_kwargs
+      ~SGRuleLister.list_method
+      ~SGRuleLister.main_provider
+      ~SGRuleLister.open_kwargs
+      ~SGRuleLister.open_selection_arg
+      ~SGRuleLister.prefix
+      ~SGRuleLister.primary_key
+      ~SGRuleLister.resource_type
+      ~SGRuleLister.rows
+      ~SGRuleLister.selection
+      ~SGRuleLister.subcategory
+      ~SGRuleLister.title
+      ~SGRuleLister.w_in
+      ~SGRuleLister.width
+   
+   

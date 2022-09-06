@@ -1,0 +1,70 @@
+﻿awsc.resource\_asg.ASGDescriber
+===============================
+
+.. currentmodule:: awsc.resource_asg
+
+.. autoclass:: ASGDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ASGDescriber.__init__
+      ~ASGDescriber.add_block
+      ~ASGDescriber.add_hotkey
+      ~ASGDescriber.add_text
+      ~ASGDescriber.autohotkey_condition
+      ~ASGDescriber.before_paint
+      ~ASGDescriber.bottomright
+      ~ASGDescriber.clear
+      ~ASGDescriber.clear_blocks
+      ~ASGDescriber.command
+      ~ASGDescriber.command_wrapper
+      ~ASGDescriber.copy_contents
+      ~ASGDescriber.end
+      ~ASGDescriber.home
+      ~ASGDescriber.input
+      ~ASGDescriber.opener
+      ~ASGDescriber.paint
+      ~ASGDescriber.pgdown
+      ~ASGDescriber.pgup
+      ~ASGDescriber.populate_describe_kwargs
+      ~ASGDescriber.populate_entry
+      ~ASGDescriber.raw
+      ~ASGDescriber.rawlines
+      ~ASGDescriber.refresh_data
+      ~ASGDescriber.register
+      ~ASGDescriber.remove_block
+      ~ASGDescriber.reparent
+      ~ASGDescriber.scroll_down
+      ~ASGDescriber.scroll_left
+      ~ASGDescriber.scroll_right
+      ~ASGDescriber.scroll_up
+      ~ASGDescriber.title_info
+      ~ASGDescriber.toggle_wrap
+      ~ASGDescriber.topleft
+      ~ASGDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ASGDescriber.border
+      ~ASGDescriber.corners
+      ~ASGDescriber.filter
+      ~ASGDescriber.height
+      ~ASGDescriber.inner
+      ~ASGDescriber.prefix
+      ~ASGDescriber.title
+      ~ASGDescriber.w_in
+      ~ASGDescriber.width
+   
+   

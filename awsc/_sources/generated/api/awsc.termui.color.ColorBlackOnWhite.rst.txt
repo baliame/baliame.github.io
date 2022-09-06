@@ -1,0 +1,6 @@
+﻿awsc.termui.color.ColorBlackOnWhite
+===================================
+
+.. currentmodule:: awsc.termui.color
+
+.. autodata:: ColorBlackOnWhite

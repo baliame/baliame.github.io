@@ -1,0 +1,101 @@
+﻿awsc.resource\_vpc.VPCResourceLister
+====================================
+
+.. currentmodule:: awsc.resource_vpc
+
+.. autoclass:: VPCResourceLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~VPCResourceLister.__init__
+      ~VPCResourceLister.add_block
+      ~VPCResourceLister.add_column
+      ~VPCResourceLister.add_entry
+      ~VPCResourceLister.add_hotkey
+      ~VPCResourceLister.async_inner
+      ~VPCResourceLister.asynch
+      ~VPCResourceLister.auto_refresh
+      ~VPCResourceLister.autohotkey_condition
+      ~VPCResourceLister.before_paint
+      ~VPCResourceLister.before_paint_critical
+      ~VPCResourceLister.bottomright
+      ~VPCResourceLister.clear_blocks
+      ~VPCResourceLister.command
+      ~VPCResourceLister.command_wrapper
+      ~VPCResourceLister.confirm_template
+      ~VPCResourceLister.copy_arn
+      ~VPCResourceLister.describe
+      ~VPCResourceLister.describe_command
+      ~VPCResourceLister.empty
+      ~VPCResourceLister.end
+      ~VPCResourceLister.get_data
+      ~VPCResourceLister.get_data_generic
+      ~VPCResourceLister.handle_finalization_critical
+      ~VPCResourceLister.handle_new_entries_critical
+      ~VPCResourceLister.home
+      ~VPCResourceLister.input
+      ~VPCResourceLister.list_down
+      ~VPCResourceLister.list_up
+      ~VPCResourceLister.matches
+      ~VPCResourceLister.on_close
+      ~VPCResourceLister.open
+      ~VPCResourceLister.opener
+      ~VPCResourceLister.pagedown
+      ~VPCResourceLister.pageup
+      ~VPCResourceLister.paint
+      ~VPCResourceLister.refresh_data
+      ~VPCResourceLister.register
+      ~VPCResourceLister.remove_block
+      ~VPCResourceLister.reparent
+      ~VPCResourceLister.select_and_close
+      ~VPCResourceLister.selector
+      ~VPCResourceLister.selector_template
+      ~VPCResourceLister.sort
+      ~VPCResourceLister.title_info
+      ~VPCResourceLister.topleft
+      ~VPCResourceLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VPCResourceLister.additional_commands
+      ~VPCResourceLister.border
+      ~VPCResourceLister.category
+      ~VPCResourceLister.columns
+      ~VPCResourceLister.command_palette
+      ~VPCResourceLister.corners
+      ~VPCResourceLister.describe_kwargs
+      ~VPCResourceLister.describe_selection_arg
+      ~VPCResourceLister.filter
+      ~VPCResourceLister.filtered
+      ~VPCResourceLister.height
+      ~VPCResourceLister.inner
+      ~VPCResourceLister.item_path
+      ~VPCResourceLister.list_kwargs
+      ~VPCResourceLister.list_method
+      ~VPCResourceLister.main_provider
+      ~VPCResourceLister.open_command
+      ~VPCResourceLister.open_kwargs
+      ~VPCResourceLister.open_selection_arg
+      ~VPCResourceLister.prefix
+      ~VPCResourceLister.primary_key
+      ~VPCResourceLister.resource_type
+      ~VPCResourceLister.rows
+      ~VPCResourceLister.selection
+      ~VPCResourceLister.subcategory
+      ~VPCResourceLister.title
+      ~VPCResourceLister.w_in
+      ~VPCResourceLister.width
+   
+   

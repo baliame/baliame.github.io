@@ -1,0 +1,59 @@
+﻿awsc.common.BaseChart
+=====================
+
+.. currentmodule:: awsc.common
+
+.. autoclass:: BaseChart
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~BaseChart.__init__
+      ~BaseChart.add_block
+      ~BaseChart.add_datapoint
+      ~BaseChart.add_hotkey
+      ~BaseChart.autohotkey_condition
+      ~BaseChart.before_paint
+      ~BaseChart.bottomright
+      ~BaseChart.clear_blocks
+      ~BaseChart.end
+      ~BaseChart.home
+      ~BaseChart.input
+      ~BaseChart.opener
+      ~BaseChart.paint
+      ~BaseChart.remove_block
+      ~BaseChart.reparent
+      ~BaseChart.scroll_left
+      ~BaseChart.scroll_right
+      ~BaseChart.title_info
+      ~BaseChart.topleft
+      ~BaseChart.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BaseChart.DPB_MinToMax
+      ~BaseChart.DPB_ZeroOrLessToMax
+      ~BaseChart.DPB_ZeroToMax
+      ~BaseChart.border
+      ~BaseChart.colspace
+      ~BaseChart.corners
+      ~BaseChart.data_points_behaviour
+      ~BaseChart.height
+      ~BaseChart.inner
+      ~BaseChart.prefix
+      ~BaseChart.title
+      ~BaseChart.w_in
+      ~BaseChart.width
+   
+   

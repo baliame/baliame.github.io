@@ -1,0 +1,70 @@
+﻿awsc.resource\_ec2.EC2Describer
+===============================
+
+.. currentmodule:: awsc.resource_ec2
+
+.. autoclass:: EC2Describer
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EC2Describer.__init__
+      ~EC2Describer.add_block
+      ~EC2Describer.add_hotkey
+      ~EC2Describer.add_text
+      ~EC2Describer.autohotkey_condition
+      ~EC2Describer.before_paint
+      ~EC2Describer.bottomright
+      ~EC2Describer.clear
+      ~EC2Describer.clear_blocks
+      ~EC2Describer.command
+      ~EC2Describer.command_wrapper
+      ~EC2Describer.copy_contents
+      ~EC2Describer.end
+      ~EC2Describer.home
+      ~EC2Describer.input
+      ~EC2Describer.opener
+      ~EC2Describer.paint
+      ~EC2Describer.pgdown
+      ~EC2Describer.pgup
+      ~EC2Describer.populate_describe_kwargs
+      ~EC2Describer.populate_entry
+      ~EC2Describer.raw
+      ~EC2Describer.rawlines
+      ~EC2Describer.refresh_data
+      ~EC2Describer.register
+      ~EC2Describer.remove_block
+      ~EC2Describer.reparent
+      ~EC2Describer.scroll_down
+      ~EC2Describer.scroll_left
+      ~EC2Describer.scroll_right
+      ~EC2Describer.scroll_up
+      ~EC2Describer.title_info
+      ~EC2Describer.toggle_wrap
+      ~EC2Describer.topleft
+      ~EC2Describer.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EC2Describer.border
+      ~EC2Describer.corners
+      ~EC2Describer.filter
+      ~EC2Describer.height
+      ~EC2Describer.inner
+      ~EC2Describer.prefix
+      ~EC2Describer.title
+      ~EC2Describer.w_in
+      ~EC2Describer.width
+   
+   

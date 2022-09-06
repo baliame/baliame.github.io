@@ -1,0 +1,101 @@
+﻿awsc.resource\_ec2\_class.InstanceClassResourceLister
+=====================================================
+
+.. currentmodule:: awsc.resource_ec2_class
+
+.. autoclass:: InstanceClassResourceLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~InstanceClassResourceLister.__init__
+      ~InstanceClassResourceLister.add_block
+      ~InstanceClassResourceLister.add_column
+      ~InstanceClassResourceLister.add_entry
+      ~InstanceClassResourceLister.add_hotkey
+      ~InstanceClassResourceLister.async_inner
+      ~InstanceClassResourceLister.asynch
+      ~InstanceClassResourceLister.auto_refresh
+      ~InstanceClassResourceLister.autohotkey_condition
+      ~InstanceClassResourceLister.before_paint
+      ~InstanceClassResourceLister.before_paint_critical
+      ~InstanceClassResourceLister.bottomright
+      ~InstanceClassResourceLister.clear_blocks
+      ~InstanceClassResourceLister.command
+      ~InstanceClassResourceLister.command_wrapper
+      ~InstanceClassResourceLister.confirm_template
+      ~InstanceClassResourceLister.copy_arn
+      ~InstanceClassResourceLister.describe
+      ~InstanceClassResourceLister.describe_command
+      ~InstanceClassResourceLister.empty
+      ~InstanceClassResourceLister.end
+      ~InstanceClassResourceLister.get_data
+      ~InstanceClassResourceLister.get_data_generic
+      ~InstanceClassResourceLister.handle_finalization_critical
+      ~InstanceClassResourceLister.handle_new_entries_critical
+      ~InstanceClassResourceLister.home
+      ~InstanceClassResourceLister.input
+      ~InstanceClassResourceLister.list_down
+      ~InstanceClassResourceLister.list_up
+      ~InstanceClassResourceLister.matches
+      ~InstanceClassResourceLister.on_close
+      ~InstanceClassResourceLister.open
+      ~InstanceClassResourceLister.opener
+      ~InstanceClassResourceLister.pagedown
+      ~InstanceClassResourceLister.pageup
+      ~InstanceClassResourceLister.paint
+      ~InstanceClassResourceLister.refresh_data
+      ~InstanceClassResourceLister.register
+      ~InstanceClassResourceLister.remove_block
+      ~InstanceClassResourceLister.reparent
+      ~InstanceClassResourceLister.select_and_close
+      ~InstanceClassResourceLister.selector
+      ~InstanceClassResourceLister.selector_template
+      ~InstanceClassResourceLister.sort
+      ~InstanceClassResourceLister.title_info
+      ~InstanceClassResourceLister.topleft
+      ~InstanceClassResourceLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~InstanceClassResourceLister.additional_commands
+      ~InstanceClassResourceLister.border
+      ~InstanceClassResourceLister.category
+      ~InstanceClassResourceLister.columns
+      ~InstanceClassResourceLister.command_palette
+      ~InstanceClassResourceLister.corners
+      ~InstanceClassResourceLister.describe_kwargs
+      ~InstanceClassResourceLister.describe_selection_arg
+      ~InstanceClassResourceLister.filter
+      ~InstanceClassResourceLister.filtered
+      ~InstanceClassResourceLister.height
+      ~InstanceClassResourceLister.inner
+      ~InstanceClassResourceLister.item_path
+      ~InstanceClassResourceLister.list_kwargs
+      ~InstanceClassResourceLister.list_method
+      ~InstanceClassResourceLister.main_provider
+      ~InstanceClassResourceLister.open_command
+      ~InstanceClassResourceLister.open_kwargs
+      ~InstanceClassResourceLister.open_selection_arg
+      ~InstanceClassResourceLister.prefix
+      ~InstanceClassResourceLister.primary_key
+      ~InstanceClassResourceLister.resource_type
+      ~InstanceClassResourceLister.rows
+      ~InstanceClassResourceLister.selection
+      ~InstanceClassResourceLister.subcategory
+      ~InstanceClassResourceLister.title
+      ~InstanceClassResourceLister.w_in
+      ~InstanceClassResourceLister.width
+   
+   

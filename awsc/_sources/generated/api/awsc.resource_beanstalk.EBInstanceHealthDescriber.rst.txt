@@ -1,0 +1,70 @@
+﻿awsc.resource\_beanstalk.EBInstanceHealthDescriber
+==================================================
+
+.. currentmodule:: awsc.resource_beanstalk
+
+.. autoclass:: EBInstanceHealthDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EBInstanceHealthDescriber.__init__
+      ~EBInstanceHealthDescriber.add_block
+      ~EBInstanceHealthDescriber.add_hotkey
+      ~EBInstanceHealthDescriber.add_text
+      ~EBInstanceHealthDescriber.autohotkey_condition
+      ~EBInstanceHealthDescriber.before_paint
+      ~EBInstanceHealthDescriber.bottomright
+      ~EBInstanceHealthDescriber.clear
+      ~EBInstanceHealthDescriber.clear_blocks
+      ~EBInstanceHealthDescriber.command
+      ~EBInstanceHealthDescriber.command_wrapper
+      ~EBInstanceHealthDescriber.copy_contents
+      ~EBInstanceHealthDescriber.end
+      ~EBInstanceHealthDescriber.home
+      ~EBInstanceHealthDescriber.input
+      ~EBInstanceHealthDescriber.opener
+      ~EBInstanceHealthDescriber.paint
+      ~EBInstanceHealthDescriber.pgdown
+      ~EBInstanceHealthDescriber.pgup
+      ~EBInstanceHealthDescriber.populate_describe_kwargs
+      ~EBInstanceHealthDescriber.populate_entry
+      ~EBInstanceHealthDescriber.raw
+      ~EBInstanceHealthDescriber.rawlines
+      ~EBInstanceHealthDescriber.refresh_data
+      ~EBInstanceHealthDescriber.register
+      ~EBInstanceHealthDescriber.remove_block
+      ~EBInstanceHealthDescriber.reparent
+      ~EBInstanceHealthDescriber.scroll_down
+      ~EBInstanceHealthDescriber.scroll_left
+      ~EBInstanceHealthDescriber.scroll_right
+      ~EBInstanceHealthDescriber.scroll_up
+      ~EBInstanceHealthDescriber.title_info
+      ~EBInstanceHealthDescriber.toggle_wrap
+      ~EBInstanceHealthDescriber.topleft
+      ~EBInstanceHealthDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EBInstanceHealthDescriber.border
+      ~EBInstanceHealthDescriber.corners
+      ~EBInstanceHealthDescriber.filter
+      ~EBInstanceHealthDescriber.height
+      ~EBInstanceHealthDescriber.inner
+      ~EBInstanceHealthDescriber.prefix
+      ~EBInstanceHealthDescriber.title
+      ~EBInstanceHealthDescriber.w_in
+      ~EBInstanceHealthDescriber.width
+   
+   

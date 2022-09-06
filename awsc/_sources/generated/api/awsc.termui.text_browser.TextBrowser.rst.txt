@@ -1,0 +1,60 @@
+﻿awsc.termui.text\_browser.TextBrowser
+=====================================
+
+.. currentmodule:: awsc.termui.text_browser
+
+.. autoclass:: TextBrowser
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~TextBrowser.__init__
+      ~TextBrowser.add_block
+      ~TextBrowser.add_hotkey
+      ~TextBrowser.add_text
+      ~TextBrowser.autohotkey_condition
+      ~TextBrowser.before_paint
+      ~TextBrowser.bottomright
+      ~TextBrowser.clear
+      ~TextBrowser.clear_blocks
+      ~TextBrowser.copy_contents
+      ~TextBrowser.end
+      ~TextBrowser.home
+      ~TextBrowser.input
+      ~TextBrowser.paint
+      ~TextBrowser.pgdown
+      ~TextBrowser.pgup
+      ~TextBrowser.raw
+      ~TextBrowser.rawlines
+      ~TextBrowser.remove_block
+      ~TextBrowser.reparent
+      ~TextBrowser.scroll_down
+      ~TextBrowser.scroll_left
+      ~TextBrowser.scroll_right
+      ~TextBrowser.scroll_up
+      ~TextBrowser.toggle_wrap
+      ~TextBrowser.topleft
+      ~TextBrowser.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TextBrowser.border
+      ~TextBrowser.corners
+      ~TextBrowser.filter
+      ~TextBrowser.height
+      ~TextBrowser.inner
+      ~TextBrowser.w_in
+      ~TextBrowser.width
+   
+   

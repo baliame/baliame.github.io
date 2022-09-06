@@ -1,0 +1,70 @@
+﻿awsc.resource\_vpc.VPCDescriber
+===============================
+
+.. currentmodule:: awsc.resource_vpc
+
+.. autoclass:: VPCDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~VPCDescriber.__init__
+      ~VPCDescriber.add_block
+      ~VPCDescriber.add_hotkey
+      ~VPCDescriber.add_text
+      ~VPCDescriber.autohotkey_condition
+      ~VPCDescriber.before_paint
+      ~VPCDescriber.bottomright
+      ~VPCDescriber.clear
+      ~VPCDescriber.clear_blocks
+      ~VPCDescriber.command
+      ~VPCDescriber.command_wrapper
+      ~VPCDescriber.copy_contents
+      ~VPCDescriber.end
+      ~VPCDescriber.home
+      ~VPCDescriber.input
+      ~VPCDescriber.opener
+      ~VPCDescriber.paint
+      ~VPCDescriber.pgdown
+      ~VPCDescriber.pgup
+      ~VPCDescriber.populate_describe_kwargs
+      ~VPCDescriber.populate_entry
+      ~VPCDescriber.raw
+      ~VPCDescriber.rawlines
+      ~VPCDescriber.refresh_data
+      ~VPCDescriber.register
+      ~VPCDescriber.remove_block
+      ~VPCDescriber.reparent
+      ~VPCDescriber.scroll_down
+      ~VPCDescriber.scroll_left
+      ~VPCDescriber.scroll_right
+      ~VPCDescriber.scroll_up
+      ~VPCDescriber.title_info
+      ~VPCDescriber.toggle_wrap
+      ~VPCDescriber.topleft
+      ~VPCDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VPCDescriber.border
+      ~VPCDescriber.corners
+      ~VPCDescriber.filter
+      ~VPCDescriber.height
+      ~VPCDescriber.inner
+      ~VPCDescriber.prefix
+      ~VPCDescriber.title
+      ~VPCDescriber.w_in
+      ~VPCDescriber.width
+   
+   

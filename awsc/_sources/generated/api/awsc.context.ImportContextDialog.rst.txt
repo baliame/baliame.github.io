@@ -1,0 +1,49 @@
+﻿awsc.context.ImportContextDialog
+================================
+
+.. currentmodule:: awsc.context
+
+.. autoclass:: ImportContextDialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ImportContextDialog.__init__
+      ~ImportContextDialog.accept_and_close
+      ~ImportContextDialog.add_block
+      ~ImportContextDialog.add_field
+      ~ImportContextDialog.before_paint
+      ~ImportContextDialog.bottomright
+      ~ImportContextDialog.clear_blocks
+      ~ImportContextDialog.close
+      ~ImportContextDialog.input
+      ~ImportContextDialog.nop
+      ~ImportContextDialog.opener
+      ~ImportContextDialog.paint
+      ~ImportContextDialog.remove_block
+      ~ImportContextDialog.reparent
+      ~ImportContextDialog.set_title_label
+      ~ImportContextDialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ImportContextDialog.border
+      ~ImportContextDialog.corners
+      ~ImportContextDialog.height
+      ~ImportContextDialog.inner
+      ~ImportContextDialog.line_size
+      ~ImportContextDialog.w_in
+      ~ImportContextDialog.width
+   
+   

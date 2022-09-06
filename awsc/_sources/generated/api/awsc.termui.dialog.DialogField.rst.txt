@@ -1,0 +1,30 @@
+﻿awsc.termui.dialog.DialogField
+==============================
+
+.. currentmodule:: awsc.termui.dialog
+
+.. autoclass:: DialogField
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DialogField.__init__
+      ~DialogField.input
+      ~DialogField.paint
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DialogField.value
+   
+   

@@ -1,0 +1,49 @@
+﻿awsc.resource\_asg.ASGScaleDialog
+=================================
+
+.. currentmodule:: awsc.resource_asg
+
+.. autoclass:: ASGScaleDialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ASGScaleDialog.__init__
+      ~ASGScaleDialog.accept_and_close
+      ~ASGScaleDialog.add_block
+      ~ASGScaleDialog.add_field
+      ~ASGScaleDialog.before_paint
+      ~ASGScaleDialog.bottomright
+      ~ASGScaleDialog.clear_blocks
+      ~ASGScaleDialog.close
+      ~ASGScaleDialog.input
+      ~ASGScaleDialog.nop
+      ~ASGScaleDialog.opener
+      ~ASGScaleDialog.paint
+      ~ASGScaleDialog.remove_block
+      ~ASGScaleDialog.reparent
+      ~ASGScaleDialog.set_title_label
+      ~ASGScaleDialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ASGScaleDialog.border
+      ~ASGScaleDialog.corners
+      ~ASGScaleDialog.height
+      ~ASGScaleDialog.inner
+      ~ASGScaleDialog.line_size
+      ~ASGScaleDialog.w_in
+      ~ASGScaleDialog.width
+   
+   

@@ -1,0 +1,6 @@
+﻿awsc.version.VERSION
+====================
+
+.. currentmodule:: awsc.version
+
+.. autodata:: VERSION

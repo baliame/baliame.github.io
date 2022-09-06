@@ -1,0 +1,68 @@
+﻿awsc.base\_control.OpenableListControl
+======================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: OpenableListControl
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~OpenableListControl.__init__
+      ~OpenableListControl.add_block
+      ~OpenableListControl.add_column
+      ~OpenableListControl.add_entry
+      ~OpenableListControl.add_hotkey
+      ~OpenableListControl.autohotkey_condition
+      ~OpenableListControl.before_paint
+      ~OpenableListControl.before_paint_critical
+      ~OpenableListControl.bottomright
+      ~OpenableListControl.clear_blocks
+      ~OpenableListControl.describe
+      ~OpenableListControl.end
+      ~OpenableListControl.handle_finalization_critical
+      ~OpenableListControl.handle_new_entries_critical
+      ~OpenableListControl.home
+      ~OpenableListControl.input
+      ~OpenableListControl.list_down
+      ~OpenableListControl.list_up
+      ~OpenableListControl.opener
+      ~OpenableListControl.pagedown
+      ~OpenableListControl.pageup
+      ~OpenableListControl.paint
+      ~OpenableListControl.remove_block
+      ~OpenableListControl.reparent
+      ~OpenableListControl.select_and_close
+      ~OpenableListControl.selector
+      ~OpenableListControl.sort
+      ~OpenableListControl.topleft
+      ~OpenableListControl.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~OpenableListControl.border
+      ~OpenableListControl.corners
+      ~OpenableListControl.describer
+      ~OpenableListControl.filter
+      ~OpenableListControl.filtered
+      ~OpenableListControl.height
+      ~OpenableListControl.inner
+      ~OpenableListControl.prefix
+      ~OpenableListControl.rows
+      ~OpenableListControl.selection
+      ~OpenableListControl.title
+      ~OpenableListControl.w_in
+      ~OpenableListControl.width
+   
+   

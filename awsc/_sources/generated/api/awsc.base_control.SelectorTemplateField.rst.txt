@@ -1,0 +1,23 @@
+﻿awsc.base\_control.SelectorTemplateField
+========================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: SelectorTemplateField
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~SelectorTemplateField.__init__
+      ~SelectorTemplateField.resolve
+   
+   
+
+   
+   
+   

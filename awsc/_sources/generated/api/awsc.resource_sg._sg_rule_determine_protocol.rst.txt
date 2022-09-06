@@ -1,0 +1,6 @@
+﻿awsc.resource\_sg.\_sg\_rule\_determine\_protocol
+=================================================
+
+.. currentmodule:: awsc.resource_sg
+
+.. autofunction:: _sg_rule_determine_protocol
