@@ -1,6 +1,0 @@
-﻿awsc.resource\_routing.\_route\_determine\_gateway
-==================================================
-
-.. currentmodule:: awsc.resource_routing
-
-.. autofunction:: _route_determine_gateway

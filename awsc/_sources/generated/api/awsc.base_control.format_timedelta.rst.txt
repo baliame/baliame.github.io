@@ -1,6 +1,0 @@
-﻿awsc.base\_control.format\_timedelta
-====================================
-
-.. currentmodule:: awsc.base_control
-
-.. autofunction:: format_timedelta

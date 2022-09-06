@@ -1,6 +1,0 @@
-﻿awsc.termui.common.column\_sizer
-================================
-
-.. currentmodule:: awsc.termui.common
-
-.. autofunction:: column_sizer

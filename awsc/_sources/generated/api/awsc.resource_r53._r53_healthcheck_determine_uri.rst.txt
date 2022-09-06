@@ -1,6 +1,0 @@
-﻿awsc.resource\_r53.\_r53\_healthcheck\_determine\_uri
-=====================================================
-
-.. currentmodule:: awsc.resource_r53
-
-.. autofunction:: _r53_healthcheck_determine_uri

@@ -1,6 +1,0 @@
-﻿awsc.resource\_ebs.\_ebs\_determine\_size
-=========================================
-
-.. currentmodule:: awsc.resource_ebs
-
-.. autofunction:: _ebs_determine_size

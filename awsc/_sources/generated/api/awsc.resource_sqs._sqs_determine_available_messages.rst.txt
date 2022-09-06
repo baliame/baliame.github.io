@@ -1,6 +1,0 @@
-﻿awsc.resource\_sqs.\_sqs\_determine\_available\_messages
-========================================================
-
-.. currentmodule:: awsc.resource_sqs
-
-.. autofunction:: _sqs_determine_available_messages

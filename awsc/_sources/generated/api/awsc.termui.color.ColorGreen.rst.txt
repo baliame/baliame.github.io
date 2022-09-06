@@ -1,6 +1,0 @@
-﻿awsc.termui.color.ColorGreen
-============================
-
-.. currentmodule:: awsc.termui.color
-
-.. autodata:: ColorGreen

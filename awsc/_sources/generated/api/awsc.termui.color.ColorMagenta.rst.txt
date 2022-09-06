@@ -1,6 +1,0 @@
-﻿awsc.termui.color.ColorMagenta
-==============================
-
-.. currentmodule:: awsc.termui.color
-
-.. autodata:: ColorMagenta

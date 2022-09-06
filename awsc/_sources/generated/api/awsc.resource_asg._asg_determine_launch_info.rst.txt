@@ -1,6 +1,0 @@
-﻿awsc.resource\_asg.\_asg\_determine\_launch\_info
-=================================================
-
-.. currentmodule:: awsc.resource_asg
-
-.. autofunction:: _asg_determine_launch_info

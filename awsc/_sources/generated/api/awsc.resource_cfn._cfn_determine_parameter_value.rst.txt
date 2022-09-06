@@ -1,6 +1,0 @@
-﻿awsc.resource\_cfn.\_cfn\_determine\_parameter\_value
-=====================================================
-
-.. currentmodule:: awsc.resource_cfn
-
-.. autofunction:: _cfn_determine_parameter_value

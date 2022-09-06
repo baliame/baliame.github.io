@@ -1,6 +1,0 @@
-﻿awsc.resource\_subnet.\_subnet\_determine\_public
-=================================================
-
-.. currentmodule:: awsc.resource_subnet
-
-.. autofunction:: _subnet_determine_public

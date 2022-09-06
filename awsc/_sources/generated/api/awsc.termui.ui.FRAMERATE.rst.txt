@@ -1,6 +1,0 @@
-﻿awsc.termui.ui.FRAMERATE
-========================
-
-.. currentmodule:: awsc.termui.ui
-
-.. autodata:: FRAMERATE

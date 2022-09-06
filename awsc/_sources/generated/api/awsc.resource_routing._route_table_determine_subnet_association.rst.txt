@@ -1,6 +1,0 @@
-﻿awsc.resource\_routing.\_route\_table\_determine\_subnet\_association
-=====================================================================
-
-.. currentmodule:: awsc.resource_routing
-
-.. autofunction:: _route_table_determine_subnet_association

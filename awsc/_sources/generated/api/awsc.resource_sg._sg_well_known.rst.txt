@@ -1,6 +1,0 @@
-﻿awsc.resource\_sg.\_sg\_well\_known
-===================================
-
-.. currentmodule:: awsc.resource_sg
-
-.. autodata:: _sg_well_known

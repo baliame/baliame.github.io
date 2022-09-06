@@ -1,6 +1,0 @@
-﻿awsc.base\_control.StopLoadingData
-==================================
-
-.. currentmodule:: awsc.base_control
-
-.. autoexception:: StopLoadingData

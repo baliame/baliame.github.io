@@ -1,6 +1,0 @@
-﻿awsc.resource\_sg.\_sg\_determine\_egress\_rules
-================================================
-
-.. currentmodule:: awsc.resource_sg
-
-.. autofunction:: _sg_determine_egress_rules

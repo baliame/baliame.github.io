@@ -1,6 +1,0 @@
-﻿awsc.termui.color.ColorBlackOnOrange
-====================================
-
-.. currentmodule:: awsc.termui.color
-
-.. autodata:: ColorBlackOnOrange

@@ -1,6 +1,0 @@
-﻿awsc.resource\_iam\_instance\_profile.\_instance\_profile\_determine\_role\_count
-=================================================================================
-
-.. currentmodule:: awsc.resource_iam_instance_profile
-
-.. autofunction:: _instance_profile_determine_role_count

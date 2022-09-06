@@ -1,6 +1,0 @@
-﻿awsc.resource\_keypair.\_keypair\_determine\_association
-========================================================
-
-.. currentmodule:: awsc.resource_keypair
-
-.. autofunction:: _keypair_determine_association

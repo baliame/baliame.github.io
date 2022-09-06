@@ -1,6 +1,0 @@
-﻿awsc.base\_control.tagged\_column\_generator
-============================================
-
-.. currentmodule:: awsc.base_control
-
-.. autofunction:: tagged_column_generator

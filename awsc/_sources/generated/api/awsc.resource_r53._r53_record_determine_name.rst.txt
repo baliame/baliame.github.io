@@ -1,6 +1,0 @@
-﻿awsc.resource\_r53.\_r53\_record\_determine\_name
-=================================================
-
-.. currentmodule:: awsc.resource_r53
-
-.. autofunction:: _r53_record_determine_name

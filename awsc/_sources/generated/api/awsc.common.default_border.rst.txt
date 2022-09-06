@@ -1,6 +1,0 @@
-﻿awsc.common.default\_border
-===========================
-
-.. currentmodule:: awsc.common
-
-.. autofunction:: default_border

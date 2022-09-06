@@ -1,6 +1,0 @@
-﻿awsc.resource\_sg.\_sg\_rule\_determine\_port\_range
-====================================================
-
-.. currentmodule:: awsc.resource_sg
-
-.. autofunction:: _sg_rule_determine_port_range

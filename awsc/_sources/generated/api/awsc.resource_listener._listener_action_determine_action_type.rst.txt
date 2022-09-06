@@ -1,6 +1,0 @@
-﻿awsc.resource\_listener.\_listener\_action\_determine\_action\_type
-===================================================================
-
-.. currentmodule:: awsc.resource_listener
-
-.. autofunction:: _listener_action_determine_action_type

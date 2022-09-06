@@ -1,6 +1,0 @@
-﻿awsc.resource\_sg.\_sg\_rule\_determine\_name
-=============================================
-
-.. currentmodule:: awsc.resource_sg
-
-.. autofunction:: _sg_rule_determine_name

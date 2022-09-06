@@ -1,6 +1,0 @@
-﻿awsc.resource\_cfn.\_cfn\_determine\_created
-============================================
-
-.. currentmodule:: awsc.resource_cfn
-
-.. autofunction:: _cfn_determine_created

@@ -1,6 +1,0 @@
-﻿awsc.resource\_common.multilister\_with\_compare\_path
-======================================================
-
-.. currentmodule:: awsc.resource_common
-
-.. autofunction:: multilister_with_compare_path

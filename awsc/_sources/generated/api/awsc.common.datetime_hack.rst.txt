@@ -1,6 +1,0 @@
-﻿awsc.common.datetime\_hack
-==========================
-
-.. currentmodule:: awsc.common
-
-.. autofunction:: datetime_hack

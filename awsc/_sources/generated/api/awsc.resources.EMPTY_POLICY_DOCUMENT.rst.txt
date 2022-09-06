@@ -1,6 +1,0 @@
-﻿awsc.resources.EMPTY\_POLICY\_DOCUMENT
-======================================
-
-.. currentmodule:: awsc.resources
-
-.. autodata:: EMPTY_POLICY_DOCUMENT

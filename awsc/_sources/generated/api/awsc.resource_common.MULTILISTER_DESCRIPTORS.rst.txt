@@ -1,6 +1,0 @@
-﻿awsc.resource\_common.MULTILISTER\_DESCRIPTORS
-==============================================
-
-.. currentmodule:: awsc.resource_common
-
-.. autodata:: MULTILISTER_DESCRIPTORS

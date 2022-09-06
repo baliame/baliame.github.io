@@ -1,6 +1,0 @@
-﻿awsc.session.current\_version
-=============================
-
-.. currentmodule:: awsc.session
-
-.. autodata:: current_version

@@ -1,6 +1,0 @@
-﻿awsc.main.open\_filterer
-========================
-
-.. currentmodule:: awsc.main
-
-.. autofunction:: open_filterer

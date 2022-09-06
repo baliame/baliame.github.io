@@ -1,6 +1,0 @@
-﻿awsc.config.config.LAST\_CONFIG\_VERSION
-========================================
-
-.. currentmodule:: awsc.config.config
-
-.. autodata:: LAST_CONFIG_VERSION
