@@ -44,6 +44,7 @@
       ~KeyPairResourceLister.list_down
       ~KeyPairResourceLister.list_up
       ~KeyPairResourceLister.matches
+      ~KeyPairResourceLister.on_become_frame
       ~KeyPairResourceLister.on_close
       ~KeyPairResourceLister.open
       ~KeyPairResourceLister.opener

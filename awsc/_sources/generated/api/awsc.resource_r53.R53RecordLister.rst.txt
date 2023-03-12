@@ -46,6 +46,7 @@
       ~R53RecordLister.list_down
       ~R53RecordLister.list_up
       ~R53RecordLister.matches
+      ~R53RecordLister.on_become_frame
       ~R53RecordLister.on_close
       ~R53RecordLister.open
       ~R53RecordLister.opener

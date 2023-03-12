@@ -24,10 +24,12 @@
       ~EBPlatformVersionDescriber.clear_blocks
       ~EBPlatformVersionDescriber.command
       ~EBPlatformVersionDescriber.command_wrapper
+      ~EBPlatformVersionDescriber.confirm_template
       ~EBPlatformVersionDescriber.copy_contents
       ~EBPlatformVersionDescriber.end
       ~EBPlatformVersionDescriber.home
       ~EBPlatformVersionDescriber.input
+      ~EBPlatformVersionDescriber.on_become_frame
       ~EBPlatformVersionDescriber.opener
       ~EBPlatformVersionDescriber.paint
       ~EBPlatformVersionDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~EBPlatformVersionDescriber.border
+      ~EBPlatformVersionDescriber.category
       ~EBPlatformVersionDescriber.corners
+      ~EBPlatformVersionDescriber.default_entry_key
+      ~EBPlatformVersionDescriber.describe_kwarg_is_list
+      ~EBPlatformVersionDescriber.describe_kwarg_name
+      ~EBPlatformVersionDescriber.describe_kwargs_override
+      ~EBPlatformVersionDescriber.describe_method
       ~EBPlatformVersionDescriber.filter
       ~EBPlatformVersionDescriber.height
       ~EBPlatformVersionDescriber.inner
+      ~EBPlatformVersionDescriber.main_provider
+      ~EBPlatformVersionDescriber.object_path
       ~EBPlatformVersionDescriber.prefix
+      ~EBPlatformVersionDescriber.resource_type
+      ~EBPlatformVersionDescriber.subcategory
       ~EBPlatformVersionDescriber.title
       ~EBPlatformVersionDescriber.w_in
       ~EBPlatformVersionDescriber.width

@@ -38,6 +38,7 @@
       ~EBEnvironmentResourceLister.list_down
       ~EBEnvironmentResourceLister.list_up
       ~EBEnvironmentResourceLister.matches
+      ~EBEnvironmentResourceLister.on_become_frame
       ~EBEnvironmentResourceLister.on_close
       ~EBEnvironmentResourceLister.opener
       ~EBEnvironmentResourceLister.pagedown

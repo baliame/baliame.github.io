@@ -43,6 +43,7 @@
       ~VPCResourceLister.list_down
       ~VPCResourceLister.list_up
       ~VPCResourceLister.matches
+      ~VPCResourceLister.on_become_frame
       ~VPCResourceLister.on_close
       ~VPCResourceLister.open
       ~VPCResourceLister.opener

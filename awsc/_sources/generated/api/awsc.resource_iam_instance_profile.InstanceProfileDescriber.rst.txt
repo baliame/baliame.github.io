@@ -24,10 +24,12 @@
       ~InstanceProfileDescriber.clear_blocks
       ~InstanceProfileDescriber.command
       ~InstanceProfileDescriber.command_wrapper
+      ~InstanceProfileDescriber.confirm_template
       ~InstanceProfileDescriber.copy_contents
       ~InstanceProfileDescriber.end
       ~InstanceProfileDescriber.home
       ~InstanceProfileDescriber.input
+      ~InstanceProfileDescriber.on_become_frame
       ~InstanceProfileDescriber.opener
       ~InstanceProfileDescriber.paint
       ~InstanceProfileDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~InstanceProfileDescriber.border
+      ~InstanceProfileDescriber.category
       ~InstanceProfileDescriber.corners
+      ~InstanceProfileDescriber.default_entry_key
+      ~InstanceProfileDescriber.describe_kwarg_is_list
+      ~InstanceProfileDescriber.describe_kwarg_name
+      ~InstanceProfileDescriber.describe_kwargs_override
+      ~InstanceProfileDescriber.describe_method
       ~InstanceProfileDescriber.filter
       ~InstanceProfileDescriber.height
       ~InstanceProfileDescriber.inner
+      ~InstanceProfileDescriber.main_provider
+      ~InstanceProfileDescriber.object_path
       ~InstanceProfileDescriber.prefix
+      ~InstanceProfileDescriber.resource_type
+      ~InstanceProfileDescriber.subcategory
       ~InstanceProfileDescriber.title
       ~InstanceProfileDescriber.w_in
       ~InstanceProfileDescriber.width

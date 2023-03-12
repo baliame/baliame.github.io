@@ -23,6 +23,7 @@
       ~SessionAwareDialog.close
       ~SessionAwareDialog.input
       ~SessionAwareDialog.nop
+      ~SessionAwareDialog.on_become_frame
       ~SessionAwareDialog.opener
       ~SessionAwareDialog.paint
       ~SessionAwareDialog.remove_block

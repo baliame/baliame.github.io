@@ -23,6 +23,7 @@
       ~SingleNameDialog.close
       ~SingleNameDialog.input
       ~SingleNameDialog.nop
+      ~SingleNameDialog.on_become_frame
       ~SingleNameDialog.opener
       ~SingleNameDialog.paint
       ~SingleNameDialog.remove_block

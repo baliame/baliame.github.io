@@ -17,6 +17,7 @@
       ~ListResourceDocumentCreator.display_content
       ~ListResourceDocumentCreator.edit
       ~ListResourceDocumentCreator.generate_kwargs
+      ~ListResourceDocumentCreator.hotkey_callback
       ~ListResourceDocumentCreator.retrieve_content
       ~ListResourceDocumentCreator.update_content
    

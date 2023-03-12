@@ -46,6 +46,7 @@
       ~SQSLister.list_down
       ~SQSLister.list_up
       ~SQSLister.matches
+      ~SQSLister.on_become_frame
       ~SQSLister.on_close
       ~SQSLister.open
       ~SQSLister.opener

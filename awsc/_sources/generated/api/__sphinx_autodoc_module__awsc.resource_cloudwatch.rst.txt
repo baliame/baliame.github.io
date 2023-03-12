@@ -16,5 +16,8 @@ resource_cloudwatch
 .. autosummary::
    :toctree:
 
+   AlarmDescriber
+   AlarmLister
+   CloudwatchAlarmDashboardBlock
    MetricLister
    MetricViewer

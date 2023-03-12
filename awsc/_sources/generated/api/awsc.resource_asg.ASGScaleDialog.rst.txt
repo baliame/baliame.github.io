@@ -23,6 +23,7 @@
       ~ASGScaleDialog.close
       ~ASGScaleDialog.input
       ~ASGScaleDialog.nop
+      ~ASGScaleDialog.on_become_frame
       ~ASGScaleDialog.opener
       ~ASGScaleDialog.paint
       ~ASGScaleDialog.remove_block

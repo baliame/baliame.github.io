@@ -24,10 +24,12 @@
       ~SQSDescriber.clear_blocks
       ~SQSDescriber.command
       ~SQSDescriber.command_wrapper
+      ~SQSDescriber.confirm_template
       ~SQSDescriber.copy_contents
       ~SQSDescriber.end
       ~SQSDescriber.home
       ~SQSDescriber.input
+      ~SQSDescriber.on_become_frame
       ~SQSDescriber.opener
       ~SQSDescriber.paint
       ~SQSDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~SQSDescriber.border
+      ~SQSDescriber.category
       ~SQSDescriber.corners
+      ~SQSDescriber.default_entry_key
+      ~SQSDescriber.describe_kwarg_is_list
+      ~SQSDescriber.describe_kwarg_name
+      ~SQSDescriber.describe_kwargs_override
+      ~SQSDescriber.describe_method
       ~SQSDescriber.filter
       ~SQSDescriber.height
       ~SQSDescriber.inner
+      ~SQSDescriber.main_provider
+      ~SQSDescriber.object_path
       ~SQSDescriber.prefix
+      ~SQSDescriber.resource_type
+      ~SQSDescriber.subcategory
       ~SQSDescriber.title
       ~SQSDescriber.w_in
       ~SQSDescriber.width

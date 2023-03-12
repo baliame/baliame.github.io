@@ -23,6 +23,7 @@
       ~ImportContextDialog.close
       ~ImportContextDialog.input
       ~ImportContextDialog.nop
+      ~ImportContextDialog.on_become_frame
       ~ImportContextDialog.opener
       ~ImportContextDialog.paint
       ~ImportContextDialog.remove_block

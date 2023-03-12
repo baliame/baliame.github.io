@@ -43,6 +43,7 @@
       ~AMIResourceLister.list_down
       ~AMIResourceLister.list_up
       ~AMIResourceLister.matches
+      ~AMIResourceLister.on_become_frame
       ~AMIResourceLister.on_close
       ~AMIResourceLister.open
       ~AMIResourceLister.opener

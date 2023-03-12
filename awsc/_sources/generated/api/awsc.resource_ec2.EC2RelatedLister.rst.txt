@@ -38,6 +38,7 @@
       ~EC2RelatedLister.list_down
       ~EC2RelatedLister.list_up
       ~EC2RelatedLister.matches
+      ~EC2RelatedLister.on_become_frame
       ~EC2RelatedLister.on_close
       ~EC2RelatedLister.opener
       ~EC2RelatedLister.pagedown

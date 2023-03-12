@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>awsc.termui.ui.UI &mdash; AWS Commander 0.4.0rc9 documentation</title>
+  <title>awsc.termui.ui.UI &mdash; AWS Commander 0.4.0rc11 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -28,14 +27,18 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../../index.html" class="icon icon-home"> AWS Commander
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            AWS Commander
           </a>
               <div class="version">
-                0.4.0rc9
+                0.4.0rc11
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -53,6 +56,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.scheme.html">config.scheme</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.storage.html">config.storage</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.context.html">context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.dashboard.html">dashboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.hotkey.html">hotkey</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.info.html">info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.log.html">log</a></li>
@@ -69,6 +73,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ebs.html">resource_ebs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2.html">resource_ec2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2_class.html">resource_ec2_class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_eks.html">resource_eks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam.html">resource_iam</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_group.html">resource_iam_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_instance_profile.html">resource_iam_instance_profile</a></li>
@@ -105,7 +110,10 @@
 <li class="toctree-l3"><a class="reference internal" href="awsc.termui.ui.ControlCodes.html">awsc.termui.ui.ControlCodes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.termui.ui.FRAMERATE.html">awsc.termui.ui.FRAMERATE</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.termui.ui.KeyDisplay.html">awsc.termui.ui.KeyDisplay</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">awsc.termui.ui.UI</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">awsc.termui.ui.UI</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#awsc.termui.ui.UI"><code class="docutils literal notranslate"><span class="pre">UI</span></code></a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.version.html">version</a></li>
@@ -126,10 +134,10 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="index.html">API Reference</a> &raquo;</li>
-          <li><a href="__sphinx_autodoc_module__awsc.termui.ui.html">termui.ui</a> &raquo;</li>
-      <li>awsc.termui.ui.UI</li>
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">API Reference</a></li>
+          <li class="breadcrumb-item"><a href="__sphinx_autodoc_module__awsc.termui.ui.html">termui.ui</a></li>
+      <li class="breadcrumb-item active">awsc.termui.ui.UI</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/generated/api/awsc.termui.ui.UI.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -146,7 +154,7 @@
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">awsc.termui.ui.</span></span><span class="sig-name descname"><span class="pre">UI</span></span><a class="headerlink" href="#awsc.termui.ui.UI" title="Permalink to this definition"></a></dt>
 <dd><p>UI singleton object. Handles the main loop of a termui application.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Attributes</dt>
+<dt class="field-odd">Attributes<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
 <dt><strong>debug</strong><span class="classifier">int</span></dt><dd><p>Debug level. Should be unused most of the time.</p>
 </dd>
@@ -179,15 +187,13 @@ error prone. Manipulating a buffer and printing it all at once is significantly 
 </dd>
 <dt><strong>restore</strong><span class="classifier">object</span></dt><dd><p>Stores the state of the terminal to restore to upon shutdown. Required to return the user to a working terminal after exiting.</p>
 </dd>
+<dt><strong>suspend_input_buffer</strong><span class="classifier">bool</span></dt><dd><p>Atomic for disabling input buffering during unraw operations.</p>
+</dd>
 </dl>
 </dd>
 </dl>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">before_paint</span></code>()</p></td>
 <td><p>Pre-paint hook for the UI.</p></td>
@@ -213,22 +219,25 @@ error prone. Manipulating a buffer and printing it all at once is significantly 
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">print</span></code>(out[, xy, color, wrap, bounds, bold])</p></td>
 <td><p>Prints a text to a specified area of the screen buffer.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_input_buffer</span></code>(start_time)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">print_centered</span></code>(out, bounds[, color, bold])</p></td>
+<td><p>Naive center-printing function.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_input_buffer</span></code>(start_time)</p></td>
 <td><p>Processes part of the input buffer.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">progress_bar_paint</span></code>(perc)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">progress_bar_paint</span></code>(perc)</p></td>
 <td><p>Convenience function for painting a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_file</span></code>(filename)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_file</span></code>(filename)</p></td>
 <td><p>Reads a file in the correct encoding, or binary mode if mime type does not indicate it is a text file.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">refresh_size</span></code>()</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">refresh_size</span></code>()</p></td>
 <td><p>Refreshes the cached width and height of the terminal if it has not been refreshed recently.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_exit</span></code>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_exit</span></code>(*args, **kwargs)</p></td>
 <td><p>Hotkey-compatible function that sets the graceful shutdown flag on the UI.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">unraw</span></code>(cmd, *args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">unraw</span></code>(cmd, *args, **kwargs)</p></td>
 <td><p>Runs a callback in a default terminal setting.</p></td>
 </tr>
 </tbody>
@@ -241,10 +250,6 @@ error prone. Manipulating a buffer and printing it all at once is significantly 
 
 <p class="rubric">Methods</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#awsc.termui.ui.UI.__init__" title="awsc.termui.ui.UI.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>()</p></td>
 <td><p>Initializes a UI object.</p></td>
@@ -273,32 +278,31 @@ error prone. Manipulating a buffer and printing it all at once is significantly 
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">print</span></code>(out[, xy, color, wrap, bounds, bold])</p></td>
 <td><p>Prints a text to a specified area of the screen buffer.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_input_buffer</span></code>(start_time)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">print_centered</span></code>(out, bounds[, color, bold])</p></td>
+<td><p>Naive center-printing function.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_input_buffer</span></code>(start_time)</p></td>
 <td><p>Processes part of the input buffer.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">progress_bar_paint</span></code>(perc)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">progress_bar_paint</span></code>(perc)</p></td>
 <td><p>Convenience function for painting a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_file</span></code>(filename)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_file</span></code>(filename)</p></td>
 <td><p>Reads a file in the correct encoding, or binary mode if mime type does not indicate it is a text file.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">refresh_size</span></code>()</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">refresh_size</span></code>()</p></td>
 <td><p>Refreshes the cached width and height of the terminal if it has not been refreshed recently.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_exit</span></code>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_exit</span></code>(*args, **kwargs)</p></td>
 <td><p>Hotkey-compatible function that sets the graceful shutdown flag on the UI.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">unraw</span></code>(cmd, *args, **kwargs)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">unraw</span></code>(cmd, *args, **kwargs)</p></td>
 <td><p>Runs a callback in a default terminal setting.</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dim</span></code></p></td>
 <td><p>Read-only property for the dimensions of the terminal.</p></td>

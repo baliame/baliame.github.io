@@ -24,6 +24,7 @@
       ~BarGraph.end
       ~BarGraph.home
       ~BarGraph.input
+      ~BarGraph.on_become_frame
       ~BarGraph.paint
       ~BarGraph.remove_block
       ~BarGraph.reparent

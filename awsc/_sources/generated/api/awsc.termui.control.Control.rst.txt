@@ -19,6 +19,7 @@
       ~Control.bottomright
       ~Control.clear_blocks
       ~Control.input
+      ~Control.on_become_frame
       ~Control.paint
       ~Control.remove_block
       ~Control.reparent

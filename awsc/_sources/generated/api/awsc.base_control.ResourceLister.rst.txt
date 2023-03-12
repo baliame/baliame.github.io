@@ -42,6 +42,7 @@
       ~ResourceLister.list_down
       ~ResourceLister.list_up
       ~ResourceLister.matches
+      ~ResourceLister.on_become_frame
       ~ResourceLister.on_close
       ~ResourceLister.open
       ~ResourceLister.opener

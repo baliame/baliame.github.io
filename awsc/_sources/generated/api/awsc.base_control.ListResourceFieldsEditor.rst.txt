@@ -16,6 +16,7 @@
       ~ListResourceFieldsEditor.__init__
       ~ListResourceFieldsEditor.display_content
       ~ListResourceFieldsEditor.edit
+      ~ListResourceFieldsEditor.hotkey_callback
       ~ListResourceFieldsEditor.retrieve_content
       ~ListResourceFieldsEditor.update_content
    

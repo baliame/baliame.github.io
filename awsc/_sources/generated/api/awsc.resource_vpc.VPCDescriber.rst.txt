@@ -24,10 +24,12 @@
       ~VPCDescriber.clear_blocks
       ~VPCDescriber.command
       ~VPCDescriber.command_wrapper
+      ~VPCDescriber.confirm_template
       ~VPCDescriber.copy_contents
       ~VPCDescriber.end
       ~VPCDescriber.home
       ~VPCDescriber.input
+      ~VPCDescriber.on_become_frame
       ~VPCDescriber.opener
       ~VPCDescriber.paint
       ~VPCDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~VPCDescriber.border
+      ~VPCDescriber.category
       ~VPCDescriber.corners
+      ~VPCDescriber.default_entry_key
+      ~VPCDescriber.describe_kwarg_is_list
+      ~VPCDescriber.describe_kwarg_name
+      ~VPCDescriber.describe_kwargs_override
+      ~VPCDescriber.describe_method
       ~VPCDescriber.filter
       ~VPCDescriber.height
       ~VPCDescriber.inner
+      ~VPCDescriber.main_provider
+      ~VPCDescriber.object_path
       ~VPCDescriber.prefix
+      ~VPCDescriber.resource_type
+      ~VPCDescriber.subcategory
       ~VPCDescriber.title
       ~VPCDescriber.w_in
       ~VPCDescriber.width

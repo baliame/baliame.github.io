@@ -23,6 +23,7 @@
       ~SingleSelectorDialog.close
       ~SingleSelectorDialog.input
       ~SingleSelectorDialog.nop
+      ~SingleSelectorDialog.on_become_frame
       ~SingleSelectorDialog.opener
       ~SingleSelectorDialog.paint
       ~SingleSelectorDialog.remove_block

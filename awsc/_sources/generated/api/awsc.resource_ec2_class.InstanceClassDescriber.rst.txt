@@ -24,10 +24,12 @@
       ~InstanceClassDescriber.clear_blocks
       ~InstanceClassDescriber.command
       ~InstanceClassDescriber.command_wrapper
+      ~InstanceClassDescriber.confirm_template
       ~InstanceClassDescriber.copy_contents
       ~InstanceClassDescriber.end
       ~InstanceClassDescriber.home
       ~InstanceClassDescriber.input
+      ~InstanceClassDescriber.on_become_frame
       ~InstanceClassDescriber.opener
       ~InstanceClassDescriber.paint
       ~InstanceClassDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~InstanceClassDescriber.border
+      ~InstanceClassDescriber.category
       ~InstanceClassDescriber.corners
+      ~InstanceClassDescriber.default_entry_key
+      ~InstanceClassDescriber.describe_kwarg_is_list
+      ~InstanceClassDescriber.describe_kwarg_name
+      ~InstanceClassDescriber.describe_kwargs_override
+      ~InstanceClassDescriber.describe_method
       ~InstanceClassDescriber.filter
       ~InstanceClassDescriber.height
       ~InstanceClassDescriber.inner
+      ~InstanceClassDescriber.main_provider
+      ~InstanceClassDescriber.object_path
       ~InstanceClassDescriber.prefix
+      ~InstanceClassDescriber.resource_type
+      ~InstanceClassDescriber.subcategory
       ~InstanceClassDescriber.title
       ~InstanceClassDescriber.w_in
       ~InstanceClassDescriber.width

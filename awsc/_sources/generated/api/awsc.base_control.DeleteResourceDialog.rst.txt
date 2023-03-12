@@ -23,6 +23,7 @@
       ~DeleteResourceDialog.close
       ~DeleteResourceDialog.input
       ~DeleteResourceDialog.nop
+      ~DeleteResourceDialog.on_become_frame
       ~DeleteResourceDialog.opener
       ~DeleteResourceDialog.paint
       ~DeleteResourceDialog.remove_block

@@ -19,6 +19,7 @@
       ~InfoDisplay.bottomright
       ~InfoDisplay.clear_blocks
       ~InfoDisplay.input
+      ~InfoDisplay.on_become_frame
       ~InfoDisplay.paint
       ~InfoDisplay.remove_block
       ~InfoDisplay.reparent

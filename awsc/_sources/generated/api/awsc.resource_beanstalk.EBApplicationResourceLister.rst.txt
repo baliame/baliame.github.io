@@ -44,6 +44,7 @@
       ~EBApplicationResourceLister.list_down
       ~EBApplicationResourceLister.list_up
       ~EBApplicationResourceLister.matches
+      ~EBApplicationResourceLister.on_become_frame
       ~EBApplicationResourceLister.on_close
       ~EBApplicationResourceLister.open
       ~EBApplicationResourceLister.opener

@@ -25,6 +25,7 @@
       ~MetricViewer.home
       ~MetricViewer.input
       ~MetricViewer.load_data
+      ~MetricViewer.on_become_frame
       ~MetricViewer.opener
       ~MetricViewer.paint
       ~MetricViewer.remove_block

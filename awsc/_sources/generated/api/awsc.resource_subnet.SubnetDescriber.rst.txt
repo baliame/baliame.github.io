@@ -24,10 +24,12 @@
       ~SubnetDescriber.clear_blocks
       ~SubnetDescriber.command
       ~SubnetDescriber.command_wrapper
+      ~SubnetDescriber.confirm_template
       ~SubnetDescriber.copy_contents
       ~SubnetDescriber.end
       ~SubnetDescriber.home
       ~SubnetDescriber.input
+      ~SubnetDescriber.on_become_frame
       ~SubnetDescriber.opener
       ~SubnetDescriber.paint
       ~SubnetDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~SubnetDescriber.border
+      ~SubnetDescriber.category
       ~SubnetDescriber.corners
+      ~SubnetDescriber.default_entry_key
+      ~SubnetDescriber.describe_kwarg_is_list
+      ~SubnetDescriber.describe_kwarg_name
+      ~SubnetDescriber.describe_kwargs_override
+      ~SubnetDescriber.describe_method
       ~SubnetDescriber.filter
       ~SubnetDescriber.height
       ~SubnetDescriber.inner
+      ~SubnetDescriber.main_provider
+      ~SubnetDescriber.object_path
       ~SubnetDescriber.prefix
+      ~SubnetDescriber.resource_type
+      ~SubnetDescriber.subcategory
       ~SubnetDescriber.title
       ~SubnetDescriber.w_in
       ~SubnetDescriber.width

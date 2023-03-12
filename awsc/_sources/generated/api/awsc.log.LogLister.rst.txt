@@ -33,6 +33,7 @@
       ~LogLister.input
       ~LogLister.list_down
       ~LogLister.list_up
+      ~LogLister.on_become_frame
       ~LogLister.on_close
       ~LogLister.opener
       ~LogLister.pagedown

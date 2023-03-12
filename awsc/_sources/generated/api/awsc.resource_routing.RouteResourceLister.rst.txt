@@ -43,6 +43,7 @@
       ~RouteResourceLister.list_down
       ~RouteResourceLister.list_up
       ~RouteResourceLister.matches
+      ~RouteResourceLister.on_become_frame
       ~RouteResourceLister.on_close
       ~RouteResourceLister.open
       ~RouteResourceLister.opener

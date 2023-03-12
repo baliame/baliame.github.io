@@ -23,6 +23,7 @@
       ~EC2SSHDialog.close
       ~EC2SSHDialog.input
       ~EC2SSHDialog.nop
+      ~EC2SSHDialog.on_become_frame
       ~EC2SSHDialog.opener
       ~EC2SSHDialog.paint
       ~EC2SSHDialog.remove_block

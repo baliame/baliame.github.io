@@ -24,10 +24,12 @@
       ~R53Describer.clear_blocks
       ~R53Describer.command
       ~R53Describer.command_wrapper
+      ~R53Describer.confirm_template
       ~R53Describer.copy_contents
       ~R53Describer.end
       ~R53Describer.home
       ~R53Describer.input
+      ~R53Describer.on_become_frame
       ~R53Describer.opener
       ~R53Describer.paint
       ~R53Describer.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~R53Describer.border
+      ~R53Describer.category
       ~R53Describer.corners
+      ~R53Describer.default_entry_key
+      ~R53Describer.describe_kwarg_is_list
+      ~R53Describer.describe_kwarg_name
+      ~R53Describer.describe_kwargs_override
+      ~R53Describer.describe_method
       ~R53Describer.filter
       ~R53Describer.height
       ~R53Describer.inner
+      ~R53Describer.main_provider
+      ~R53Describer.object_path
       ~R53Describer.prefix
+      ~R53Describer.resource_type
+      ~R53Describer.subcategory
       ~R53Describer.title
       ~R53Describer.w_in
       ~R53Describer.width

@@ -16,6 +16,7 @@ resource_ec2
 .. autosummary::
    :toctree:
 
+   EC2DashboardBlock
    EC2Describer
    EC2LaunchDialog
    EC2RelatedLister

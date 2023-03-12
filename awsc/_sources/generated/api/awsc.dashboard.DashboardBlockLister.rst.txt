@@ -1,0 +1,70 @@
+﻿awsc.dashboard.DashboardBlockLister
+===================================
+
+.. currentmodule:: awsc.dashboard
+
+.. autoclass:: DashboardBlockLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DashboardBlockLister.__init__
+      ~DashboardBlockLister.add_block
+      ~DashboardBlockLister.add_column
+      ~DashboardBlockLister.add_entry
+      ~DashboardBlockLister.add_hotkey
+      ~DashboardBlockLister.autohotkey_condition
+      ~DashboardBlockLister.before_paint
+      ~DashboardBlockLister.before_paint_critical
+      ~DashboardBlockLister.bottomright
+      ~DashboardBlockLister.clear_blocks
+      ~DashboardBlockLister.describe
+      ~DashboardBlockLister.end
+      ~DashboardBlockLister.handle_finalization_critical
+      ~DashboardBlockLister.handle_new_entries_critical
+      ~DashboardBlockLister.home
+      ~DashboardBlockLister.input
+      ~DashboardBlockLister.list_down
+      ~DashboardBlockLister.list_up
+      ~DashboardBlockLister.on_become_frame
+      ~DashboardBlockLister.opener
+      ~DashboardBlockLister.pagedown
+      ~DashboardBlockLister.pageup
+      ~DashboardBlockLister.paint
+      ~DashboardBlockLister.reload
+      ~DashboardBlockLister.remove_block
+      ~DashboardBlockLister.reparent
+      ~DashboardBlockLister.select_and_close
+      ~DashboardBlockLister.selector
+      ~DashboardBlockLister.sort
+      ~DashboardBlockLister.topleft
+      ~DashboardBlockLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DashboardBlockLister.border
+      ~DashboardBlockLister.corners
+      ~DashboardBlockLister.describer
+      ~DashboardBlockLister.filter
+      ~DashboardBlockLister.filtered
+      ~DashboardBlockLister.height
+      ~DashboardBlockLister.inner
+      ~DashboardBlockLister.prefix
+      ~DashboardBlockLister.rows
+      ~DashboardBlockLister.selection
+      ~DashboardBlockLister.title
+      ~DashboardBlockLister.w_in
+      ~DashboardBlockLister.width
+   
+   

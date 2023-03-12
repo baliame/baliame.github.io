@@ -1,0 +1,60 @@
+﻿awsc.resource\_cloudwatch.CloudwatchAlarmDashboardBlock
+=======================================================
+
+.. currentmodule:: awsc.resource_cloudwatch
+
+.. autoclass:: CloudwatchAlarmDashboardBlock
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~CloudwatchAlarmDashboardBlock.__init__
+      ~CloudwatchAlarmDashboardBlock.add_block
+      ~CloudwatchAlarmDashboardBlock.add_hotkey
+      ~CloudwatchAlarmDashboardBlock.async_refresh
+      ~CloudwatchAlarmDashboardBlock.auto_refresh_data
+      ~CloudwatchAlarmDashboardBlock.autohotkey_condition
+      ~CloudwatchAlarmDashboardBlock.before_paint
+      ~CloudwatchAlarmDashboardBlock.bottomright
+      ~CloudwatchAlarmDashboardBlock.clear_blocks
+      ~CloudwatchAlarmDashboardBlock.input
+      ~CloudwatchAlarmDashboardBlock.on_become_frame
+      ~CloudwatchAlarmDashboardBlock.paint
+      ~CloudwatchAlarmDashboardBlock.refresh_data
+      ~CloudwatchAlarmDashboardBlock.register
+      ~CloudwatchAlarmDashboardBlock.remove_block
+      ~CloudwatchAlarmDashboardBlock.reparent
+      ~CloudwatchAlarmDashboardBlock.topleft
+      ~CloudwatchAlarmDashboardBlock.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CloudwatchAlarmDashboardBlock.STATUS_ERROR
+      ~CloudwatchAlarmDashboardBlock.STATUS_LOADING
+      ~CloudwatchAlarmDashboardBlock.STATUS_READY
+      ~CloudwatchAlarmDashboardBlock.border
+      ~CloudwatchAlarmDashboardBlock.corners
+      ~CloudwatchAlarmDashboardBlock.description
+      ~CloudwatchAlarmDashboardBlock.height
+      ~CloudwatchAlarmDashboardBlock.inner
+      ~CloudwatchAlarmDashboardBlock.inverted
+      ~CloudwatchAlarmDashboardBlock.labels
+      ~CloudwatchAlarmDashboardBlock.order
+      ~CloudwatchAlarmDashboardBlock.refresh_frequency
+      ~CloudwatchAlarmDashboardBlock.suffixes
+      ~CloudwatchAlarmDashboardBlock.thresholds
+      ~CloudwatchAlarmDashboardBlock.w_in
+      ~CloudwatchAlarmDashboardBlock.width
+   
+   

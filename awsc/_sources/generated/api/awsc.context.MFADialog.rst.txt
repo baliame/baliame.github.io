@@ -1,0 +1,50 @@
+﻿awsc.context.MFADialog
+======================
+
+.. currentmodule:: awsc.context
+
+.. autoclass:: MFADialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~MFADialog.__init__
+      ~MFADialog.accept_and_close
+      ~MFADialog.add_block
+      ~MFADialog.add_field
+      ~MFADialog.before_paint
+      ~MFADialog.bottomright
+      ~MFADialog.clear_blocks
+      ~MFADialog.close
+      ~MFADialog.input
+      ~MFADialog.nop
+      ~MFADialog.on_become_frame
+      ~MFADialog.opener
+      ~MFADialog.paint
+      ~MFADialog.remove_block
+      ~MFADialog.reparent
+      ~MFADialog.set_title_label
+      ~MFADialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MFADialog.border
+      ~MFADialog.corners
+      ~MFADialog.height
+      ~MFADialog.inner
+      ~MFADialog.line_size
+      ~MFADialog.w_in
+      ~MFADialog.width
+   
+   

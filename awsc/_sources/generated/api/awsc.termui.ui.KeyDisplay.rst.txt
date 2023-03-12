@@ -19,6 +19,7 @@
       ~KeyDisplay.bottomright
       ~KeyDisplay.clear_blocks
       ~KeyDisplay.input
+      ~KeyDisplay.on_become_frame
       ~KeyDisplay.paint
       ~KeyDisplay.remove_block
       ~KeyDisplay.reparent

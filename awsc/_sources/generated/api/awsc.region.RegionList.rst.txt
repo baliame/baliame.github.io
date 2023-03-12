@@ -31,6 +31,7 @@
       ~RegionList.input
       ~RegionList.list_down
       ~RegionList.list_up
+      ~RegionList.on_become_frame
       ~RegionList.opener
       ~RegionList.pagedown
       ~RegionList.pageup

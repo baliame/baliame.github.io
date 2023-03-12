@@ -44,6 +44,7 @@
       ~RDSResourceLister.list_down
       ~RDSResourceLister.list_up
       ~RDSResourceLister.matches
+      ~RDSResourceLister.on_become_frame
       ~RDSResourceLister.on_close
       ~RDSResourceLister.open
       ~RDSResourceLister.opener

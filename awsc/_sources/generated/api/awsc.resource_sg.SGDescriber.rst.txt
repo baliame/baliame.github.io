@@ -24,10 +24,12 @@
       ~SGDescriber.clear_blocks
       ~SGDescriber.command
       ~SGDescriber.command_wrapper
+      ~SGDescriber.confirm_template
       ~SGDescriber.copy_contents
       ~SGDescriber.end
       ~SGDescriber.home
       ~SGDescriber.input
+      ~SGDescriber.on_become_frame
       ~SGDescriber.opener
       ~SGDescriber.paint
       ~SGDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~SGDescriber.border
+      ~SGDescriber.category
       ~SGDescriber.corners
+      ~SGDescriber.default_entry_key
+      ~SGDescriber.describe_kwarg_is_list
+      ~SGDescriber.describe_kwarg_name
+      ~SGDescriber.describe_kwargs_override
+      ~SGDescriber.describe_method
       ~SGDescriber.filter
       ~SGDescriber.height
       ~SGDescriber.inner
+      ~SGDescriber.main_provider
+      ~SGDescriber.object_path
       ~SGDescriber.prefix
+      ~SGDescriber.resource_type
+      ~SGDescriber.subcategory
       ~SGDescriber.title
       ~SGDescriber.w_in
       ~SGDescriber.width

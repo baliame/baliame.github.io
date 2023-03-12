@@ -24,10 +24,12 @@
       ~TargetGroupDescriber.clear_blocks
       ~TargetGroupDescriber.command
       ~TargetGroupDescriber.command_wrapper
+      ~TargetGroupDescriber.confirm_template
       ~TargetGroupDescriber.copy_contents
       ~TargetGroupDescriber.end
       ~TargetGroupDescriber.home
       ~TargetGroupDescriber.input
+      ~TargetGroupDescriber.on_become_frame
       ~TargetGroupDescriber.opener
       ~TargetGroupDescriber.paint
       ~TargetGroupDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~TargetGroupDescriber.border
+      ~TargetGroupDescriber.category
       ~TargetGroupDescriber.corners
+      ~TargetGroupDescriber.default_entry_key
+      ~TargetGroupDescriber.describe_kwarg_is_list
+      ~TargetGroupDescriber.describe_kwarg_name
+      ~TargetGroupDescriber.describe_kwargs_override
+      ~TargetGroupDescriber.describe_method
       ~TargetGroupDescriber.filter
       ~TargetGroupDescriber.height
       ~TargetGroupDescriber.inner
+      ~TargetGroupDescriber.main_provider
+      ~TargetGroupDescriber.object_path
       ~TargetGroupDescriber.prefix
+      ~TargetGroupDescriber.resource_type
+      ~TargetGroupDescriber.subcategory
       ~TargetGroupDescriber.title
       ~TargetGroupDescriber.w_in
       ~TargetGroupDescriber.width

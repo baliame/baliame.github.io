@@ -24,10 +24,12 @@
       ~RDSDescriber.clear_blocks
       ~RDSDescriber.command
       ~RDSDescriber.command_wrapper
+      ~RDSDescriber.confirm_template
       ~RDSDescriber.copy_contents
       ~RDSDescriber.end
       ~RDSDescriber.home
       ~RDSDescriber.input
+      ~RDSDescriber.on_become_frame
       ~RDSDescriber.opener
       ~RDSDescriber.paint
       ~RDSDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~RDSDescriber.border
+      ~RDSDescriber.category
       ~RDSDescriber.corners
+      ~RDSDescriber.default_entry_key
+      ~RDSDescriber.describe_kwarg_is_list
+      ~RDSDescriber.describe_kwarg_name
+      ~RDSDescriber.describe_kwargs_override
+      ~RDSDescriber.describe_method
       ~RDSDescriber.filter
       ~RDSDescriber.height
       ~RDSDescriber.inner
+      ~RDSDescriber.main_provider
+      ~RDSDescriber.object_path
       ~RDSDescriber.prefix
+      ~RDSDescriber.resource_type
+      ~RDSDescriber.subcategory
       ~RDSDescriber.title
       ~RDSDescriber.w_in
       ~RDSDescriber.width

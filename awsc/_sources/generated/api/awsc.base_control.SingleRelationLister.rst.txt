@@ -38,6 +38,7 @@
       ~SingleRelationLister.list_down
       ~SingleRelationLister.list_up
       ~SingleRelationLister.matches
+      ~SingleRelationLister.on_become_frame
       ~SingleRelationLister.on_close
       ~SingleRelationLister.opener
       ~SingleRelationLister.pagedown

@@ -42,6 +42,7 @@
       ~EBPlatformBranchLister.list_down
       ~EBPlatformBranchLister.list_up
       ~EBPlatformBranchLister.matches
+      ~EBPlatformBranchLister.on_become_frame
       ~EBPlatformBranchLister.on_close
       ~EBPlatformBranchLister.open
       ~EBPlatformBranchLister.opener

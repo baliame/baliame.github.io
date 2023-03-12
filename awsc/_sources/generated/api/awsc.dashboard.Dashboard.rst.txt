@@ -1,0 +1,57 @@
+﻿awsc.dashboard.Dashboard
+========================
+
+.. currentmodule:: awsc.dashboard
+
+.. autoclass:: Dashboard
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Dashboard.__init__
+      ~Dashboard.add_block
+      ~Dashboard.add_hotkey
+      ~Dashboard.auto_refresh
+      ~Dashboard.autohotkey_condition
+      ~Dashboard.before_paint
+      ~Dashboard.bottomright
+      ~Dashboard.clear_blocks
+      ~Dashboard.configure_context_layout
+      ~Dashboard.configure_default_layout
+      ~Dashboard.force_refresh
+      ~Dashboard.input
+      ~Dashboard.load_layout
+      ~Dashboard.on_become_frame
+      ~Dashboard.opener
+      ~Dashboard.paint
+      ~Dashboard.register
+      ~Dashboard.reload_layout
+      ~Dashboard.remove_block
+      ~Dashboard.reparent
+      ~Dashboard.topleft
+      ~Dashboard.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Dashboard.block_registry
+      ~Dashboard.border
+      ~Dashboard.corners
+      ~Dashboard.height
+      ~Dashboard.inner
+      ~Dashboard.prefix
+      ~Dashboard.title
+      ~Dashboard.w_in
+      ~Dashboard.width
+   
+   

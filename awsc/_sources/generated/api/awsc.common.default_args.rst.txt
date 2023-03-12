@@ -1,0 +1,6 @@
+﻿awsc.common.default\_args
+=========================
+
+.. currentmodule:: awsc.common
+
+.. autofunction:: default_args

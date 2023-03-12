@@ -17,6 +17,7 @@ main
    :toctree:
 
    awscheck
+   cred_helper
    main
    open_commander
    open_filterer

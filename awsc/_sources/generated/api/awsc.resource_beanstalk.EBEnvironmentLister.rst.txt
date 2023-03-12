@@ -46,6 +46,7 @@
       ~EBEnvironmentLister.list_down
       ~EBEnvironmentLister.list_up
       ~EBEnvironmentLister.matches
+      ~EBEnvironmentLister.on_become_frame
       ~EBEnvironmentLister.on_close
       ~EBEnvironmentLister.open
       ~EBEnvironmentLister.opener

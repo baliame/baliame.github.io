@@ -43,6 +43,7 @@
       ~EBSResourceLister.list_down
       ~EBSResourceLister.list_up
       ~EBSResourceLister.matches
+      ~EBSResourceLister.on_become_frame
       ~EBSResourceLister.on_close
       ~EBSResourceLister.open
       ~EBSResourceLister.opener

@@ -24,10 +24,12 @@
       ~ASGDescriber.clear_blocks
       ~ASGDescriber.command
       ~ASGDescriber.command_wrapper
+      ~ASGDescriber.confirm_template
       ~ASGDescriber.copy_contents
       ~ASGDescriber.end
       ~ASGDescriber.home
       ~ASGDescriber.input
+      ~ASGDescriber.on_become_frame
       ~ASGDescriber.opener
       ~ASGDescriber.paint
       ~ASGDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~ASGDescriber.border
+      ~ASGDescriber.category
       ~ASGDescriber.corners
+      ~ASGDescriber.default_entry_key
+      ~ASGDescriber.describe_kwarg_is_list
+      ~ASGDescriber.describe_kwarg_name
+      ~ASGDescriber.describe_kwargs_override
+      ~ASGDescriber.describe_method
       ~ASGDescriber.filter
       ~ASGDescriber.height
       ~ASGDescriber.inner
+      ~ASGDescriber.main_provider
+      ~ASGDescriber.object_path
       ~ASGDescriber.prefix
+      ~ASGDescriber.resource_type
+      ~ASGDescriber.subcategory
       ~ASGDescriber.title
       ~ASGDescriber.w_in
       ~ASGDescriber.width

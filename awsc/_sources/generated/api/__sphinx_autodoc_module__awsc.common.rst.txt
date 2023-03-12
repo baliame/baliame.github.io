@@ -21,4 +21,5 @@ common
    LogHolder
    SessionAwareDialog
    datetime_hack
-   default_border
+   default_args
+   default_kwargs

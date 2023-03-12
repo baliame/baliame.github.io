@@ -19,6 +19,7 @@
       ~Block.bottomright
       ~Block.clear_blocks
       ~Block.input
+      ~Block.on_become_frame
       ~Block.paint
       ~Block.remove_block
       ~Block.reparent

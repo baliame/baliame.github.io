@@ -26,6 +26,7 @@
       ~LogViewer.end
       ~LogViewer.home
       ~LogViewer.input
+      ~LogViewer.on_become_frame
       ~LogViewer.opener
       ~LogViewer.paint
       ~LogViewer.pgdown

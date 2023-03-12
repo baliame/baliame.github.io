@@ -17,5 +17,6 @@ resource_iam_user
    :toctree:
 
    LoginProfileDescriber
+   MFADeviceLister
    UserDescriber
    UserLister

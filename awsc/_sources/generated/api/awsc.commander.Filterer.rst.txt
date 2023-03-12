@@ -20,6 +20,7 @@
       ~Filterer.clear_blocks
       ~Filterer.close
       ~Filterer.input
+      ~Filterer.on_become_frame
       ~Filterer.paint
       ~Filterer.pause
       ~Filterer.remove_block

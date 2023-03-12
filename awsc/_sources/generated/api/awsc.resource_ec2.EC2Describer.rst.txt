@@ -24,10 +24,12 @@
       ~EC2Describer.clear_blocks
       ~EC2Describer.command
       ~EC2Describer.command_wrapper
+      ~EC2Describer.confirm_template
       ~EC2Describer.copy_contents
       ~EC2Describer.end
       ~EC2Describer.home
       ~EC2Describer.input
+      ~EC2Describer.on_become_frame
       ~EC2Describer.opener
       ~EC2Describer.paint
       ~EC2Describer.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~EC2Describer.border
+      ~EC2Describer.category
       ~EC2Describer.corners
+      ~EC2Describer.default_entry_key
+      ~EC2Describer.describe_kwarg_is_list
+      ~EC2Describer.describe_kwarg_name
+      ~EC2Describer.describe_kwargs_override
+      ~EC2Describer.describe_method
       ~EC2Describer.filter
       ~EC2Describer.height
       ~EC2Describer.inner
+      ~EC2Describer.main_provider
+      ~EC2Describer.object_path
       ~EC2Describer.prefix
+      ~EC2Describer.resource_type
+      ~EC2Describer.subcategory
       ~EC2Describer.title
       ~EC2Describer.w_in
       ~EC2Describer.width

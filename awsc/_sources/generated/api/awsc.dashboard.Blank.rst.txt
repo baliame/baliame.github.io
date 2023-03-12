@@ -1,0 +1,52 @@
+﻿awsc.dashboard.Blank
+====================
+
+.. currentmodule:: awsc.dashboard
+
+.. autoclass:: Blank
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Blank.__init__
+      ~Blank.add_block
+      ~Blank.add_hotkey
+      ~Blank.async_refresh
+      ~Blank.auto_refresh_data
+      ~Blank.autohotkey_condition
+      ~Blank.before_paint
+      ~Blank.bottomright
+      ~Blank.clear_blocks
+      ~Blank.input
+      ~Blank.on_become_frame
+      ~Blank.paint
+      ~Blank.refresh_data
+      ~Blank.register
+      ~Blank.remove_block
+      ~Blank.reparent
+      ~Blank.topleft
+      ~Blank.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Blank.border
+      ~Blank.corners
+      ~Blank.description
+      ~Blank.height
+      ~Blank.inner
+      ~Blank.refresh_frequency
+      ~Blank.w_in
+      ~Blank.width
+   
+   

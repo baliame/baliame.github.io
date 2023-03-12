@@ -45,6 +45,7 @@
       ~SGResourceLister.list_down
       ~SGResourceLister.list_up
       ~SGResourceLister.matches
+      ~SGResourceLister.on_become_frame
       ~SGResourceLister.on_close
       ~SGResourceLister.open
       ~SGResourceLister.open_command

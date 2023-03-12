@@ -1,0 +1,50 @@
+﻿awsc.context.AddRoleContextDialog
+=================================
+
+.. currentmodule:: awsc.context
+
+.. autoclass:: AddRoleContextDialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~AddRoleContextDialog.__init__
+      ~AddRoleContextDialog.accept_and_close
+      ~AddRoleContextDialog.add_block
+      ~AddRoleContextDialog.add_field
+      ~AddRoleContextDialog.before_paint
+      ~AddRoleContextDialog.bottomright
+      ~AddRoleContextDialog.clear_blocks
+      ~AddRoleContextDialog.close
+      ~AddRoleContextDialog.input
+      ~AddRoleContextDialog.nop
+      ~AddRoleContextDialog.on_become_frame
+      ~AddRoleContextDialog.opener
+      ~AddRoleContextDialog.paint
+      ~AddRoleContextDialog.remove_block
+      ~AddRoleContextDialog.reparent
+      ~AddRoleContextDialog.set_title_label
+      ~AddRoleContextDialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AddRoleContextDialog.border
+      ~AddRoleContextDialog.corners
+      ~AddRoleContextDialog.height
+      ~AddRoleContextDialog.inner
+      ~AddRoleContextDialog.line_size
+      ~AddRoleContextDialog.w_in
+      ~AddRoleContextDialog.width
+   
+   

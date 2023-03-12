@@ -24,10 +24,12 @@
       ~AMIDescriber.clear_blocks
       ~AMIDescriber.command
       ~AMIDescriber.command_wrapper
+      ~AMIDescriber.confirm_template
       ~AMIDescriber.copy_contents
       ~AMIDescriber.end
       ~AMIDescriber.home
       ~AMIDescriber.input
+      ~AMIDescriber.on_become_frame
       ~AMIDescriber.opener
       ~AMIDescriber.paint
       ~AMIDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~AMIDescriber.border
+      ~AMIDescriber.category
       ~AMIDescriber.corners
+      ~AMIDescriber.default_entry_key
+      ~AMIDescriber.describe_kwarg_is_list
+      ~AMIDescriber.describe_kwarg_name
+      ~AMIDescriber.describe_kwargs_override
+      ~AMIDescriber.describe_method
       ~AMIDescriber.filter
       ~AMIDescriber.height
       ~AMIDescriber.inner
+      ~AMIDescriber.main_provider
+      ~AMIDescriber.object_path
       ~AMIDescriber.prefix
+      ~AMIDescriber.resource_type
+      ~AMIDescriber.subcategory
       ~AMIDescriber.title
       ~AMIDescriber.w_in
       ~AMIDescriber.width

@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>awsc.config.config.Config &mdash; AWS Commander 0.4.0rc9 documentation</title>
+  <title>awsc.config.config.Config &mdash; AWS Commander 0.4.0rc11 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -28,14 +27,18 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../../index.html" class="icon icon-home"> AWS Commander
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            AWS Commander
           </a>
               <div class="version">
-                0.4.0rc9
+                0.4.0rc11
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -50,13 +53,17 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.commander.html">commander</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.common.html">common</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.config.html">config.config</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">awsc.config.config.Config</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">awsc.config.config.Config</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#awsc.config.config.Config"><code class="docutils literal notranslate"><span class="pre">Config</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.config.config.LAST_CONFIG_VERSION.html">awsc.config.config.LAST_CONFIG_VERSION</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.scheme.html">config.scheme</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.storage.html">config.storage</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.context.html">context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.dashboard.html">dashboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.hotkey.html">hotkey</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.info.html">info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.log.html">log</a></li>
@@ -73,6 +80,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ebs.html">resource_ebs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2.html">resource_ec2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2_class.html">resource_ec2_class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_eks.html">resource_eks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam.html">resource_iam</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_group.html">resource_iam_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_instance_profile.html">resource_iam_instance_profile</a></li>
@@ -124,10 +132,10 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="index.html">API Reference</a> &raquo;</li>
-          <li><a href="__sphinx_autodoc_module__awsc.config.config.html">config.config</a> &raquo;</li>
-      <li>awsc.config.config.Config</li>
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">API Reference</a></li>
+          <li class="breadcrumb-item"><a href="__sphinx_autodoc_module__awsc.config.config.html">config.config</a></li>
+      <li class="breadcrumb-item active">awsc.config.config.Config</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/generated/api/awsc.config.config.Config.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -144,7 +152,7 @@
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">awsc.config.config.</span></span><span class="sig-name descname"><span class="pre">Config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#awsc.config.config.Config" title="Permalink to this definition"></a></dt>
 <dd><p>Configuration parser and holder.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Attributes</dt>
+<dt class="field-odd">Attributes<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
 <dt><strong>version_updaters</strong><span class="classifier">dict</span></dt><dd><p>A numbered dict of update functions for incrementally upgrading an outdated configuration file.</p>
 </dd>
@@ -163,95 +171,11 @@
 </dl>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_or_edit_context</span></code>(name, acctid, access, secret)</p></td>
 <td><p>Upserts a context into the configuration.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_default_config</span></code>()</p></td>
-<td><p>Generates first time default configuration.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">delete_context</span></code>(name)</p></td>
-<td><p>Deletes a context from the configuration.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">initialize</span></code>()</p></td>
-<td><p>Late initializer for the Config object.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_config</span></code>()</p></td>
-<td><p>Parses the configuration file specified in config_path and replaces the currently loaded config with its contents.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_1</span></code>()</p></td>
-<td><p>Version 1 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_10</span></code>()</p></td>
-<td><p>Version 10 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_11</span></code>()</p></td>
-<td><p>Version 11 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_12</span></code>()</p></td>
-<td><p>Version 12 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_2</span></code>()</p></td>
-<td><p>Version 2 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_3</span></code>()</p></td>
-<td><p>Version 3 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_4</span></code>()</p></td>
-<td><p>Version 4 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_5</span></code>()</p></td>
-<td><p>Version 5 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_6</span></code>()</p></td>
-<td><p>Version 6 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_7</span></code>()</p></td>
-<td><p>Version 7 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_8</span></code>()</p></td>
-<td><p>Version 8 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_9</span></code>()</p></td>
-<td><p>Version 9 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_version</span></code>()</p></td>
-<td><p>Main configuration update sequence.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_config</span></code>()</p></td>
-<td><p>Immediately writes the configuration to the configuration file in config_path.</p></td>
-</tr>
-</tbody>
-</table>
-<dl class="py method">
-<dt class="sig sig-object py" id="awsc.config.config.Config.__init__">
-<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#awsc.config.config.Config.__init__" title="Permalink to this definition"></a></dt>
-<dd><p>Initializes a Config object.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>path</strong><span class="classifier">str</span></dt><dd><p>The configuration parent path, if not default. Defaults to ~/.config/awsc.</p>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd></dl>
-
-<p class="rubric">Methods</p>
-<table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#awsc.config.config.Config.__init__" title="awsc.config.config.Config.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([path])</p></td>
-<td><p>Initializes a Config object.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_or_edit_context</span></code>(name, acctid, access, secret)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_or_edit_role_context</span></code>(name, acctid, ...)</p></td>
 <td><p>Upserts a context into the configuration.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_default_config</span></code>()</p></td>
@@ -266,46 +190,56 @@
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_config</span></code>()</p></td>
 <td><p>Parses the configuration file specified in config_path and replaces the currently loaded config with its contents.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_1</span></code>()</p></td>
-<td><p>Version 1 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_10</span></code>()</p></td>
-<td><p>Version 10 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_11</span></code>()</p></td>
-<td><p>Version 11 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_12</span></code>()</p></td>
-<td><p>Version 12 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_2</span></code>()</p></td>
-<td><p>Version 2 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_3</span></code>()</p></td>
-<td><p>Version 3 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_4</span></code>()</p></td>
-<td><p>Version 4 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_5</span></code>()</p></td>
-<td><p>Version 5 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_6</span></code>()</p></td>
-<td><p>Version 6 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_7</span></code>()</p></td>
-<td><p>Version 7 configuration update.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_8</span></code>()</p></td>
-<td><p>Version 8 configuration update.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_9</span></code>()</p></td>
-<td><p>Version 9 configuration update.</p></td>
-</tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_version</span></code>()</p></td>
 <td><p>Main configuration update sequence.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_config</span></code>()</p></td>
+<td><p>Immediately writes the configuration to the configuration file in config_path.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="awsc.config.config.Config.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#awsc.config.config.Config.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes a Config object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>path</strong><span class="classifier">str</span></dt><dd><p>The configuration parent path, if not default. Defaults to ~/.config/awsc.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#awsc.config.config.Config.__init__" title="awsc.config.config.Config.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([path])</p></td>
+<td><p>Initializes a Config object.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_or_edit_context</span></code>(name, acctid, access, secret)</p></td>
+<td><p>Upserts a context into the configuration.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_or_edit_role_context</span></code>(name, acctid, ...)</p></td>
+<td><p>Upserts a context into the configuration.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_default_config</span></code>()</p></td>
+<td><p>Generates first time default configuration.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">delete_context</span></code>(name)</p></td>
+<td><p>Deletes a context from the configuration.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">initialize</span></code>()</p></td>
+<td><p>Late initializer for the Config object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_config</span></code>()</p></td>
+<td><p>Parses the configuration file specified in config_path and replaces the currently loaded config with its contents.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_version</span></code>()</p></td>
+<td><p>Main configuration update sequence.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_config</span></code>()</p></td>
 <td><p>Immediately writes the configuration to the configuration file in config_path.</p></td>
 </tr>
 </tbody>

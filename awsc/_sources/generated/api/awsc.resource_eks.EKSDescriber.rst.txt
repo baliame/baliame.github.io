@@ -1,0 +1,82 @@
+﻿awsc.resource\_eks.EKSDescriber
+===============================
+
+.. currentmodule:: awsc.resource_eks
+
+.. autoclass:: EKSDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EKSDescriber.__init__
+      ~EKSDescriber.add_block
+      ~EKSDescriber.add_hotkey
+      ~EKSDescriber.add_text
+      ~EKSDescriber.autohotkey_condition
+      ~EKSDescriber.before_paint
+      ~EKSDescriber.bottomright
+      ~EKSDescriber.clear
+      ~EKSDescriber.clear_blocks
+      ~EKSDescriber.command
+      ~EKSDescriber.command_wrapper
+      ~EKSDescriber.confirm_template
+      ~EKSDescriber.copy_contents
+      ~EKSDescriber.end
+      ~EKSDescriber.home
+      ~EKSDescriber.input
+      ~EKSDescriber.on_become_frame
+      ~EKSDescriber.opener
+      ~EKSDescriber.paint
+      ~EKSDescriber.pgdown
+      ~EKSDescriber.pgup
+      ~EKSDescriber.populate_describe_kwargs
+      ~EKSDescriber.populate_entry
+      ~EKSDescriber.raw
+      ~EKSDescriber.rawlines
+      ~EKSDescriber.refresh_data
+      ~EKSDescriber.register
+      ~EKSDescriber.remove_block
+      ~EKSDescriber.reparent
+      ~EKSDescriber.scroll_down
+      ~EKSDescriber.scroll_left
+      ~EKSDescriber.scroll_right
+      ~EKSDescriber.scroll_up
+      ~EKSDescriber.title_info
+      ~EKSDescriber.toggle_wrap
+      ~EKSDescriber.topleft
+      ~EKSDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EKSDescriber.border
+      ~EKSDescriber.category
+      ~EKSDescriber.corners
+      ~EKSDescriber.default_entry_key
+      ~EKSDescriber.describe_kwarg_is_list
+      ~EKSDescriber.describe_kwarg_name
+      ~EKSDescriber.describe_kwargs_override
+      ~EKSDescriber.describe_method
+      ~EKSDescriber.filter
+      ~EKSDescriber.height
+      ~EKSDescriber.inner
+      ~EKSDescriber.main_provider
+      ~EKSDescriber.object_path
+      ~EKSDescriber.prefix
+      ~EKSDescriber.resource_type
+      ~EKSDescriber.subcategory
+      ~EKSDescriber.title
+      ~EKSDescriber.w_in
+      ~EKSDescriber.width
+   
+   

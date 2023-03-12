@@ -15,6 +15,8 @@
    
       ~Session.__init__
       ~Session.extend_frame
+      ~Session.get_context_dashboard_layout
+      ~Session.get_default_dashboard_layout
       ~Session.get_keypair_association
       ~Session.jq
       ~Session.pop_frame
@@ -36,6 +38,9 @@
    .. autosummary::
    
       ~Session.context
+      ~Session.context_auth
+      ~Session.context_data
+      ~Session.context_perm_auth
       ~Session.region
       ~Session.ssh_key
    

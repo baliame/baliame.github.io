@@ -24,10 +24,12 @@
       ~PolicyVersionDescriber.clear_blocks
       ~PolicyVersionDescriber.command
       ~PolicyVersionDescriber.command_wrapper
+      ~PolicyVersionDescriber.confirm_template
       ~PolicyVersionDescriber.copy_contents
       ~PolicyVersionDescriber.end
       ~PolicyVersionDescriber.home
       ~PolicyVersionDescriber.input
+      ~PolicyVersionDescriber.on_become_frame
       ~PolicyVersionDescriber.opener
       ~PolicyVersionDescriber.paint
       ~PolicyVersionDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~PolicyVersionDescriber.border
+      ~PolicyVersionDescriber.category
       ~PolicyVersionDescriber.corners
+      ~PolicyVersionDescriber.default_entry_key
+      ~PolicyVersionDescriber.describe_kwarg_is_list
+      ~PolicyVersionDescriber.describe_kwarg_name
+      ~PolicyVersionDescriber.describe_kwargs_override
+      ~PolicyVersionDescriber.describe_method
       ~PolicyVersionDescriber.filter
       ~PolicyVersionDescriber.height
       ~PolicyVersionDescriber.inner
+      ~PolicyVersionDescriber.main_provider
+      ~PolicyVersionDescriber.object_path
       ~PolicyVersionDescriber.prefix
+      ~PolicyVersionDescriber.resource_type
+      ~PolicyVersionDescriber.subcategory
       ~PolicyVersionDescriber.title
       ~PolicyVersionDescriber.w_in
       ~PolicyVersionDescriber.width

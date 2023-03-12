@@ -24,10 +24,12 @@
       ~S3Describer.clear_blocks
       ~S3Describer.command
       ~S3Describer.command_wrapper
+      ~S3Describer.confirm_template
       ~S3Describer.copy_contents
       ~S3Describer.end
       ~S3Describer.home
       ~S3Describer.input
+      ~S3Describer.on_become_frame
       ~S3Describer.opener
       ~S3Describer.paint
       ~S3Describer.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~S3Describer.border
+      ~S3Describer.category
       ~S3Describer.corners
+      ~S3Describer.default_entry_key
+      ~S3Describer.describe_kwarg_is_list
+      ~S3Describer.describe_kwarg_name
+      ~S3Describer.describe_kwargs_override
+      ~S3Describer.describe_method
       ~S3Describer.filter
       ~S3Describer.height
       ~S3Describer.inner
+      ~S3Describer.main_provider
+      ~S3Describer.object_path
       ~S3Describer.prefix
+      ~S3Describer.resource_type
+      ~S3Describer.subcategory
       ~S3Describer.title
       ~S3Describer.w_in
       ~S3Describer.width

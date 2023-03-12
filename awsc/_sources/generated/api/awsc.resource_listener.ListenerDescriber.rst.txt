@@ -24,10 +24,12 @@
       ~ListenerDescriber.clear_blocks
       ~ListenerDescriber.command
       ~ListenerDescriber.command_wrapper
+      ~ListenerDescriber.confirm_template
       ~ListenerDescriber.copy_contents
       ~ListenerDescriber.end
       ~ListenerDescriber.home
       ~ListenerDescriber.input
+      ~ListenerDescriber.on_become_frame
       ~ListenerDescriber.opener
       ~ListenerDescriber.paint
       ~ListenerDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~ListenerDescriber.border
+      ~ListenerDescriber.category
       ~ListenerDescriber.corners
+      ~ListenerDescriber.default_entry_key
+      ~ListenerDescriber.describe_kwarg_is_list
+      ~ListenerDescriber.describe_kwarg_name
+      ~ListenerDescriber.describe_kwargs_override
+      ~ListenerDescriber.describe_method
       ~ListenerDescriber.filter
       ~ListenerDescriber.height
       ~ListenerDescriber.inner
+      ~ListenerDescriber.main_provider
+      ~ListenerDescriber.object_path
       ~ListenerDescriber.prefix
+      ~ListenerDescriber.resource_type
+      ~ListenerDescriber.subcategory
       ~ListenerDescriber.title
       ~ListenerDescriber.w_in
       ~ListenerDescriber.width

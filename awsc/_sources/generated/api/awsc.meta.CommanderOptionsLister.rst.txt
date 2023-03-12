@@ -31,6 +31,7 @@
       ~CommanderOptionsLister.input
       ~CommanderOptionsLister.list_down
       ~CommanderOptionsLister.list_up
+      ~CommanderOptionsLister.on_become_frame
       ~CommanderOptionsLister.open
       ~CommanderOptionsLister.opener
       ~CommanderOptionsLister.pagedown

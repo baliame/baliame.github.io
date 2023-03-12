@@ -21,4 +21,5 @@ termui.alignment
    CenterAnchor
    Dimension
    TopLeftAnchor
+   TopLeftDimensionAnchor
    TopRightAnchor

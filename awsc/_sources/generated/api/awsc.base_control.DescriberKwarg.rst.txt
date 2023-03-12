@@ -1,0 +1,23 @@
+﻿awsc.base\_control.DescriberKwarg
+=================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: DescriberKwarg
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DescriberKwarg.__init__
+      ~DescriberKwarg.resolve
+   
+   
+
+   
+   
+   

@@ -1,0 +1,6 @@
+﻿awsc.context.\_context\_color\_defaults
+=======================================
+
+.. currentmodule:: awsc.context
+
+.. autofunction:: _context_color_defaults

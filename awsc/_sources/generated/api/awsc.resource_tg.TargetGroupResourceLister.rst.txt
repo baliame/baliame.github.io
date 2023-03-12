@@ -43,6 +43,7 @@
       ~TargetGroupResourceLister.list_down
       ~TargetGroupResourceLister.list_up
       ~TargetGroupResourceLister.matches
+      ~TargetGroupResourceLister.on_become_frame
       ~TargetGroupResourceLister.on_close
       ~TargetGroupResourceLister.open
       ~TargetGroupResourceLister.opener

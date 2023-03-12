@@ -45,6 +45,7 @@
       ~EC2ResourceLister.list_up
       ~EC2ResourceLister.matches
       ~EC2ResourceLister.metrics
+      ~EC2ResourceLister.on_become_frame
       ~EC2ResourceLister.on_close
       ~EC2ResourceLister.open
       ~EC2ResourceLister.opener

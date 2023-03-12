@@ -1,0 +1,22 @@
+﻿awsc.base\_control.IndexResolver
+================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: IndexResolver
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~IndexResolver.__init__
+   
+   
+
+   
+   
+   

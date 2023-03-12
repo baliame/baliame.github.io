@@ -43,6 +43,7 @@
       ~LCResourceLister.list_down
       ~LCResourceLister.list_up
       ~LCResourceLister.matches
+      ~LCResourceLister.on_become_frame
       ~LCResourceLister.on_close
       ~LCResourceLister.open
       ~LCResourceLister.opener

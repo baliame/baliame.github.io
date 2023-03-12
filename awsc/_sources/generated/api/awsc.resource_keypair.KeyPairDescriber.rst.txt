@@ -24,10 +24,12 @@
       ~KeyPairDescriber.clear_blocks
       ~KeyPairDescriber.command
       ~KeyPairDescriber.command_wrapper
+      ~KeyPairDescriber.confirm_template
       ~KeyPairDescriber.copy_contents
       ~KeyPairDescriber.end
       ~KeyPairDescriber.home
       ~KeyPairDescriber.input
+      ~KeyPairDescriber.on_become_frame
       ~KeyPairDescriber.opener
       ~KeyPairDescriber.paint
       ~KeyPairDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~KeyPairDescriber.border
+      ~KeyPairDescriber.category
       ~KeyPairDescriber.corners
+      ~KeyPairDescriber.default_entry_key
+      ~KeyPairDescriber.describe_kwarg_is_list
+      ~KeyPairDescriber.describe_kwarg_name
+      ~KeyPairDescriber.describe_kwargs_override
+      ~KeyPairDescriber.describe_method
       ~KeyPairDescriber.filter
       ~KeyPairDescriber.height
       ~KeyPairDescriber.inner
+      ~KeyPairDescriber.main_provider
+      ~KeyPairDescriber.object_path
       ~KeyPairDescriber.prefix
+      ~KeyPairDescriber.resource_type
+      ~KeyPairDescriber.subcategory
       ~KeyPairDescriber.title
       ~KeyPairDescriber.w_in
       ~KeyPairDescriber.width

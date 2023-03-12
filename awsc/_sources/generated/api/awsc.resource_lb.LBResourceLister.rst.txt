@@ -43,6 +43,7 @@
       ~LBResourceLister.list_down
       ~LBResourceLister.list_up
       ~LBResourceLister.matches
+      ~LBResourceLister.on_become_frame
       ~LBResourceLister.on_close
       ~LBResourceLister.open
       ~LBResourceLister.opener

@@ -42,6 +42,7 @@
       ~CFNParameters.list_down
       ~CFNParameters.list_up
       ~CFNParameters.matches
+      ~CFNParameters.on_become_frame
       ~CFNParameters.on_close
       ~CFNParameters.open
       ~CFNParameters.opener

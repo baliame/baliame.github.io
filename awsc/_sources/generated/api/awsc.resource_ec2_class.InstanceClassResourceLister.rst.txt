@@ -43,6 +43,7 @@
       ~InstanceClassResourceLister.list_down
       ~InstanceClassResourceLister.list_up
       ~InstanceClassResourceLister.matches
+      ~InstanceClassResourceLister.on_become_frame
       ~InstanceClassResourceLister.on_close
       ~InstanceClassResourceLister.open
       ~InstanceClassResourceLister.opener

@@ -43,6 +43,7 @@
       ~EBInstanceHealthLister.list_down
       ~EBInstanceHealthLister.list_up
       ~EBInstanceHealthLister.matches
+      ~EBInstanceHealthLister.on_become_frame
       ~EBInstanceHealthLister.on_close
       ~EBInstanceHealthLister.open
       ~EBInstanceHealthLister.opener

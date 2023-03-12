@@ -19,6 +19,7 @@
       ~ContextList.add_entry
       ~ContextList.add_hotkey
       ~ContextList.add_new_context
+      ~ContextList.add_role_context
       ~ContextList.autohotkey_condition
       ~ContextList.before_paint
       ~ContextList.before_paint_critical
@@ -27,7 +28,10 @@
       ~ContextList.delete_selected_context
       ~ContextList.describe
       ~ContextList.do_delete
+      ~ContextList.do_export
+      ~ContextList.edit_context
       ~ContextList.end
+      ~ContextList.export_context
       ~ContextList.handle_finalization_critical
       ~ContextList.handle_new_entries_critical
       ~ContextList.home
@@ -35,6 +39,7 @@
       ~ContextList.input
       ~ContextList.list_down
       ~ContextList.list_up
+      ~ContextList.on_become_frame
       ~ContextList.opener
       ~ContextList.pagedown
       ~ContextList.pageup

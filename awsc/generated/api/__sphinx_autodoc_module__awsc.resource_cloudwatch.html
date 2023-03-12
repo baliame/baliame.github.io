@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>resource_cloudwatch &mdash; AWS Commander 0.4.0rc9 documentation</title>
+  <title>resource_cloudwatch &mdash; AWS Commander 0.4.0rc11 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="awsc.resource_cloudwatch.MetricLister" href="awsc.resource_cloudwatch.MetricLister.html" />
+    <link rel="next" title="awsc.resource_cloudwatch.AlarmDescriber" href="awsc.resource_cloudwatch.AlarmDescriber.html" />
     <link rel="prev" title="awsc.resource_cfn._cfn_determine_updated" href="awsc.resource_cfn._cfn_determine_updated.html" /> 
 </head>
 
@@ -28,14 +27,18 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../../index.html" class="icon icon-home"> AWS Commander
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            AWS Commander
           </a>
               <div class="version">
-                0.4.0rc9
+                0.4.0rc11
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -53,6 +56,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.scheme.html">config.scheme</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.storage.html">config.storage</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.context.html">context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.dashboard.html">dashboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.hotkey.html">hotkey</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.info.html">info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.log.html">log</a></li>
@@ -64,6 +68,9 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_beanstalk.html">resource_beanstalk</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_cfn.html">resource_cfn</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">resource_cloudwatch</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="awsc.resource_cloudwatch.AlarmDescriber.html">awsc.resource_cloudwatch.AlarmDescriber</a></li>
+<li class="toctree-l3"><a class="reference internal" href="awsc.resource_cloudwatch.AlarmLister.html">awsc.resource_cloudwatch.AlarmLister</a></li>
+<li class="toctree-l3"><a class="reference internal" href="awsc.resource_cloudwatch.CloudwatchAlarmDashboardBlock.html">awsc.resource_cloudwatch.CloudwatchAlarmDashboardBlock</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.resource_cloudwatch.MetricLister.html">awsc.resource_cloudwatch.MetricLister</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.resource_cloudwatch.MetricViewer.html">awsc.resource_cloudwatch.MetricViewer</a></li>
 </ul>
@@ -73,6 +80,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ebs.html">resource_ebs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2.html">resource_ec2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2_class.html">resource_ec2_class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_eks.html">resource_eks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam.html">resource_iam</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_group.html">resource_iam_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_instance_profile.html">resource_iam_instance_profile</a></li>
@@ -124,9 +132,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="index.html">API Reference</a> &raquo;</li>
-      <li>resource_cloudwatch</li>
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">API Reference</a></li>
+      <li class="breadcrumb-item active">resource_cloudwatch</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/generated/api/__sphinx_autodoc_module__awsc.resource_cloudwatch.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -140,15 +148,20 @@
 <h1>resource_cloudwatch<a class="headerlink" href="#resource-cloudwatch" title="Permalink to this heading"></a></h1>
 <span class="target" id="module-awsc.resource_cloudwatch"></span><p>Module for cloudwatch resources.</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="awsc.resource_cloudwatch.MetricLister.html#awsc.resource_cloudwatch.MetricLister" title="awsc.resource_cloudwatch.MetricLister"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MetricLister</span></code></a>(*args, dimension[, ...])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.resource_cloudwatch.AlarmDescriber.html#awsc.resource_cloudwatch.AlarmDescriber" title="awsc.resource_cloudwatch.AlarmDescriber"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AlarmDescriber</span></code></a>(*args, entry, **kwargs)</p></td>
+<td><p>Describer resource for Cloudwatch Alarms.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.resource_cloudwatch.AlarmLister.html#awsc.resource_cloudwatch.AlarmLister" title="awsc.resource_cloudwatch.AlarmLister"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AlarmLister</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Lister resource for Cloudwatch Alarms.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.resource_cloudwatch.CloudwatchAlarmDashboardBlock.html#awsc.resource_cloudwatch.CloudwatchAlarmDashboardBlock" title="awsc.resource_cloudwatch.CloudwatchAlarmDashboardBlock"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CloudwatchAlarmDashboardBlock</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Dashboard block for Cloudwatch Alarms.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.resource_cloudwatch.MetricLister.html#awsc.resource_cloudwatch.MetricLister" title="awsc.resource_cloudwatch.MetricLister"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MetricLister</span></code></a>(*args, dimension[, ...])</p></td>
 <td><p>Lister resource for Cloudwatch Metrics.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="awsc.resource_cloudwatch.MetricViewer.html#awsc.resource_cloudwatch.MetricViewer" title="awsc.resource_cloudwatch.MetricViewer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MetricViewer</span></code></a>(*args, caller[, metric])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.resource_cloudwatch.MetricViewer.html#awsc.resource_cloudwatch.MetricViewer" title="awsc.resource_cloudwatch.MetricViewer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MetricViewer</span></code></a>(*args, caller[, metric])</p></td>
 <td><p>Metric display control.</p></td>
 </tr>
 </tbody>
@@ -160,7 +173,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="awsc.resource_cfn._cfn_determine_updated.html" class="btn btn-neutral float-left" title="awsc.resource_cfn._cfn_determine_updated" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="awsc.resource_cloudwatch.MetricLister.html" class="btn btn-neutral float-right" title="awsc.resource_cloudwatch.MetricLister" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="awsc.resource_cloudwatch.AlarmDescriber.html" class="btn btn-neutral float-right" title="awsc.resource_cloudwatch.AlarmDescriber" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

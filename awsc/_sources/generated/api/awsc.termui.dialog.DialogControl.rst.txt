@@ -21,6 +21,7 @@
       ~DialogControl.clear_blocks
       ~DialogControl.input
       ~DialogControl.nop
+      ~DialogControl.on_become_frame
       ~DialogControl.paint
       ~DialogControl.remove_block
       ~DialogControl.reparent

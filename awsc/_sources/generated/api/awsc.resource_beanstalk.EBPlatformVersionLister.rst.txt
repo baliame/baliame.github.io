@@ -43,6 +43,7 @@
       ~EBPlatformVersionLister.list_down
       ~EBPlatformVersionLister.list_up
       ~EBPlatformVersionLister.matches
+      ~EBPlatformVersionLister.on_become_frame
       ~EBPlatformVersionLister.on_close
       ~EBPlatformVersionLister.open
       ~EBPlatformVersionLister.opener

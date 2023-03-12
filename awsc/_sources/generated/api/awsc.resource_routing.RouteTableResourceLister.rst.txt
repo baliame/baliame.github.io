@@ -43,6 +43,7 @@
       ~RouteTableResourceLister.list_down
       ~RouteTableResourceLister.list_up
       ~RouteTableResourceLister.matches
+      ~RouteTableResourceLister.on_become_frame
       ~RouteTableResourceLister.on_close
       ~RouteTableResourceLister.open
       ~RouteTableResourceLister.open_command

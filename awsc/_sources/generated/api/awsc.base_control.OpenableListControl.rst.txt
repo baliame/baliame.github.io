@@ -31,6 +31,7 @@
       ~OpenableListControl.input
       ~OpenableListControl.list_down
       ~OpenableListControl.list_up
+      ~OpenableListControl.on_become_frame
       ~OpenableListControl.opener
       ~OpenableListControl.pagedown
       ~OpenableListControl.pageup

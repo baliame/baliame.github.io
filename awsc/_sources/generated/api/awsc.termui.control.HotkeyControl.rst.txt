@@ -21,6 +21,7 @@
       ~HotkeyControl.bottomright
       ~HotkeyControl.clear_blocks
       ~HotkeyControl.input
+      ~HotkeyControl.on_become_frame
       ~HotkeyControl.paint
       ~HotkeyControl.remove_block
       ~HotkeyControl.reparent

@@ -1,0 +1,60 @@
+﻿awsc.dashboard.KeyValueDashboardBlock
+=====================================
+
+.. currentmodule:: awsc.dashboard
+
+.. autoclass:: KeyValueDashboardBlock
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~KeyValueDashboardBlock.__init__
+      ~KeyValueDashboardBlock.add_block
+      ~KeyValueDashboardBlock.add_hotkey
+      ~KeyValueDashboardBlock.async_refresh
+      ~KeyValueDashboardBlock.auto_refresh_data
+      ~KeyValueDashboardBlock.autohotkey_condition
+      ~KeyValueDashboardBlock.before_paint
+      ~KeyValueDashboardBlock.bottomright
+      ~KeyValueDashboardBlock.clear_blocks
+      ~KeyValueDashboardBlock.input
+      ~KeyValueDashboardBlock.on_become_frame
+      ~KeyValueDashboardBlock.paint
+      ~KeyValueDashboardBlock.refresh_data
+      ~KeyValueDashboardBlock.register
+      ~KeyValueDashboardBlock.remove_block
+      ~KeyValueDashboardBlock.reparent
+      ~KeyValueDashboardBlock.topleft
+      ~KeyValueDashboardBlock.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~KeyValueDashboardBlock.STATUS_ERROR
+      ~KeyValueDashboardBlock.STATUS_LOADING
+      ~KeyValueDashboardBlock.STATUS_READY
+      ~KeyValueDashboardBlock.border
+      ~KeyValueDashboardBlock.corners
+      ~KeyValueDashboardBlock.description
+      ~KeyValueDashboardBlock.height
+      ~KeyValueDashboardBlock.inner
+      ~KeyValueDashboardBlock.inverted
+      ~KeyValueDashboardBlock.labels
+      ~KeyValueDashboardBlock.order
+      ~KeyValueDashboardBlock.refresh_frequency
+      ~KeyValueDashboardBlock.suffixes
+      ~KeyValueDashboardBlock.thresholds
+      ~KeyValueDashboardBlock.w_in
+      ~KeyValueDashboardBlock.width
+   
+   

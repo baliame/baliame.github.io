@@ -43,6 +43,7 @@
       ~ListenerActionResourceLister.list_down
       ~ListenerActionResourceLister.list_up
       ~ListenerActionResourceLister.matches
+      ~ListenerActionResourceLister.on_become_frame
       ~ListenerActionResourceLister.on_close
       ~ListenerActionResourceLister.open
       ~ListenerActionResourceLister.opener

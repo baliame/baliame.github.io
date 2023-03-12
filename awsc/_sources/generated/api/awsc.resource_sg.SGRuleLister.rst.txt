@@ -43,6 +43,7 @@
       ~SGRuleLister.list_down
       ~SGRuleLister.list_up
       ~SGRuleLister.matches
+      ~SGRuleLister.on_become_frame
       ~SGRuleLister.on_close
       ~SGRuleLister.open
       ~SGRuleLister.open_command

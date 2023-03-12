@@ -1,0 +1,50 @@
+﻿awsc.dashboard.DashboardConfigurationDialog
+===========================================
+
+.. currentmodule:: awsc.dashboard
+
+.. autoclass:: DashboardConfigurationDialog
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DashboardConfigurationDialog.__init__
+      ~DashboardConfigurationDialog.accept_and_close
+      ~DashboardConfigurationDialog.add_block
+      ~DashboardConfigurationDialog.add_field
+      ~DashboardConfigurationDialog.before_paint
+      ~DashboardConfigurationDialog.bottomright
+      ~DashboardConfigurationDialog.clear_blocks
+      ~DashboardConfigurationDialog.close
+      ~DashboardConfigurationDialog.input
+      ~DashboardConfigurationDialog.nop
+      ~DashboardConfigurationDialog.on_become_frame
+      ~DashboardConfigurationDialog.opener
+      ~DashboardConfigurationDialog.paint
+      ~DashboardConfigurationDialog.remove_block
+      ~DashboardConfigurationDialog.reparent
+      ~DashboardConfigurationDialog.set_title_label
+      ~DashboardConfigurationDialog.topleft
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DashboardConfigurationDialog.border
+      ~DashboardConfigurationDialog.corners
+      ~DashboardConfigurationDialog.height
+      ~DashboardConfigurationDialog.inner
+      ~DashboardConfigurationDialog.line_size
+      ~DashboardConfigurationDialog.w_in
+      ~DashboardConfigurationDialog.width
+   
+   

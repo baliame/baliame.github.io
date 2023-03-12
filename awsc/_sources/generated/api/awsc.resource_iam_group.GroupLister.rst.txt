@@ -48,6 +48,7 @@
       ~GroupLister.list_down
       ~GroupLister.list_up
       ~GroupLister.matches
+      ~GroupLister.on_become_frame
       ~GroupLister.on_close
       ~GroupLister.open
       ~GroupLister.opener

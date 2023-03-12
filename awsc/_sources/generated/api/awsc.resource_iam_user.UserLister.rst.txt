@@ -50,6 +50,7 @@
       ~UserLister.list_down
       ~UserLister.list_up
       ~UserLister.matches
+      ~UserLister.on_become_frame
       ~UserLister.on_close
       ~UserLister.open
       ~UserLister.opener

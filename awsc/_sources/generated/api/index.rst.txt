@@ -17,6 +17,7 @@ API Reference
    __sphinx_autodoc_module__awsc.config.scheme
    __sphinx_autodoc_module__awsc.config.storage
    __sphinx_autodoc_module__awsc.context
+   __sphinx_autodoc_module__awsc.dashboard
    __sphinx_autodoc_module__awsc.hotkey
    __sphinx_autodoc_module__awsc.info
    __sphinx_autodoc_module__awsc.log
@@ -33,6 +34,7 @@ API Reference
    __sphinx_autodoc_module__awsc.resource_ebs
    __sphinx_autodoc_module__awsc.resource_ec2
    __sphinx_autodoc_module__awsc.resource_ec2_class
+   __sphinx_autodoc_module__awsc.resource_eks
    __sphinx_autodoc_module__awsc.resource_iam
    __sphinx_autodoc_module__awsc.resource_iam_group
    __sphinx_autodoc_module__awsc.resource_iam_instance_profile

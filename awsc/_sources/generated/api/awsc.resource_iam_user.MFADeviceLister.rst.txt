@@ -1,0 +1,104 @@
+﻿awsc.resource\_iam\_user.MFADeviceLister
+========================================
+
+.. currentmodule:: awsc.resource_iam_user
+
+.. autoclass:: MFADeviceLister
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~MFADeviceLister.__init__
+      ~MFADeviceLister.add_block
+      ~MFADeviceLister.add_column
+      ~MFADeviceLister.add_entry
+      ~MFADeviceLister.add_hotkey
+      ~MFADeviceLister.associate
+      ~MFADeviceLister.async_inner
+      ~MFADeviceLister.asynch
+      ~MFADeviceLister.auto_refresh
+      ~MFADeviceLister.autohotkey_condition
+      ~MFADeviceLister.before_paint
+      ~MFADeviceLister.before_paint_critical
+      ~MFADeviceLister.bottomright
+      ~MFADeviceLister.clear_blocks
+      ~MFADeviceLister.command
+      ~MFADeviceLister.command_wrapper
+      ~MFADeviceLister.confirm_template
+      ~MFADeviceLister.copy_arn
+      ~MFADeviceLister.copy_sn
+      ~MFADeviceLister.describe
+      ~MFADeviceLister.empty
+      ~MFADeviceLister.end
+      ~MFADeviceLister.get_data
+      ~MFADeviceLister.get_data_generic
+      ~MFADeviceLister.handle_finalization_critical
+      ~MFADeviceLister.handle_new_entries_critical
+      ~MFADeviceLister.home
+      ~MFADeviceLister.input
+      ~MFADeviceLister.list_down
+      ~MFADeviceLister.list_up
+      ~MFADeviceLister.matches
+      ~MFADeviceLister.on_become_frame
+      ~MFADeviceLister.on_close
+      ~MFADeviceLister.open
+      ~MFADeviceLister.opener
+      ~MFADeviceLister.pagedown
+      ~MFADeviceLister.pageup
+      ~MFADeviceLister.paint
+      ~MFADeviceLister.refresh_data
+      ~MFADeviceLister.register
+      ~MFADeviceLister.remove_block
+      ~MFADeviceLister.reparent
+      ~MFADeviceLister.select_and_close
+      ~MFADeviceLister.selector
+      ~MFADeviceLister.selector_template
+      ~MFADeviceLister.sort
+      ~MFADeviceLister.title_info
+      ~MFADeviceLister.topleft
+      ~MFADeviceLister.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MFADeviceLister.additional_commands
+      ~MFADeviceLister.border
+      ~MFADeviceLister.category
+      ~MFADeviceLister.columns
+      ~MFADeviceLister.command_palette
+      ~MFADeviceLister.corners
+      ~MFADeviceLister.describe_command
+      ~MFADeviceLister.describe_kwargs
+      ~MFADeviceLister.describe_selection_arg
+      ~MFADeviceLister.filter
+      ~MFADeviceLister.filtered
+      ~MFADeviceLister.height
+      ~MFADeviceLister.inner
+      ~MFADeviceLister.item_path
+      ~MFADeviceLister.list_kwargs
+      ~MFADeviceLister.list_method
+      ~MFADeviceLister.main_provider
+      ~MFADeviceLister.open_command
+      ~MFADeviceLister.open_kwargs
+      ~MFADeviceLister.open_selection_arg
+      ~MFADeviceLister.prefix
+      ~MFADeviceLister.primary_key
+      ~MFADeviceLister.resource_type
+      ~MFADeviceLister.rows
+      ~MFADeviceLister.selection
+      ~MFADeviceLister.subcategory
+      ~MFADeviceLister.title
+      ~MFADeviceLister.w_in
+      ~MFADeviceLister.width
+   
+   

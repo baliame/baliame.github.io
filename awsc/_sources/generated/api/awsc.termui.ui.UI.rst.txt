@@ -22,6 +22,7 @@
       ~UI.main
       ~UI.paint
       ~UI.print
+      ~UI.print_centered
       ~UI.process_input_buffer
       ~UI.progress_bar_paint
       ~UI.read_file

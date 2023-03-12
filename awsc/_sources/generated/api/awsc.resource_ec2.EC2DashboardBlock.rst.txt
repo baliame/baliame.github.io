@@ -1,0 +1,60 @@
+﻿awsc.resource\_ec2.EC2DashboardBlock
+====================================
+
+.. currentmodule:: awsc.resource_ec2
+
+.. autoclass:: EC2DashboardBlock
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EC2DashboardBlock.__init__
+      ~EC2DashboardBlock.add_block
+      ~EC2DashboardBlock.add_hotkey
+      ~EC2DashboardBlock.async_refresh
+      ~EC2DashboardBlock.auto_refresh_data
+      ~EC2DashboardBlock.autohotkey_condition
+      ~EC2DashboardBlock.before_paint
+      ~EC2DashboardBlock.bottomright
+      ~EC2DashboardBlock.clear_blocks
+      ~EC2DashboardBlock.input
+      ~EC2DashboardBlock.on_become_frame
+      ~EC2DashboardBlock.paint
+      ~EC2DashboardBlock.refresh_data
+      ~EC2DashboardBlock.register
+      ~EC2DashboardBlock.remove_block
+      ~EC2DashboardBlock.reparent
+      ~EC2DashboardBlock.topleft
+      ~EC2DashboardBlock.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EC2DashboardBlock.STATUS_ERROR
+      ~EC2DashboardBlock.STATUS_LOADING
+      ~EC2DashboardBlock.STATUS_READY
+      ~EC2DashboardBlock.border
+      ~EC2DashboardBlock.corners
+      ~EC2DashboardBlock.description
+      ~EC2DashboardBlock.height
+      ~EC2DashboardBlock.inner
+      ~EC2DashboardBlock.inverted
+      ~EC2DashboardBlock.labels
+      ~EC2DashboardBlock.order
+      ~EC2DashboardBlock.refresh_frequency
+      ~EC2DashboardBlock.suffixes
+      ~EC2DashboardBlock.thresholds
+      ~EC2DashboardBlock.w_in
+      ~EC2DashboardBlock.width
+   
+   

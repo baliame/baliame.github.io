@@ -16,6 +16,7 @@
       ~ListResourceDocumentEditor.__init__
       ~ListResourceDocumentEditor.display_content
       ~ListResourceDocumentEditor.edit
+      ~ListResourceDocumentEditor.hotkey_callback
       ~ListResourceDocumentEditor.retrieve_content
       ~ListResourceDocumentEditor.update_content
    

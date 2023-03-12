@@ -21,6 +21,7 @@
       ~NeutralDialog.clear_blocks
       ~NeutralDialog.input
       ~NeutralDialog.nop
+      ~NeutralDialog.on_become_frame
       ~NeutralDialog.paint
       ~NeutralDialog.remove_block
       ~NeutralDialog.reparent

@@ -19,6 +19,7 @@
       ~HotkeyDisplay.bottomright
       ~HotkeyDisplay.clear_blocks
       ~HotkeyDisplay.input
+      ~HotkeyDisplay.on_become_frame
       ~HotkeyDisplay.opener
       ~HotkeyDisplay.paint
       ~HotkeyDisplay.remove_block

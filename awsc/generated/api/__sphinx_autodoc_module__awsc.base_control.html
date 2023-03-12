@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>base_control &mdash; AWS Commander 0.4.0rc9 documentation</title>
+  <title>base_control &mdash; AWS Commander 0.4.0rc11 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="awsc.base_control.DeleteResourceDialog" href="awsc.base_control.DeleteResourceDialog.html" />
+    <link rel="next" title="awsc.base_control.AttributeResolver" href="awsc.base_control.AttributeResolver.html" />
     <link rel="prev" title="awsc.aws.AWS" href="awsc.aws.AWS.html" /> 
 </head>
 
@@ -28,14 +27,18 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../../index.html" class="icon icon-home"> AWS Commander
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            AWS Commander
           </a>
               <div class="version">
-                0.4.0rc9
+                0.4.0rc11
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -47,12 +50,18 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.arn.html">arn</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.aws.html">aws</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">base_control</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="awsc.base_control.AttributeResolver.html">awsc.base_control.AttributeResolver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="awsc.base_control.DefaultResolver.html">awsc.base_control.DefaultResolver</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.DeleteResourceDialog.html">awsc.base_control.DeleteResourceDialog</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.Describer.html">awsc.base_control.Describer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="awsc.base_control.DescriberEntryAttribute.html">awsc.base_control.DescriberEntryAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="awsc.base_control.DescriberKwarg.html">awsc.base_control.DescriberKwarg</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.DialogFieldResourceListSelector.html">awsc.base_control.DialogFieldResourceListSelector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="awsc.base_control.FString.html">awsc.base_control.FString</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.FieldValue.html">awsc.base_control.FieldValue</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.ForceFlag.html">awsc.base_control.ForceFlag</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.GenericDescriber.html">awsc.base_control.GenericDescriber</a></li>
+<li class="toctree-l3"><a class="reference internal" href="awsc.base_control.IndexResolver.html">awsc.base_control.IndexResolver</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.ListResourceDocumentCreator.html">awsc.base_control.ListResourceDocumentCreator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.ListResourceDocumentEditor.html">awsc.base_control.ListResourceDocumentEditor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.ListResourceFieldsEditor.html">awsc.base_control.ListResourceFieldsEditor</a></li>
@@ -74,6 +83,7 @@
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.TemplateDict.html">awsc.base_control.TemplateDict</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.TemplateList.html">awsc.base_control.TemplateList</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.format_timedelta.html">awsc.base_control.format_timedelta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="awsc.base_control.generic_confirm_template.html">awsc.base_control.generic_confirm_template</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.isdumpable.html">awsc.base_control.isdumpable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.tag_finder_generator.html">awsc.base_control.tag_finder_generator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.base_control.tagged_column_generator.html">awsc.base_control.tagged_column_generator</a></li>
@@ -85,6 +95,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.scheme.html">config.scheme</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.storage.html">config.storage</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.context.html">context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.dashboard.html">dashboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.hotkey.html">hotkey</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.info.html">info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.log.html">log</a></li>
@@ -101,6 +112,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ebs.html">resource_ebs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2.html">resource_ec2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2_class.html">resource_ec2_class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_eks.html">resource_eks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam.html">resource_iam</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_group.html">resource_iam_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_instance_profile.html">resource_iam_instance_profile</a></li>
@@ -152,9 +164,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="index.html">API Reference</a> &raquo;</li>
-      <li>base_control</li>
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">API Reference</a></li>
+      <li class="breadcrumb-item active">base_control</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/generated/api/__sphinx_autodoc_module__awsc.base_control.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -169,28 +181,43 @@
 <span class="target" id="module-awsc.base_control"></span><p>Module which defines the base controls for awsc. Ideally, all resource specific controls should inherit these and be created with as little
 effort as possible.</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.AttributeResolver.html#awsc.base_control.AttributeResolver" title="awsc.base_control.AttributeResolver"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AttributeResolver</span></code></a>(attribute[, resolver])</p></td>
+<td><p>Resolver for resolving describer kwargs and entry attributes.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.DefaultResolver.html#awsc.base_control.DefaultResolver" title="awsc.base_control.DefaultResolver"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DefaultResolver</span></code></a>()</p></td>
+<td><p>Resolver for resolving describer kwargs and entry attributes.</p></td>
+</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.DeleteResourceDialog.html#awsc.base_control.DeleteResourceDialog" title="awsc.base_control.DeleteResourceDialog"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DeleteResourceDialog</span></code></a>(*args, resource_type, ...)</p></td>
 <td><p>Convenience dialog for requesting confirmation for an action.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.Describer.html#awsc.base_control.Describer" title="awsc.base_control.Describer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Describer</span></code></a>(parent, alignment, dimensions, ...)</p></td>
 <td><p>Describers are AWS-aware text browsers.</p></td>
 </tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.DescriberEntryAttribute.html#awsc.base_control.DescriberEntryAttribute" title="awsc.base_control.DescriberEntryAttribute"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DescriberEntryAttribute</span></code></a>(attribute[, resolver])</p></td>
+<td><p>Helper class for describe_kwargs_override.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.DescriberKwarg.html#awsc.base_control.DescriberKwarg" title="awsc.base_control.DescriberKwarg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DescriberKwarg</span></code></a>(kwarg[, resolver])</p></td>
+<td><p>Helper class for describe_kwargs_override.</p></td>
+</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.DialogFieldResourceListSelector.html#awsc.base_control.DialogFieldResourceListSelector" title="awsc.base_control.DialogFieldResourceListSelector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DialogFieldResourceListSelector</span></code></a>(...[, ...])</p></td>
 <td><p>A dialog field which allows selecting a single resource in a ResourceLister as the value of the field.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.FieldValue.html#awsc.base_control.FieldValue" title="awsc.base_control.FieldValue"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FieldValue</span></code></a>(field_name)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.FString.html#awsc.base_control.FString" title="awsc.base_control.FString"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FString</span></code></a>(template)</p></td>
+<td><p><p class="rubric">Methods</p>
+</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.FieldValue.html#awsc.base_control.FieldValue" title="awsc.base_control.FieldValue"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FieldValue</span></code></a>(field_name)</p></td>
 <td><p>Represents the value of a field passed as an extra field to a dialog template.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.ForceFlag.html#awsc.base_control.ForceFlag" title="awsc.base_control.ForceFlag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ForceFlag</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.ForceFlag.html#awsc.base_control.ForceFlag" title="awsc.base_control.ForceFlag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ForceFlag</span></code></a>()</p></td>
 <td><p>Represents the value of the force checkbox of a DeleteResourceDialog.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.GenericDescriber.html#awsc.base_control.GenericDescriber" title="awsc.base_control.GenericDescriber"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GenericDescriber</span></code></a>(parent, alignment, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.GenericDescriber.html#awsc.base_control.GenericDescriber" title="awsc.base_control.GenericDescriber"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GenericDescriber</span></code></a>(parent, alignment, ...)</p></td>
 <td><p>A generic describer control.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.IndexResolver.html#awsc.base_control.IndexResolver" title="awsc.base_control.IndexResolver"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IndexResolver</span></code></a>(index[, resolver])</p></td>
+<td><p>Resolver for resolving describer kwargs and entry attributes.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.ListResourceDocumentCreator.html#awsc.base_control.ListResourceDocumentCreator" title="awsc.base_control.ListResourceDocumentCreator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ListResourceDocumentCreator</span></code></a>(provider, ...[, ...])</p></td>
 <td><p>Class for simplifying generating an editor for resources whose body is a JSON document.</p></td>
@@ -255,13 +282,16 @@ effort as possible.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.format_timedelta.html#awsc.base_control.format_timedelta" title="awsc.base_control.format_timedelta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_timedelta</span></code></a>(delta)</p></td>
 <td><p>Timedelta formatter.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.isdumpable.html#awsc.base_control.isdumpable" title="awsc.base_control.isdumpable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">isdumpable</span></code></a>(obj)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.generic_confirm_template.html#awsc.base_control.generic_confirm_template" title="awsc.base_control.generic_confirm_template"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generic_confirm_template</span></code></a>(method, template, ...)</p></td>
+<td><p>Creates a confirmation sequence.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.isdumpable.html#awsc.base_control.isdumpable" title="awsc.base_control.isdumpable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">isdumpable</span></code></a>(obj)</p></td>
 <td><p>Shorthand for checking if an object is a simple or a complex json type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.tag_finder_generator.html#awsc.base_control.tag_finder_generator" title="awsc.base_control.tag_finder_generator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tag_finder_generator</span></code></a>(tagname[, default, ...])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.tag_finder_generator.html#awsc.base_control.tag_finder_generator" title="awsc.base_control.tag_finder_generator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tag_finder_generator</span></code></a>(tagname[, default, ...])</p></td>
 <td><p>Generates a predicate function which can locate a tag in a raw AWS object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="awsc.base_control.tagged_column_generator.html#awsc.base_control.tagged_column_generator" title="awsc.base_control.tagged_column_generator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tagged_column_generator</span></code></a>(name, tagname[, ...])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="awsc.base_control.tagged_column_generator.html#awsc.base_control.tagged_column_generator" title="awsc.base_control.tagged_column_generator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tagged_column_generator</span></code></a>(name, tagname[, ...])</p></td>
 <td><p>Shortcut for generating a field for tag_finder_generator.</p></td>
 </tr>
 </tbody>
@@ -273,7 +303,7 @@ effort as possible.</p>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="awsc.aws.AWS.html" class="btn btn-neutral float-left" title="awsc.aws.AWS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="awsc.base_control.DeleteResourceDialog.html" class="btn btn-neutral float-right" title="awsc.base_control.DeleteResourceDialog" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="awsc.base_control.AttributeResolver.html" class="btn btn-neutral float-right" title="awsc.base_control.AttributeResolver" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

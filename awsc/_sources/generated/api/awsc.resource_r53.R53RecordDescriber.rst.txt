@@ -24,10 +24,12 @@
       ~R53RecordDescriber.clear_blocks
       ~R53RecordDescriber.command
       ~R53RecordDescriber.command_wrapper
+      ~R53RecordDescriber.confirm_template
       ~R53RecordDescriber.copy_contents
       ~R53RecordDescriber.end
       ~R53RecordDescriber.home
       ~R53RecordDescriber.input
+      ~R53RecordDescriber.on_become_frame
       ~R53RecordDescriber.opener
       ~R53RecordDescriber.paint
       ~R53RecordDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~R53RecordDescriber.border
+      ~R53RecordDescriber.category
       ~R53RecordDescriber.corners
+      ~R53RecordDescriber.default_entry_key
+      ~R53RecordDescriber.describe_kwarg_is_list
+      ~R53RecordDescriber.describe_kwarg_name
+      ~R53RecordDescriber.describe_kwargs_override
+      ~R53RecordDescriber.describe_method
       ~R53RecordDescriber.filter
       ~R53RecordDescriber.height
       ~R53RecordDescriber.inner
+      ~R53RecordDescriber.main_provider
+      ~R53RecordDescriber.object_path
       ~R53RecordDescriber.prefix
+      ~R53RecordDescriber.resource_type
+      ~R53RecordDescriber.subcategory
       ~R53RecordDescriber.title
       ~R53RecordDescriber.w_in
       ~R53RecordDescriber.width

@@ -44,6 +44,7 @@
       ~SubnetResourceLister.list_down
       ~SubnetResourceLister.list_up
       ~SubnetResourceLister.matches
+      ~SubnetResourceLister.on_become_frame
       ~SubnetResourceLister.on_close
       ~SubnetResourceLister.open
       ~SubnetResourceLister.opener

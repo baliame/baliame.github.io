@@ -30,6 +30,7 @@
       ~ListControl.input
       ~ListControl.list_down
       ~ListControl.list_up
+      ~ListControl.on_become_frame
       ~ListControl.pagedown
       ~ListControl.pageup
       ~ListControl.paint

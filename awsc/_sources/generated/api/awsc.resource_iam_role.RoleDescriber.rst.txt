@@ -24,10 +24,12 @@
       ~RoleDescriber.clear_blocks
       ~RoleDescriber.command
       ~RoleDescriber.command_wrapper
+      ~RoleDescriber.confirm_template
       ~RoleDescriber.copy_contents
       ~RoleDescriber.end
       ~RoleDescriber.home
       ~RoleDescriber.input
+      ~RoleDescriber.on_become_frame
       ~RoleDescriber.opener
       ~RoleDescriber.paint
       ~RoleDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~RoleDescriber.border
+      ~RoleDescriber.category
       ~RoleDescriber.corners
+      ~RoleDescriber.default_entry_key
+      ~RoleDescriber.describe_kwarg_is_list
+      ~RoleDescriber.describe_kwarg_name
+      ~RoleDescriber.describe_kwargs_override
+      ~RoleDescriber.describe_method
       ~RoleDescriber.filter
       ~RoleDescriber.height
       ~RoleDescriber.inner
+      ~RoleDescriber.main_provider
+      ~RoleDescriber.object_path
       ~RoleDescriber.prefix
+      ~RoleDescriber.resource_type
+      ~RoleDescriber.subcategory
       ~RoleDescriber.title
       ~RoleDescriber.w_in
       ~RoleDescriber.width

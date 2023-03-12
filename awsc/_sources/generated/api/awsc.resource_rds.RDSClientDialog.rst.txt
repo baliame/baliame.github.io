@@ -23,6 +23,7 @@
       ~RDSClientDialog.close
       ~RDSClientDialog.input
       ~RDSClientDialog.nop
+      ~RDSClientDialog.on_become_frame
       ~RDSClientDialog.opener
       ~RDSClientDialog.paint
       ~RDSClientDialog.remove_block

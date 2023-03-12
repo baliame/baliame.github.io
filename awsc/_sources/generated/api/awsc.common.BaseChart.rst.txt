@@ -24,6 +24,7 @@
       ~BaseChart.end
       ~BaseChart.home
       ~BaseChart.input
+      ~BaseChart.on_become_frame
       ~BaseChart.opener
       ~BaseChart.paint
       ~BaseChart.remove_block

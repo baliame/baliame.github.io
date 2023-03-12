@@ -24,10 +24,12 @@
       ~EBEnvironmentDescriber.clear_blocks
       ~EBEnvironmentDescriber.command
       ~EBEnvironmentDescriber.command_wrapper
+      ~EBEnvironmentDescriber.confirm_template
       ~EBEnvironmentDescriber.copy_contents
       ~EBEnvironmentDescriber.end
       ~EBEnvironmentDescriber.home
       ~EBEnvironmentDescriber.input
+      ~EBEnvironmentDescriber.on_become_frame
       ~EBEnvironmentDescriber.opener
       ~EBEnvironmentDescriber.paint
       ~EBEnvironmentDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~EBEnvironmentDescriber.border
+      ~EBEnvironmentDescriber.category
       ~EBEnvironmentDescriber.corners
+      ~EBEnvironmentDescriber.default_entry_key
+      ~EBEnvironmentDescriber.describe_kwarg_is_list
+      ~EBEnvironmentDescriber.describe_kwarg_name
+      ~EBEnvironmentDescriber.describe_kwargs_override
+      ~EBEnvironmentDescriber.describe_method
       ~EBEnvironmentDescriber.filter
       ~EBEnvironmentDescriber.height
       ~EBEnvironmentDescriber.inner
+      ~EBEnvironmentDescriber.main_provider
+      ~EBEnvironmentDescriber.object_path
       ~EBEnvironmentDescriber.prefix
+      ~EBEnvironmentDescriber.resource_type
+      ~EBEnvironmentDescriber.subcategory
       ~EBEnvironmentDescriber.title
       ~EBEnvironmentDescriber.w_in
       ~EBEnvironmentDescriber.width

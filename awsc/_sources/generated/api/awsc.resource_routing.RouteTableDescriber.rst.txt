@@ -24,10 +24,12 @@
       ~RouteTableDescriber.clear_blocks
       ~RouteTableDescriber.command
       ~RouteTableDescriber.command_wrapper
+      ~RouteTableDescriber.confirm_template
       ~RouteTableDescriber.copy_contents
       ~RouteTableDescriber.end
       ~RouteTableDescriber.home
       ~RouteTableDescriber.input
+      ~RouteTableDescriber.on_become_frame
       ~RouteTableDescriber.opener
       ~RouteTableDescriber.paint
       ~RouteTableDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~RouteTableDescriber.border
+      ~RouteTableDescriber.category
       ~RouteTableDescriber.corners
+      ~RouteTableDescriber.default_entry_key
+      ~RouteTableDescriber.describe_kwarg_is_list
+      ~RouteTableDescriber.describe_kwarg_name
+      ~RouteTableDescriber.describe_kwargs_override
+      ~RouteTableDescriber.describe_method
       ~RouteTableDescriber.filter
       ~RouteTableDescriber.height
       ~RouteTableDescriber.inner
+      ~RouteTableDescriber.main_provider
+      ~RouteTableDescriber.object_path
       ~RouteTableDescriber.prefix
+      ~RouteTableDescriber.resource_type
+      ~RouteTableDescriber.subcategory
       ~RouteTableDescriber.title
       ~RouteTableDescriber.w_in
       ~RouteTableDescriber.width

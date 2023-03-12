@@ -43,6 +43,7 @@
       ~DBSubnetGroupResourceLister.list_down
       ~DBSubnetGroupResourceLister.list_up
       ~DBSubnetGroupResourceLister.matches
+      ~DBSubnetGroupResourceLister.on_become_frame
       ~DBSubnetGroupResourceLister.on_close
       ~DBSubnetGroupResourceLister.open
       ~DBSubnetGroupResourceLister.opener

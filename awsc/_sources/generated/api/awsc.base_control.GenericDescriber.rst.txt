@@ -26,6 +26,7 @@
       ~GenericDescriber.end
       ~GenericDescriber.home
       ~GenericDescriber.input
+      ~GenericDescriber.on_become_frame
       ~GenericDescriber.opener
       ~GenericDescriber.paint
       ~GenericDescriber.pgdown

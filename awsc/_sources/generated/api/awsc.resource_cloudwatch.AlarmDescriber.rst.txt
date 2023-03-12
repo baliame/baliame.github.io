@@ -1,0 +1,82 @@
+﻿awsc.resource\_cloudwatch.AlarmDescriber
+========================================
+
+.. currentmodule:: awsc.resource_cloudwatch
+
+.. autoclass:: AlarmDescriber
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~AlarmDescriber.__init__
+      ~AlarmDescriber.add_block
+      ~AlarmDescriber.add_hotkey
+      ~AlarmDescriber.add_text
+      ~AlarmDescriber.autohotkey_condition
+      ~AlarmDescriber.before_paint
+      ~AlarmDescriber.bottomright
+      ~AlarmDescriber.clear
+      ~AlarmDescriber.clear_blocks
+      ~AlarmDescriber.command
+      ~AlarmDescriber.command_wrapper
+      ~AlarmDescriber.confirm_template
+      ~AlarmDescriber.copy_contents
+      ~AlarmDescriber.end
+      ~AlarmDescriber.home
+      ~AlarmDescriber.input
+      ~AlarmDescriber.on_become_frame
+      ~AlarmDescriber.opener
+      ~AlarmDescriber.paint
+      ~AlarmDescriber.pgdown
+      ~AlarmDescriber.pgup
+      ~AlarmDescriber.populate_describe_kwargs
+      ~AlarmDescriber.populate_entry
+      ~AlarmDescriber.raw
+      ~AlarmDescriber.rawlines
+      ~AlarmDescriber.refresh_data
+      ~AlarmDescriber.register
+      ~AlarmDescriber.remove_block
+      ~AlarmDescriber.reparent
+      ~AlarmDescriber.scroll_down
+      ~AlarmDescriber.scroll_left
+      ~AlarmDescriber.scroll_right
+      ~AlarmDescriber.scroll_up
+      ~AlarmDescriber.title_info
+      ~AlarmDescriber.toggle_wrap
+      ~AlarmDescriber.topleft
+      ~AlarmDescriber.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AlarmDescriber.border
+      ~AlarmDescriber.category
+      ~AlarmDescriber.corners
+      ~AlarmDescriber.default_entry_key
+      ~AlarmDescriber.describe_kwarg_is_list
+      ~AlarmDescriber.describe_kwarg_name
+      ~AlarmDescriber.describe_kwargs_override
+      ~AlarmDescriber.describe_method
+      ~AlarmDescriber.filter
+      ~AlarmDescriber.height
+      ~AlarmDescriber.inner
+      ~AlarmDescriber.main_provider
+      ~AlarmDescriber.object_path
+      ~AlarmDescriber.prefix
+      ~AlarmDescriber.resource_type
+      ~AlarmDescriber.subcategory
+      ~AlarmDescriber.title
+      ~AlarmDescriber.w_in
+      ~AlarmDescriber.width
+   
+   

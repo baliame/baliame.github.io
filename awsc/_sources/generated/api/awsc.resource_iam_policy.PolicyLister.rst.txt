@@ -48,6 +48,7 @@
       ~PolicyLister.list_down
       ~PolicyLister.list_up
       ~PolicyLister.matches
+      ~PolicyLister.on_become_frame
       ~PolicyLister.on_close
       ~PolicyLister.open
       ~PolicyLister.opener

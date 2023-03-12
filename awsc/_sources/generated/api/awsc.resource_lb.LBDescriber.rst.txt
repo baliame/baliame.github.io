@@ -24,10 +24,12 @@
       ~LBDescriber.clear_blocks
       ~LBDescriber.command
       ~LBDescriber.command_wrapper
+      ~LBDescriber.confirm_template
       ~LBDescriber.copy_contents
       ~LBDescriber.end
       ~LBDescriber.home
       ~LBDescriber.input
+      ~LBDescriber.on_become_frame
       ~LBDescriber.opener
       ~LBDescriber.paint
       ~LBDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~LBDescriber.border
+      ~LBDescriber.category
       ~LBDescriber.corners
+      ~LBDescriber.default_entry_key
+      ~LBDescriber.describe_kwarg_is_list
+      ~LBDescriber.describe_kwarg_name
+      ~LBDescriber.describe_kwargs_override
+      ~LBDescriber.describe_method
       ~LBDescriber.filter
       ~LBDescriber.height
       ~LBDescriber.inner
+      ~LBDescriber.main_provider
+      ~LBDescriber.object_path
       ~LBDescriber.prefix
+      ~LBDescriber.resource_type
+      ~LBDescriber.subcategory
       ~LBDescriber.title
       ~LBDescriber.w_in
       ~LBDescriber.width

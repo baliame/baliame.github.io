@@ -36,6 +36,7 @@
       ~ResourceListerBase.list_down
       ~ResourceListerBase.list_up
       ~ResourceListerBase.matches
+      ~ResourceListerBase.on_become_frame
       ~ResourceListerBase.on_close
       ~ResourceListerBase.pagedown
       ~ResourceListerBase.pageup

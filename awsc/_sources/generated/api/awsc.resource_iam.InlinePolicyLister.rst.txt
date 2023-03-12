@@ -44,6 +44,7 @@
       ~InlinePolicyLister.list_down
       ~InlinePolicyLister.list_up
       ~InlinePolicyLister.matches
+      ~InlinePolicyLister.on_become_frame
       ~InlinePolicyLister.on_close
       ~InlinePolicyLister.open
       ~InlinePolicyLister.opener

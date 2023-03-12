@@ -42,6 +42,7 @@
       ~MetricLister.list_down
       ~MetricLister.list_up
       ~MetricLister.matches
+      ~MetricLister.on_become_frame
       ~MetricLister.on_close
       ~MetricLister.open
       ~MetricLister.open_command

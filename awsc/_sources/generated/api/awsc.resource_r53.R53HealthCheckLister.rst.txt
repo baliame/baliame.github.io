@@ -45,6 +45,7 @@
       ~R53HealthCheckLister.list_down
       ~R53HealthCheckLister.list_up
       ~R53HealthCheckLister.matches
+      ~R53HealthCheckLister.on_become_frame
       ~R53HealthCheckLister.on_close
       ~R53HealthCheckLister.open
       ~R53HealthCheckLister.opener

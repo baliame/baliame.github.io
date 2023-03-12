@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>awsc.resource_lb.LBDescriber &mdash; AWS Commander 0.4.0rc9 documentation</title>
+  <title>awsc.resource_lb.LBDescriber &mdash; AWS Commander 0.4.0rc11 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -28,14 +27,18 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../../index.html" class="icon icon-home"> AWS Commander
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            AWS Commander
           </a>
               <div class="version">
-                0.4.0rc9
+                0.4.0rc11
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -53,6 +56,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.scheme.html">config.scheme</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.config.storage.html">config.storage</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.context.html">context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.dashboard.html">dashboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.hotkey.html">hotkey</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.info.html">info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.log.html">log</a></li>
@@ -69,6 +73,7 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ebs.html">resource_ebs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2.html">resource_ec2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_ec2_class.html">resource_ec2_class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_eks.html">resource_eks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam.html">resource_iam</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_group.html">resource_iam_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_instance_profile.html">resource_iam_instance_profile</a></li>
@@ -77,7 +82,10 @@
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_iam_user.html">resource_iam_user</a></li>
 <li class="toctree-l2"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_keypair.html">resource_keypair</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="__sphinx_autodoc_module__awsc.resource_lb.html">resource_lb</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">awsc.resource_lb.LBDescriber</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">awsc.resource_lb.LBDescriber</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#awsc.resource_lb.LBDescriber"><code class="docutils literal notranslate"><span class="pre">LBDescriber</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.resource_lb.LBResourceLister.html">awsc.resource_lb.LBResourceLister</a></li>
 <li class="toctree-l3"><a class="reference internal" href="awsc.resource_lb._elbv2_determine_scheme.html">awsc.resource_lb._elbv2_determine_scheme</a></li>
 </ul>
@@ -125,10 +133,10 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="index.html">API Reference</a> &raquo;</li>
-          <li><a href="__sphinx_autodoc_module__awsc.resource_lb.html">resource_lb</a> &raquo;</li>
-      <li>awsc.resource_lb.LBDescriber</li>
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">API Reference</a></li>
+          <li class="breadcrumb-item"><a href="__sphinx_autodoc_module__awsc.resource_lb.html">resource_lb</a></li>
+      <li class="breadcrumb-item active">awsc.resource_lb.LBDescriber</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/generated/api/awsc.resource_lb.LBDescriber.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -142,10 +150,10 @@
 <h1>awsc.resource_lb.LBDescriber<a class="headerlink" href="#awsc-resource-lb-lbdescriber" title="Permalink to this heading"></a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="awsc.resource_lb.LBDescriber">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">awsc.resource_lb.</span></span><span class="sig-name descname"><span class="pre">LBDescriber</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#awsc.resource_lb.LBDescriber" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">awsc.resource_lb.</span></span><span class="sig-name descname"><span class="pre">LBDescriber</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alignment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimensions</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">entry</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">entry_key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#awsc.resource_lb.LBDescriber" title="Permalink to this definition"></a></dt>
 <dd><p>Describer control for v2 load balancers.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Attributes</dt>
+<dt class="field-odd">Attributes<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
 <dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">border</span></code></dt><dd><p>Returns the border of the control.</p>
 </dd>
@@ -166,10 +174,6 @@
 </dl>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Autohotkey</span></code>(key[, tooltip, is_validated, ...])</p></td>
 <td><p>Decorator that automatically assigns a hotkey to a function upon instantiation.</p></td>
@@ -204,94 +208,100 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_wrapper</span></code>(cmd, data_arg, **kwargs)</p></td>
 <td><p>Command wrapper.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">copy_contents</span></code>(*args)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">confirm_template</span></code>(*args[, hotkey, hotkey_tooltip])</p></td>
+<td><p>Creates a confirmation sequence.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">copy_contents</span></code>(*args)</p></td>
 <td><p>Hotkey callback for copying the contents of the text browser to the system clipboard.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">end</span></code>(*args)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">end</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling to bring the final line in view within the browser.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code>(*args)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code>(*args)</p></td>
 <td><p>Hotkey callback for jumping to the top of the text browser.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">input</span></code>(key)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">input</span></code>(key)</p></td>
 <td><p>Input handler hook function.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">opener</span></code>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">opener</span></code>(**kwargs)</p></td>
 <td><p>Session-aware initializer for this class.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">paint</span></code>()</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">paint</span></code>()</p></td>
 <td><p>Hook function for painting the block.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pgdown</span></code>(*args)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pgdown</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling down within the browser by a single page.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pgup</span></code>(*args)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pgup</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling up within the browser by a single page.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">populate_describe_kwargs</span></code>()</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">populate_describe_kwargs</span></code>(**kwargs)</p></td>
 <td><p>Populates the describe kwargs dict, which is what will be sent to the AWS API when querying the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">populate_entry</span></code>(*args, entry, entry_key, **kwargs)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">populate_entry</span></code>(**kwargs)</p></td>
 <td><p>Populates the entry fields of the Describer based on the entry and entry_key received.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">raw</span></code>([line])</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">raw</span></code>([line])</p></td>
 <td><p>Generates the raw output of the text browser.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">rawlines</span></code>()</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">rawlines</span></code>()</p></td>
 <td><p>Generates a list of raw lines.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">refresh_data</span></code>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">refresh_data</span></code>(*args, **kwargs)</p></td>
 <td><p>Data refresh callback.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">register</span></code>()</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">register</span></code>()</p></td>
 <td><p>Classmethod to register this class and all of its subclasses with the commander control.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove_block</span></code>(block)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove_block</span></code>(block)</p></td>
 <td><p>Removes a specific block from this block.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">reparent</span></code>()</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">reparent</span></code>()</p></td>
 <td><p>Shorthand function for removing a Block from its parent and re-adding it.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">scroll_down</span></code>(*args)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">scroll_down</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling down within the browser by a single line.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">scroll_left</span></code>(*args)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">scroll_left</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling left within the browser by a single character column.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">scroll_right</span></code>(*args)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">scroll_right</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling right within the browser by a single character column.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">scroll_up</span></code>(*args)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">scroll_up</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling up within the browser by a single line.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">title_info</span></code>()</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">title_info</span></code>()</p></td>
 <td><p>Title info functions are used to determine the title info after a lister has been instantiated.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">toggle_wrap</span></code>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">toggle_wrap</span></code>(*args, **kwargs)</p></td>
 <td><p>Hotkey callback for toggling the wrap flag.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">topleft</span></code>()</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">topleft</span></code>()</p></td>
 <td><p>Returns the coordinates of the top left corner of the block.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">validate_hotkey</span></code>(key)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">validate_hotkey</span></code>(key)</p></td>
 <td><p>Validates whether a hotkey can be used based on the state of the control.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><strong>on_become_frame</strong></p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <dl class="py method">
 <dt class="sig sig-object py" id="awsc.resource_lb.LBDescriber.__init__">
-<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#awsc.resource_lb.LBDescriber.__init__" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alignment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimensions</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">entry</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">entry_key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#awsc.resource_lb.LBDescriber.__init__" title="Permalink to this definition"></a></dt>
 <dd><p>Initializes a HotkeyControl object.</p>
 </dd></dl>
 
 <p class="rubric">Methods</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#awsc.resource_lb.LBDescriber.__init__" title="awsc.resource_lb.LBDescriber.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#awsc.resource_lb.LBDescriber.__init__" title="awsc.resource_lb.LBDescriber.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(parent, alignment, dimensions, ...)</p></td>
 <td><p>Initializes a HotkeyControl object.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_block</span></code>(block)</p></td>
@@ -324,17 +334,23 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_wrapper</span></code>(cmd, data_arg, **kwargs)</p></td>
 <td><p>Command wrapper.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">copy_contents</span></code>(*args)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">confirm_template</span></code>(*args[, hotkey, hotkey_tooltip])</p></td>
+<td><p>Creates a confirmation sequence.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">copy_contents</span></code>(*args)</p></td>
 <td><p>Hotkey callback for copying the contents of the text browser to the system clipboard.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">end</span></code>(*args)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">end</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling to bring the final line in view within the browser.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code>(*args)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code>(*args)</p></td>
 <td><p>Hotkey callback for jumping to the top of the text browser.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">input</span></code>(key)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">input</span></code>(key)</p></td>
 <td><p>Input handler hook function.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_become_frame</span></code>()</p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">opener</span></code>(**kwargs)</p></td>
 <td><p>Session-aware initializer for this class.</p></td>
@@ -348,10 +364,10 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pgup</span></code>(*args)</p></td>
 <td><p>Hotkey callback for scrolling up within the browser by a single page.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">populate_describe_kwargs</span></code>()</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">populate_describe_kwargs</span></code>(**kwargs)</p></td>
 <td><p>Populates the describe kwargs dict, which is what will be sent to the AWS API when querying the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">populate_entry</span></code>(*args, entry, entry_key, **kwargs)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">populate_entry</span></code>(**kwargs)</p></td>
 <td><p>Populates the entry fields of the Describer based on the entry and entry_key received.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">raw</span></code>([line])</p></td>
@@ -400,16 +416,30 @@
 </table>
 <p class="rubric">Attributes</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">border</span></code></p></td>
 <td><p>Returns the border of the control.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">corners</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">category</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">corners</span></code></p></td>
 <td><p>Read-only property for calculating the four corners of the block.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">default_entry_key</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_kwarg_is_list</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_kwarg_name</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_kwargs_override</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_method</span></code></p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter</span></code></p></td>
 <td><p>Property.</p></td>
@@ -420,7 +450,19 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inner</span></code></p></td>
 <td><p>Read-only property for calculating the four inner corners of the block.</p></td>
 </tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">main_provider</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">object_path</span></code></p></td>
+<td><p></p></td>
+</tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">prefix</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">resource_type</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">subcategory</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">title</span></code></p></td>

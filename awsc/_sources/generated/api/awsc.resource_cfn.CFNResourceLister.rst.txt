@@ -43,6 +43,7 @@
       ~CFNResourceLister.list_down
       ~CFNResourceLister.list_up
       ~CFNResourceLister.matches
+      ~CFNResourceLister.on_become_frame
       ~CFNResourceLister.on_close
       ~CFNResourceLister.open
       ~CFNResourceLister.open_command

@@ -24,12 +24,14 @@
       ~LoginProfileDescriber.clear_blocks
       ~LoginProfileDescriber.command
       ~LoginProfileDescriber.command_wrapper
+      ~LoginProfileDescriber.confirm_template
       ~LoginProfileDescriber.copy_contents
       ~LoginProfileDescriber.delete_login_profile
       ~LoginProfileDescriber.do_delete_login_profile
       ~LoginProfileDescriber.end
       ~LoginProfileDescriber.home
       ~LoginProfileDescriber.input
+      ~LoginProfileDescriber.on_become_frame
       ~LoginProfileDescriber.opener
       ~LoginProfileDescriber.paint
       ~LoginProfileDescriber.pgdown
@@ -60,11 +62,21 @@
    .. autosummary::
    
       ~LoginProfileDescriber.border
+      ~LoginProfileDescriber.category
       ~LoginProfileDescriber.corners
+      ~LoginProfileDescriber.default_entry_key
+      ~LoginProfileDescriber.describe_kwarg_is_list
+      ~LoginProfileDescriber.describe_kwarg_name
+      ~LoginProfileDescriber.describe_kwargs_override
+      ~LoginProfileDescriber.describe_method
       ~LoginProfileDescriber.filter
       ~LoginProfileDescriber.height
       ~LoginProfileDescriber.inner
+      ~LoginProfileDescriber.main_provider
+      ~LoginProfileDescriber.object_path
       ~LoginProfileDescriber.prefix
+      ~LoginProfileDescriber.resource_type
+      ~LoginProfileDescriber.subcategory
       ~LoginProfileDescriber.title
       ~LoginProfileDescriber.w_in
       ~LoginProfileDescriber.width

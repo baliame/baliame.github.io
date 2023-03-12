@@ -24,10 +24,12 @@
       ~EBEnvironmentHealthDescriber.clear_blocks
       ~EBEnvironmentHealthDescriber.command
       ~EBEnvironmentHealthDescriber.command_wrapper
+      ~EBEnvironmentHealthDescriber.confirm_template
       ~EBEnvironmentHealthDescriber.copy_contents
       ~EBEnvironmentHealthDescriber.end
       ~EBEnvironmentHealthDescriber.home
       ~EBEnvironmentHealthDescriber.input
+      ~EBEnvironmentHealthDescriber.on_become_frame
       ~EBEnvironmentHealthDescriber.opener
       ~EBEnvironmentHealthDescriber.paint
       ~EBEnvironmentHealthDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~EBEnvironmentHealthDescriber.border
+      ~EBEnvironmentHealthDescriber.category
       ~EBEnvironmentHealthDescriber.corners
+      ~EBEnvironmentHealthDescriber.default_entry_key
+      ~EBEnvironmentHealthDescriber.describe_kwarg_is_list
+      ~EBEnvironmentHealthDescriber.describe_kwarg_name
+      ~EBEnvironmentHealthDescriber.describe_kwargs_override
+      ~EBEnvironmentHealthDescriber.describe_method
       ~EBEnvironmentHealthDescriber.filter
       ~EBEnvironmentHealthDescriber.height
       ~EBEnvironmentHealthDescriber.inner
+      ~EBEnvironmentHealthDescriber.main_provider
+      ~EBEnvironmentHealthDescriber.object_path
       ~EBEnvironmentHealthDescriber.prefix
+      ~EBEnvironmentHealthDescriber.resource_type
+      ~EBEnvironmentHealthDescriber.subcategory
       ~EBEnvironmentHealthDescriber.title
       ~EBEnvironmentHealthDescriber.w_in
       ~EBEnvironmentHealthDescriber.width

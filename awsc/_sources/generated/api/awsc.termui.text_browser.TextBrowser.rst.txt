@@ -26,6 +26,7 @@
       ~TextBrowser.end
       ~TextBrowser.home
       ~TextBrowser.input
+      ~TextBrowser.on_become_frame
       ~TextBrowser.paint
       ~TextBrowser.pgdown
       ~TextBrowser.pgup

@@ -23,6 +23,7 @@
       ~SSHDefaultUsernameDialog.close
       ~SSHDefaultUsernameDialog.input
       ~SSHDefaultUsernameDialog.nop
+      ~SSHDefaultUsernameDialog.on_become_frame
       ~SSHDefaultUsernameDialog.paint
       ~SSHDefaultUsernameDialog.remove_block
       ~SSHDefaultUsernameDialog.reparent

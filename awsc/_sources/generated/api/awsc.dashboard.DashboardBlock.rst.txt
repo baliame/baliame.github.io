@@ -1,0 +1,52 @@
+﻿awsc.dashboard.DashboardBlock
+=============================
+
+.. currentmodule:: awsc.dashboard
+
+.. autoclass:: DashboardBlock
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DashboardBlock.__init__
+      ~DashboardBlock.add_block
+      ~DashboardBlock.add_hotkey
+      ~DashboardBlock.async_refresh
+      ~DashboardBlock.auto_refresh_data
+      ~DashboardBlock.autohotkey_condition
+      ~DashboardBlock.before_paint
+      ~DashboardBlock.bottomright
+      ~DashboardBlock.clear_blocks
+      ~DashboardBlock.input
+      ~DashboardBlock.on_become_frame
+      ~DashboardBlock.paint
+      ~DashboardBlock.refresh_data
+      ~DashboardBlock.register
+      ~DashboardBlock.remove_block
+      ~DashboardBlock.reparent
+      ~DashboardBlock.topleft
+      ~DashboardBlock.validate_hotkey
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DashboardBlock.border
+      ~DashboardBlock.corners
+      ~DashboardBlock.description
+      ~DashboardBlock.height
+      ~DashboardBlock.inner
+      ~DashboardBlock.refresh_frequency
+      ~DashboardBlock.w_in
+      ~DashboardBlock.width
+   
+   

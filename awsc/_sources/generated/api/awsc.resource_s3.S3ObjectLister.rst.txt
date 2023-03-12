@@ -46,6 +46,7 @@
       ~S3ObjectLister.list_down
       ~S3ObjectLister.list_up
       ~S3ObjectLister.matches
+      ~S3ObjectLister.on_become_frame
       ~S3ObjectLister.on_close
       ~S3ObjectLister.open
       ~S3ObjectLister.opener

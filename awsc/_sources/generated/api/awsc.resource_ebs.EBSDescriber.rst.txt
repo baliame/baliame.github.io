@@ -24,10 +24,12 @@
       ~EBSDescriber.clear_blocks
       ~EBSDescriber.command
       ~EBSDescriber.command_wrapper
+      ~EBSDescriber.confirm_template
       ~EBSDescriber.copy_contents
       ~EBSDescriber.end
       ~EBSDescriber.home
       ~EBSDescriber.input
+      ~EBSDescriber.on_become_frame
       ~EBSDescriber.opener
       ~EBSDescriber.paint
       ~EBSDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~EBSDescriber.border
+      ~EBSDescriber.category
       ~EBSDescriber.corners
+      ~EBSDescriber.default_entry_key
+      ~EBSDescriber.describe_kwarg_is_list
+      ~EBSDescriber.describe_kwarg_name
+      ~EBSDescriber.describe_kwargs_override
+      ~EBSDescriber.describe_method
       ~EBSDescriber.filter
       ~EBSDescriber.height
       ~EBSDescriber.inner
+      ~EBSDescriber.main_provider
+      ~EBSDescriber.object_path
       ~EBSDescriber.prefix
+      ~EBSDescriber.resource_type
+      ~EBSDescriber.subcategory
       ~EBSDescriber.title
       ~EBSDescriber.w_in
       ~EBSDescriber.width

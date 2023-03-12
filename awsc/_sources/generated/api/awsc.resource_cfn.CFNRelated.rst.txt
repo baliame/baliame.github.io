@@ -41,6 +41,7 @@
       ~CFNRelated.list_down
       ~CFNRelated.list_up
       ~CFNRelated.matches
+      ~CFNRelated.on_become_frame
       ~CFNRelated.on_close
       ~CFNRelated.opener
       ~CFNRelated.pagedown

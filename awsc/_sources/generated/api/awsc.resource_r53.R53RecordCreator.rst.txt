@@ -17,6 +17,7 @@
       ~R53RecordCreator.display_content
       ~R53RecordCreator.edit
       ~R53RecordCreator.generate_kwargs
+      ~R53RecordCreator.hotkey_callback
       ~R53RecordCreator.retrieve_content
       ~R53RecordCreator.update_content
    

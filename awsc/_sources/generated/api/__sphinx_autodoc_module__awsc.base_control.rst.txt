@@ -16,12 +16,18 @@ base_control
 .. autosummary::
    :toctree:
 
+   AttributeResolver
+   DefaultResolver
    DeleteResourceDialog
    Describer
+   DescriberEntryAttribute
+   DescriberKwarg
    DialogFieldResourceListSelector
+   FString
    FieldValue
    ForceFlag
    GenericDescriber
+   IndexResolver
    ListResourceDocumentCreator
    ListResourceDocumentEditor
    ListResourceFieldsEditor
@@ -43,6 +49,7 @@ base_control
    TemplateDict
    TemplateList
    format_timedelta
+   generic_confirm_template
    isdumpable
    tag_finder_generator
    tagged_column_generator

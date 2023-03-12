@@ -1,0 +1,6 @@
+﻿awsc.base\_control.generic\_confirm\_template
+=============================================
+
+.. currentmodule:: awsc.base_control
+
+.. autofunction:: generic_confirm_template

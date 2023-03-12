@@ -46,6 +46,7 @@
       ~RoleLister.list_down
       ~RoleLister.list_up
       ~RoleLister.matches
+      ~RoleLister.on_become_frame
       ~RoleLister.on_close
       ~RoleLister.open
       ~RoleLister.opener

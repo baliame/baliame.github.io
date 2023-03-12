@@ -15,22 +15,11 @@
    
       ~Config.__init__
       ~Config.add_or_edit_context
+      ~Config.add_or_edit_role_context
       ~Config.create_default_config
       ~Config.delete_context
       ~Config.initialize
       ~Config.parse_config
-      ~Config.update_1
-      ~Config.update_10
-      ~Config.update_11
-      ~Config.update_12
-      ~Config.update_2
-      ~Config.update_3
-      ~Config.update_4
-      ~Config.update_5
-      ~Config.update_6
-      ~Config.update_7
-      ~Config.update_8
-      ~Config.update_9
       ~Config.update_version
       ~Config.write_config
    

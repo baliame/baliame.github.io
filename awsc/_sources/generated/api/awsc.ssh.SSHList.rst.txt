@@ -32,6 +32,7 @@
       ~SSHList.list_down
       ~SSHList.list_ssh_keys
       ~SSHList.list_up
+      ~SSHList.on_become_frame
       ~SSHList.opener
       ~SSHList.pagedown
       ~SSHList.pageup

@@ -38,6 +38,7 @@
       ~MultiLister.list_down
       ~MultiLister.list_up
       ~MultiLister.matches
+      ~MultiLister.on_become_frame
       ~MultiLister.on_close
       ~MultiLister.opener
       ~MultiLister.pagedown

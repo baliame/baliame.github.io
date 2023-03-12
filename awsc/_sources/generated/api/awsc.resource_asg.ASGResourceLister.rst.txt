@@ -25,6 +25,7 @@
       ~ASGResourceLister.before_paint
       ~ASGResourceLister.before_paint_critical
       ~ASGResourceLister.bottomright
+      ~ASGResourceLister.cancel_rollout
       ~ASGResourceLister.clear_blocks
       ~ASGResourceLister.command
       ~ASGResourceLister.command_wrapper
@@ -43,6 +44,7 @@
       ~ASGResourceLister.list_down
       ~ASGResourceLister.list_up
       ~ASGResourceLister.matches
+      ~ASGResourceLister.on_become_frame
       ~ASGResourceLister.on_close
       ~ASGResourceLister.open
       ~ASGResourceLister.opener
@@ -53,6 +55,7 @@
       ~ASGResourceLister.register
       ~ASGResourceLister.remove_block
       ~ASGResourceLister.reparent
+      ~ASGResourceLister.rollout
       ~ASGResourceLister.scale_group
       ~ASGResourceLister.select_and_close
       ~ASGResourceLister.selector

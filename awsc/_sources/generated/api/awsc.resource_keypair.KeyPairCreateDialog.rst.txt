@@ -23,6 +23,7 @@
       ~KeyPairCreateDialog.close
       ~KeyPairCreateDialog.input
       ~KeyPairCreateDialog.nop
+      ~KeyPairCreateDialog.on_become_frame
       ~KeyPairCreateDialog.opener
       ~KeyPairCreateDialog.paint
       ~KeyPairCreateDialog.remove_block

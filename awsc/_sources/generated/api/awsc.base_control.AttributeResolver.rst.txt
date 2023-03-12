@@ -1,0 +1,22 @@
+﻿awsc.base\_control.AttributeResolver
+====================================
+
+.. currentmodule:: awsc.base_control
+
+.. autoclass:: AttributeResolver
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~AttributeResolver.__init__
+   
+   
+
+   
+   
+   

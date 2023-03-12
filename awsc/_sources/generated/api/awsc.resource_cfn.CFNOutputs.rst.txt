@@ -42,6 +42,7 @@
       ~CFNOutputs.list_down
       ~CFNOutputs.list_up
       ~CFNOutputs.matches
+      ~CFNOutputs.on_become_frame
       ~CFNOutputs.on_close
       ~CFNOutputs.open
       ~CFNOutputs.opener

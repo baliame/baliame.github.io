@@ -18,6 +18,7 @@
       ~Common.clienterror
       ~Common.color
       ~Common.confdir
+      ~Common.default_border
       ~Common.error
       ~Common.generic_api_call
       ~Common.info

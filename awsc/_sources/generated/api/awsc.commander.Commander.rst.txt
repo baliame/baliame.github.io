@@ -23,6 +23,7 @@
       ~Commander.clear_blocks
       ~Commander.close
       ~Commander.input
+      ~Commander.on_become_frame
       ~Commander.paint
       ~Commander.remove_block
       ~Commander.reparent

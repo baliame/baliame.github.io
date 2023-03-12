@@ -42,6 +42,7 @@
       ~S3ResourceLister.list_down
       ~S3ResourceLister.list_up
       ~S3ResourceLister.matches
+      ~S3ResourceLister.on_become_frame
       ~S3ResourceLister.on_close
       ~S3ResourceLister.open
       ~S3ResourceLister.opener

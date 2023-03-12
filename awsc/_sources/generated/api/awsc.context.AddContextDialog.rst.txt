@@ -23,6 +23,7 @@
       ~AddContextDialog.close
       ~AddContextDialog.input
       ~AddContextDialog.nop
+      ~AddContextDialog.on_become_frame
       ~AddContextDialog.opener
       ~AddContextDialog.paint
       ~AddContextDialog.remove_block

@@ -24,10 +24,12 @@
       ~GroupDescriber.clear_blocks
       ~GroupDescriber.command
       ~GroupDescriber.command_wrapper
+      ~GroupDescriber.confirm_template
       ~GroupDescriber.copy_contents
       ~GroupDescriber.end
       ~GroupDescriber.home
       ~GroupDescriber.input
+      ~GroupDescriber.on_become_frame
       ~GroupDescriber.opener
       ~GroupDescriber.paint
       ~GroupDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~GroupDescriber.border
+      ~GroupDescriber.category
       ~GroupDescriber.corners
+      ~GroupDescriber.default_entry_key
+      ~GroupDescriber.describe_kwarg_is_list
+      ~GroupDescriber.describe_kwarg_name
+      ~GroupDescriber.describe_kwargs_override
+      ~GroupDescriber.describe_method
       ~GroupDescriber.filter
       ~GroupDescriber.height
       ~GroupDescriber.inner
+      ~GroupDescriber.main_provider
+      ~GroupDescriber.object_path
       ~GroupDescriber.prefix
+      ~GroupDescriber.resource_type
+      ~GroupDescriber.subcategory
       ~GroupDescriber.title
       ~GroupDescriber.w_in
       ~GroupDescriber.width

@@ -24,10 +24,12 @@
       ~CFNDescriber.clear_blocks
       ~CFNDescriber.command
       ~CFNDescriber.command_wrapper
+      ~CFNDescriber.confirm_template
       ~CFNDescriber.copy_contents
       ~CFNDescriber.end
       ~CFNDescriber.home
       ~CFNDescriber.input
+      ~CFNDescriber.on_become_frame
       ~CFNDescriber.opener
       ~CFNDescriber.paint
       ~CFNDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~CFNDescriber.border
+      ~CFNDescriber.category
       ~CFNDescriber.corners
+      ~CFNDescriber.default_entry_key
+      ~CFNDescriber.describe_kwarg_is_list
+      ~CFNDescriber.describe_kwarg_name
+      ~CFNDescriber.describe_kwargs_override
+      ~CFNDescriber.describe_method
       ~CFNDescriber.filter
       ~CFNDescriber.height
       ~CFNDescriber.inner
+      ~CFNDescriber.main_provider
+      ~CFNDescriber.object_path
       ~CFNDescriber.prefix
+      ~CFNDescriber.resource_type
+      ~CFNDescriber.subcategory
       ~CFNDescriber.title
       ~CFNDescriber.w_in
       ~CFNDescriber.width

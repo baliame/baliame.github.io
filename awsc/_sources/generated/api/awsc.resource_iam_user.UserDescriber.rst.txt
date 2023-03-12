@@ -24,10 +24,12 @@
       ~UserDescriber.clear_blocks
       ~UserDescriber.command
       ~UserDescriber.command_wrapper
+      ~UserDescriber.confirm_template
       ~UserDescriber.copy_contents
       ~UserDescriber.end
       ~UserDescriber.home
       ~UserDescriber.input
+      ~UserDescriber.on_become_frame
       ~UserDescriber.opener
       ~UserDescriber.paint
       ~UserDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~UserDescriber.border
+      ~UserDescriber.category
       ~UserDescriber.corners
+      ~UserDescriber.default_entry_key
+      ~UserDescriber.describe_kwarg_is_list
+      ~UserDescriber.describe_kwarg_name
+      ~UserDescriber.describe_kwargs_override
+      ~UserDescriber.describe_method
       ~UserDescriber.filter
       ~UserDescriber.height
       ~UserDescriber.inner
+      ~UserDescriber.main_provider
+      ~UserDescriber.object_path
       ~UserDescriber.prefix
+      ~UserDescriber.resource_type
+      ~UserDescriber.subcategory
       ~UserDescriber.title
       ~UserDescriber.w_in
       ~UserDescriber.width

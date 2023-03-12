@@ -24,10 +24,12 @@
       ~DBSubnetGroupDescriber.clear_blocks
       ~DBSubnetGroupDescriber.command
       ~DBSubnetGroupDescriber.command_wrapper
+      ~DBSubnetGroupDescriber.confirm_template
       ~DBSubnetGroupDescriber.copy_contents
       ~DBSubnetGroupDescriber.end
       ~DBSubnetGroupDescriber.home
       ~DBSubnetGroupDescriber.input
+      ~DBSubnetGroupDescriber.on_become_frame
       ~DBSubnetGroupDescriber.opener
       ~DBSubnetGroupDescriber.paint
       ~DBSubnetGroupDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~DBSubnetGroupDescriber.border
+      ~DBSubnetGroupDescriber.category
       ~DBSubnetGroupDescriber.corners
+      ~DBSubnetGroupDescriber.default_entry_key
+      ~DBSubnetGroupDescriber.describe_kwarg_is_list
+      ~DBSubnetGroupDescriber.describe_kwarg_name
+      ~DBSubnetGroupDescriber.describe_kwargs_override
+      ~DBSubnetGroupDescriber.describe_method
       ~DBSubnetGroupDescriber.filter
       ~DBSubnetGroupDescriber.height
       ~DBSubnetGroupDescriber.inner
+      ~DBSubnetGroupDescriber.main_provider
+      ~DBSubnetGroupDescriber.object_path
       ~DBSubnetGroupDescriber.prefix
+      ~DBSubnetGroupDescriber.resource_type
+      ~DBSubnetGroupDescriber.subcategory
       ~DBSubnetGroupDescriber.title
       ~DBSubnetGroupDescriber.w_in
       ~DBSubnetGroupDescriber.width

@@ -43,6 +43,7 @@
       ~EBApplicationVersionResourceLister.list_down
       ~EBApplicationVersionResourceLister.list_up
       ~EBApplicationVersionResourceLister.matches
+      ~EBApplicationVersionResourceLister.on_become_frame
       ~EBApplicationVersionResourceLister.on_close
       ~EBApplicationVersionResourceLister.open
       ~EBApplicationVersionResourceLister.opener

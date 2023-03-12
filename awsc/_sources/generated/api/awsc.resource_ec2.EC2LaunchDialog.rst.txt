@@ -23,6 +23,7 @@
       ~EC2LaunchDialog.close
       ~EC2LaunchDialog.input
       ~EC2LaunchDialog.nop
+      ~EC2LaunchDialog.on_become_frame
       ~EC2LaunchDialog.opener
       ~EC2LaunchDialog.paint
       ~EC2LaunchDialog.remove_block

@@ -45,6 +45,7 @@
       ~R53ResourceLister.list_down
       ~R53ResourceLister.list_up
       ~R53ResourceLister.matches
+      ~R53ResourceLister.on_become_frame
       ~R53ResourceLister.on_close
       ~R53ResourceLister.open
       ~R53ResourceLister.open_command

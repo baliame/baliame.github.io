@@ -24,10 +24,12 @@
       ~EBInstanceHealthDescriber.clear_blocks
       ~EBInstanceHealthDescriber.command
       ~EBInstanceHealthDescriber.command_wrapper
+      ~EBInstanceHealthDescriber.confirm_template
       ~EBInstanceHealthDescriber.copy_contents
       ~EBInstanceHealthDescriber.end
       ~EBInstanceHealthDescriber.home
       ~EBInstanceHealthDescriber.input
+      ~EBInstanceHealthDescriber.on_become_frame
       ~EBInstanceHealthDescriber.opener
       ~EBInstanceHealthDescriber.paint
       ~EBInstanceHealthDescriber.pgdown
@@ -58,11 +60,21 @@
    .. autosummary::
    
       ~EBInstanceHealthDescriber.border
+      ~EBInstanceHealthDescriber.category
       ~EBInstanceHealthDescriber.corners
+      ~EBInstanceHealthDescriber.default_entry_key
+      ~EBInstanceHealthDescriber.describe_kwarg_is_list
+      ~EBInstanceHealthDescriber.describe_kwarg_name
+      ~EBInstanceHealthDescriber.describe_kwargs_override
+      ~EBInstanceHealthDescriber.describe_method
       ~EBInstanceHealthDescriber.filter
       ~EBInstanceHealthDescriber.height
       ~EBInstanceHealthDescriber.inner
+      ~EBInstanceHealthDescriber.main_provider
+      ~EBInstanceHealthDescriber.object_path
       ~EBInstanceHealthDescriber.prefix
+      ~EBInstanceHealthDescriber.resource_type
+      ~EBInstanceHealthDescriber.subcategory
       ~EBInstanceHealthDescriber.title
       ~EBInstanceHealthDescriber.w_in
       ~EBInstanceHealthDescriber.width

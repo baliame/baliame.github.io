@@ -38,6 +38,7 @@
       ~SGRelated.list_down
       ~SGRelated.list_up
       ~SGRelated.matches
+      ~SGRelated.on_become_frame
       ~SGRelated.on_close
       ~SGRelated.opener
       ~SGRelated.pagedown

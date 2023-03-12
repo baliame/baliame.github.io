@@ -17,5 +17,8 @@ context
    :toctree:
 
    AddContextDialog
+   AddRoleContextDialog
    ContextList
    ImportContextDialog
+   MFADialog
+   _context_color_defaults
